@@ -317,6 +317,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forwardSpeed: 300
   reverseSpeed: 100
+  boostMult: 2
   turnSpeed: 150
   groundLayer:
     serializedVersion: 2

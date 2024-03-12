@@ -4,5 +4,26 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Adrian's Scene.unity
+    guid: ab4c4130f8525bf499f6ee923ac0e0b3
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: cd6cfda5e15a94b41a35d54fb8ed8e3c
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: 1ee013642b928b34c9ba5dcc8cc688b1
+  - enabled: 1
+    path: Assets/Scenes/Edgar's Scene.unity
+    guid: 1ac5b0127cccd6149a762a3e0bd584ca
+  - enabled: 1
+    path: Assets/Scenes/Marcos Test.unity
+    guid: 9dcc3f31f6cf12b4b9e7e5b9c13c9840
+  - enabled: 1
+    path: Assets/Scenes/Mian Scene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Level4.unity
+    guid: b509c92b4ada02f419d3af44bad6fd32
   m_configObjects: {}

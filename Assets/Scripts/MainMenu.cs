@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public string LevelSelect;
+    public string firstLevel;
 
     public GameObject optionsScreen;
 
@@ -26,7 +26,7 @@ public class MainMenu : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene(LevelSelect);
+        SceneManager.LoadScene(firstLevel);
     }
     
     public void OpenOptions()

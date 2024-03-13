@@ -9,11 +9,12 @@ public class CarController : MonoBehaviour
     private float turnInput;
     private float shiftInput;
     private bool isCarGrounded;
-    private bool isBoosting;
+    private bool isBoosting = false;
+    private float boostForce;
     
     public float forwardSpeed;
     public float reverseSpeed;
-    public float boostMult = 2f;
+    public float boostMult = 2.0f;
     public float turnSpeed;
     public LayerMask groundLayer;
     
@@ -38,18 +39,25 @@ public class CarController : MonoBehaviour
         // Boost
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
-            Debug.Log("hit");
             isBoosting = true;
-            moveInput *= forwardSpeed * boostMult;
-            Debug.Log($"boost Count: {moveInput}");
+        }
+        else if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            isBoosting = false;
+        }
+        
+        // if the move input is greater than 0, then multiple by the forward speed,
+        // else multiple by the reverse speed. This adjusts the speed of the car
+        moveInput *= moveInput > 0 ? forwardSpeed : reverseSpeed;
+        
+        if (isBoosting)
+        {
+            moveInput *= boostMult;
+            Debug.Log($"Boosted, boost Count: {moveInput}");
         }
         else
         {
-            isBoosting = false;
-            // if the move input is greater than 0, then multiple by the forward speed,
-            // else multiple by the reverse speed. This adjusts the speed of the car
-            moveInput *= moveInput > 0 ? forwardSpeed : reverseSpeed;
-            Debug.Log($"boost Count: {moveInput}");
+            Debug.Log($"Normal Speed, boost Count: {moveInput}");
         }
         
         // sets the cars position to sphere
@@ -81,7 +89,7 @@ public class CarController : MonoBehaviour
         if (isCarGrounded)
         {
             // If boosting, apply additional force
-            float boostForce = isBoosting ? forwardSpeed * boostMult : 0f;
+            boostForce = isBoosting ? forwardSpeed * boostMult : 0f;
             sphereRB.AddForce(transform.forward * (moveInput + boostForce), ForceMode.Acceleration);
         }
         else

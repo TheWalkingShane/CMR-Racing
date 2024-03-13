@@ -7,10 +7,14 @@ public class CarController : MonoBehaviour
 {
     private float moveInput;
     private float turnInput;
+    private float shiftInput;
     private bool isCarGrounded;
+    private bool isBoosting = false;
+    private float boostForce;
     
     public float forwardSpeed;
     public float reverseSpeed;
+    public float boostMult = 2.0f;
     public float turnSpeed;
     public LayerMask groundLayer;
     
@@ -32,9 +36,29 @@ public class CarController : MonoBehaviour
         moveInput = Input.GetAxisRaw("Vertical");
         turnInput = Input.GetAxisRaw("Horizontal");
         
+        // Boost
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            isBoosting = true;
+        }
+        else if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            isBoosting = false;
+        }
+        
         // if the move input is greater than 0, then multiple by the forward speed,
         // else multiple by the reverse speed. This adjusts the speed of the car
         moveInput *= moveInput > 0 ? forwardSpeed : reverseSpeed;
+        
+        if (isBoosting)
+        {
+            moveInput *= boostMult;
+            Debug.Log($"Boosted, boost Count: {moveInput}");
+        }
+        else
+        {
+            Debug.Log($"Normal Speed, boost Count: {moveInput}");
+        }
         
         // sets the cars position to sphere
         transform.position = sphereRB.transform.position;
@@ -64,7 +88,9 @@ public class CarController : MonoBehaviour
     {
         if (isCarGrounded)
         {
-            sphereRB.AddForce(transform.forward * moveInput, ForceMode.Acceleration);
+            // If boosting, apply additional force
+            boostForce = isBoosting ? forwardSpeed * boostMult : 0f;
+            sphereRB.AddForce(transform.forward * (moveInput + boostForce), ForceMode.Acceleration);
         }
         else
         {

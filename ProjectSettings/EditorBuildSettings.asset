@@ -8,27 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Marcos Test.unity
     guid: 9dcc3f31f6cf12b4b9e7e5b9c13c9840
-  - enabled: 1
-    path: Assets/Scenes/Level1.unity
-    guid: 1c5c55b725d987e46b063a193c1d4f6b
-  - enabled: 1
-    path: Assets/Scenes/Level2.unity
-    guid: ca3b38d8e63127b47b61b321579994d8
-  - enabled: 1
-    path: Assets/Scenes/Level3.unity
-    guid: 79bbd2413994ffa43a75edf606c5b824
-  - enabled: 1
-    path: Assets/Scenes/Level4.unity
-    guid: 9ca3aadfb7e7f9242a8126d0607ab1a8
-  - enabled: 1
-    path: Assets/Scenes/Level5.unity
-    guid: 83a3fc41e87057445aeb20fc2c226e92
-  - enabled: 1
-    path: Assets/Scenes/Level6.unity
-    guid: 05d52d222c2cb194aaa6995eb8ec810f
-  - enabled: 1
-    path: Assets/Scenes/LevelSelect.unity
-    guid: 0932855ad5f744b4f85d93b4ff87f320
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: c2cc0bc76afaa1d4eb9de49d297c9eef, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: f48c1ac9e2a762d4187893945802e951, type: 2}

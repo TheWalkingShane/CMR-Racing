@@ -1173,7 +1173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c61bf7884ee73b4a902b601311d51c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firstLevel: LevelSelect
+  firstLevel: Janelle Scene
   optionsScreen: {fileID: 0}
 --- !u!114 &1801280951
 MonoBehaviour:

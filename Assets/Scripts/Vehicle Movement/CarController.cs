@@ -53,11 +53,11 @@ public class CarController : MonoBehaviour
         if (isBoosting)
         {
             moveInput *= boostMult;
-            Debug.Log($"Boosted, boost Count: {moveInput}");
+           // Debug.Log($"Boosted, boost Count: {moveInput}");
         }
         else
         {
-            Debug.Log($"Normal Speed, boost Count: {moveInput}");
+           // Debug.Log($"Normal Speed, boost Count: {moveInput}");
         }
         
         // sets the cars position to sphere

@@ -11,7 +11,7 @@ public class CheckpointManager : MonoBehaviour
         {
             
             currentCheckpoint++;
-            //Debug.Log("Current Checkpoint" + currentCheckpoint);
+            Debug.Log("Current Checkpoint" + currentCheckpoint);
         }
     }
 }

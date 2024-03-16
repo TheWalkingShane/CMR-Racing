@@ -29,6 +29,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Adrian/Level1.unity
     guid: 9d5d2b0e82c25d74ea3ef0365b26da1d
+  - enabled: 1
+    path: Assets/Scenes/Janelle/Janelle Scene.unity
+    guid: e0bae20e80d139048bdc0f065fdd5c6d
+  - enabled: 1
+    path: Assets/Scenes/Janelle/Title Screen Janelle.unity
+    guid: 450b3ff2053fd924fa725d4457e14f5e
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: c2cc0bc76afaa1d4eb9de49d297c9eef, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: f48c1ac9e2a762d4187893945802e951, type: 2}

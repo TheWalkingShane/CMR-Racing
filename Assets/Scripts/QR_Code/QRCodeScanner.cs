@@ -1,12 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using ZXing;
 using TMPro;
 using UnityEngine.UI;
 
-public class QR_Code_Script : MonoBehaviour{
-
+public class QRCodeScanner : MonoBehaviour
+{
     [SerializeField]
     private RawImage _rawImageBackground;
     [SerializeField]

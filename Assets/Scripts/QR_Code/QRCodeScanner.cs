@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using ZXing;
 using TMPro;
@@ -14,6 +15,11 @@ public class QRCodeScanner : MonoBehaviour
     [SerializeField]
     private RectTransform _scanZone;
 
+    [SerializeField]
+    private Dictionary<string, GameObject> _qrCodeToObjectMap;
+
+    
+    
     private bool _isCamAvaible;
     private WebCamTexture _cameraTexture;
     void Start()
@@ -75,8 +81,13 @@ public class QRCodeScanner : MonoBehaviour
             if (result != null)
             {
                 _textOut.text = result.Text;
+
+                // Assuming the QR code is in the center of the view
+                Vector3 screenCenter = new Vector3(_cameraTexture.width / 2, _cameraTexture.height / 2, 0);
+                DisplayObjectAtScreenPosition(result.Text, screenCenter);
             }
-            else {
+            else
+            {
                 _textOut.text = "Failed to Read QR CODE";
             }
         }
@@ -85,4 +96,24 @@ public class QRCodeScanner : MonoBehaviour
             _textOut.text = "FAILED IN TRY";
         }
     }
+    private void DisplayObjectAtScreenPosition(string qrResult, Vector3 screenPosition)
+    {
+        if (_qrCodeToObjectMap.TryGetValue(qrResult, out GameObject objectPrefab))
+        {
+            // Convert the screen position to a world position
+            // Adjust the Z value (depth) as needed based on your camera setup and desired object location
+            Vector3 worldPosition = Camera.main.ScreenToWorldPoint(new Vector3(screenPosition.x, screenPosition.y, 3.0f));
+
+            // Instantiate the object at the world position
+            Instantiate(objectPrefab, worldPosition, Quaternion.identity);
+        }
+        else
+        {
+            Debug.Log("QR Code does not correspond to a known object.");
+        }
+    }
+    
+
+
+
 }

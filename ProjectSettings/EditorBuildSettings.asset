@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Marcos/Marcos Test.unity
     guid: 9dcc3f31f6cf12b4b9e7e5b9c13c9840
   - enabled: 0
@@ -35,6 +35,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Janelle/Title Screen Janelle.unity
     guid: 450b3ff2053fd924fa725d4457e14f5e
+  - enabled: 1
+    path: Assets/Scenes/Edgar/Edgar's Scene.unity
+    guid: 1ac5b0127cccd6149a762a3e0bd584ca
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: c2cc0bc76afaa1d4eb9de49d297c9eef, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: f48c1ac9e2a762d4187893945802e951, type: 2}

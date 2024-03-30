@@ -123,6 +123,1752 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &47680160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1475867795, guid: f56d46228aee4734f9114056c53bb57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OSMNodeID: 0
+  activeSplineNode: 1
+  leftIndent: 3.6621094
+  leftIndentAlignment: 0
+  rightIndent: 3.6621094
+  rightIndentAlignment: 0
+  leftSurrounding: 2
+  rightSurrounding: 2
+  leftSurroundingAdjusted: 0
+  rightSurroundingAdjusted: 0
+  radius: 0
+  bridgeObject: 0
+  bridgeStartLevelDistance: 0
+  bridgeEndLevelDistance: 0
+  rotation: 0
+  position: {x: 3.4608922, y: 1.2305874, z: -0.4402718}
+  oldPosition: {x: 3.4608922, y: 1.2305874, z: -0.4402718}
+  positionTmp: {x: 0, y: 0, z: 0}
+  controlType: 0
+  controlTypeTmp: 0
+  rotations: 0
+  circularRadius: 1
+  circularAngle: 90
+  circularSegments: 10
+  splineStrength: 0.5
+  direction: {x: 0.73957765, y: -0.44731632, z: 0.5029245}
+  direction1: {x: 0.73957765, y: -0.44731632, z: 0.5029245}
+  rl: {x: 2.4833999, y: 1.2305914, z: 0.19790936}
+  rr: {x: 4.4383845, y: 1.2305833, z: -1.078453}
+  followTerrainContours: 0
+  startSplinePoint: 15
+  startDistance: 18.909569
+  startUVY: 0
+  totalDistance: 1.0222149
+  totalDistanceString: 1.02 m
+  slopeAngle: 15.989899
+  angleString: 16
+  gradeString: 28.66
+  rotationCenter: 0.5
+  soData: []
+  controllerType: 0
+  randomYPosition: 0
+  randomMinYPosition: 0
+  randomMaxYPosition: 0
+  minRandomYPositionDistance: 0
+  maxRandomYPositionDistance: 0
+  randomMinRotation: 0
+  randomMaxRotation: 0
+  minRandomRotationDistance: 0
+  maxRandomRotationDistance: 0
+  prevLeftIndent: 0
+  prevRightIndent: 0
+  prevLeftSurrounding: 0
+  prevRightSurrounding: 0
+  prevControlType: 0
+  snappedMarker: 0
+  attachExit: 0
+  exitType: 0
+  exitGeometryType: 0
+  startExitInt: 0
+  endExitInt: 0
+  startExitOffset: 0
+  extrusionDistance: 10
+  extrusionType: 0
+  fixedDistance: 10
+  connectionAngle: 10
+  connectionRadius: 5
+  exitMaterial: {fileID: 0}
+  connectionMaterial: {fileID: 0}
+  exitRoadType: 0
+  connectionRoadType: 0
+  exitInnerVertices: []
+  customColor: {r: 0, g: 0, b: 0, a: 0}
+  roadMarkerWidth: 0
+  roadShape:
+  - {x: 0.25, y: 0}
+  - {x: -0.25, y: 0}
+  roadShapeVecsGlobal:
+  - {x: 3.2515576, y: 1.2305914, z: -0.3036006}
+  - {x: 3.6702268, y: 1.2305833, z: -0.576943}
+  roadShapeDistanceMin: 0
+  roadShapeDistanceMax: 1
+  perpDir: {x: -0.7681576, y: 0, z: 0.50150996}
+  perpDirRotated: {x: -0.8373385, y: 0.000016212465, z: 0.5466848}
+  markerStartUVY: 0.78191376
+  customPoints: []
+  handleObject: {fileID: 0}
+--- !u!114 &109064478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1475867795, guid: f56d46228aee4734f9114056c53bb57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OSMNodeID: 0
+  activeSplineNode: 1
+  leftIndent: 0.015837539
+  leftIndentAlignment: 0
+  rightIndent: 3.6621094
+  rightIndentAlignment: 0
+  leftSurrounding: 2
+  rightSurrounding: 2
+  leftSurroundingAdjusted: 0
+  rightSurroundingAdjusted: 0
+  radius: 0
+  bridgeObject: 0
+  bridgeStartLevelDistance: 0
+  bridgeEndLevelDistance: 0
+  rotation: 0
+  position: {x: -1.8966968, y: 0.95, z: 2.2356005}
+  oldPosition: {x: -1.8966968, y: 0.95, z: 2.2356005}
+  positionTmp: {x: 0, y: 0, z: 0}
+  controlType: 0
+  controlTypeTmp: 0
+  rotations: 0
+  circularRadius: 1
+  circularAngle: 90
+  circularSegments: 10
+  splineStrength: 0.5
+  direction: {x: -0.9986312, y: 0.00049243507, z: 0.052303724}
+  direction1: {x: -0.9986312, y: 0.00049243507, z: 0.052303724}
+  rl: {x: -1.6435677, y: 0.95, z: 1.0114986}
+  rr: {x: -2.149826, y: 0.95, z: 3.4597025}
+  followTerrainContours: 0
+  startSplinePoint: 4
+  startDistance: 5.084057
+  startUVY: 0
+  totalDistance: 2.030799
+  totalDistanceString: 2.03 m
+  slopeAngle: 0
+  angleString: 0.00
+  gradeString: 0.00
+  rotationCenter: 0.5
+  soData: []
+  controllerType: 0
+  randomYPosition: 0
+  randomMinYPosition: 0
+  randomMaxYPosition: 0
+  minRandomYPositionDistance: 0
+  maxRandomYPositionDistance: 0
+  randomMinRotation: 0
+  randomMaxRotation: 0
+  minRandomRotationDistance: 0
+  maxRandomRotationDistance: 0
+  prevLeftIndent: 0
+  prevRightIndent: 0
+  prevLeftSurrounding: 0
+  prevRightSurrounding: 0
+  prevControlType: 0
+  snappedMarker: 0
+  attachExit: 0
+  exitType: 0
+  exitGeometryType: 0
+  startExitInt: 0
+  endExitInt: 0
+  startExitOffset: 0
+  extrusionDistance: 10
+  extrusionType: 0
+  fixedDistance: 10
+  connectionAngle: 10
+  connectionRadius: 5
+  exitMaterial: {fileID: 0}
+  connectionMaterial: {fileID: 0}
+  exitRoadType: 0
+  connectionRoadType: 0
+  exitInnerVertices: []
+  customColor: {r: 0, g: 0, b: 0, a: 0}
+  roadMarkerWidth: 0
+  roadShape:
+  - {x: 0.25, y: 0}
+  - {x: -0.25, y: 0}
+  roadShapeVecsGlobal:
+  - {x: -1.846071, y: 0.95, z: 1.9907801}
+  - {x: -1.9473226, y: 0.95, z: 2.4804208}
+  roadShapeDistanceMin: 0
+  roadShapeDistanceMax: 1
+  perpDir: {x: 0.20250337, y: 0, z: -0.97928154}
+  perpDirRotated: {x: 0.20250323, y: 0, z: -0.9792816}
+  markerStartUVY: 0.01681137
+  customPoints: []
+  handleObject: {fileID: 0}
+--- !u!114 &146795618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1475867795, guid: f56d46228aee4734f9114056c53bb57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OSMNodeID: 0
+  activeSplineNode: 1
+  leftIndent: 3.6621094
+  leftIndentAlignment: 0
+  rightIndent: 3.6621094
+  rightIndentAlignment: 0
+  leftSurrounding: 2
+  rightSurrounding: 2
+  leftSurroundingAdjusted: 0
+  rightSurroundingAdjusted: 0
+  radius: 0
+  bridgeObject: 0
+  bridgeStartLevelDistance: 0
+  bridgeEndLevelDistance: 0
+  rotation: 0
+  position: {x: 1.6110262, y: 1.7522225, z: -1.19133}
+  oldPosition: {x: 1.6110262, y: 1.7522225, z: -1.19133}
+  positionTmp: {x: 0, y: 0, z: 0}
+  controlType: 0
+  controlTypeTmp: 0
+  rotations: 0
+  circularRadius: 1
+  circularAngle: 90
+  circularSegments: 10
+  splineStrength: 0.5
+  direction: {x: 0.86869556, y: -0.034787323, z: 0.4941233}
+  direction1: {x: 0.86869556, y: -0.034787323, z: 0.4941233}
+  rl: {x: 1.0728862, y: 1.7522225, z: -0.063233316}
+  rr: {x: 2.149166, y: 1.7522225, z: -2.3194265}
+  followTerrainContours: 0
+  startSplinePoint: 12
+  startDistance: 16.726444
+  startUVY: 0
+  totalDistance: 0.35582924
+  totalDistanceString: 0.36 m
+  slopeAngle: 4.427574
+  angleString: 4.43
+  gradeString: 7.74
+  rotationCenter: 0.5
+  soData: []
+  controllerType: 0
+  randomYPosition: 0
+  randomMinYPosition: 0
+  randomMaxYPosition: 0
+  minRandomYPositionDistance: 0
+  maxRandomYPositionDistance: 0
+  randomMinRotation: 0
+  randomMaxRotation: 0
+  minRandomRotationDistance: 0
+  maxRandomRotationDistance: 0
+  prevLeftIndent: 0
+  prevRightIndent: 0
+  prevLeftSurrounding: 0
+  prevRightSurrounding: 0
+  prevControlType: 0
+  snappedMarker: 0
+  attachExit: 0
+  exitType: 0
+  exitGeometryType: 0
+  startExitInt: 0
+  endExitInt: 0
+  startExitOffset: 0
+  extrusionDistance: 10
+  extrusionType: 0
+  fixedDistance: 10
+  connectionAngle: 10
+  connectionRadius: 5
+  exitMaterial: {fileID: 0}
+  connectionMaterial: {fileID: 0}
+  exitRoadType: 0
+  connectionRoadType: 0
+  exitInnerVertices: []
+  customColor: {r: 0, g: 0, b: 0, a: 0}
+  roadMarkerWidth: 0
+  roadShape:
+  - {x: 0.25, y: 0}
+  - {x: -0.25, y: 0}
+  roadShapeVecsGlobal:
+  - {x: 1.5033982, y: 1.7522225, z: -0.96571064}
+  - {x: 1.7186542, y: 1.7522225, z: -1.4169493}
+  roadShapeDistanceMin: 0
+  roadShapeDistanceMax: 1
+  perpDir: {x: -0.43051195, y: 0, z: 0.9024773}
+  perpDirRotated: {x: -0.4305538, y: 0, z: 0.90256494}
+  markerStartUVY: 0.34528875
+  customPoints: []
+  handleObject: {fileID: 0}
+--- !u!28 &166290026
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 2
+  m_Width: 10
+  m_Height: 2
+  m_CompleteImageSize: 112
+  m_MipsStripped: 0
+  m_TextureFormat: 4
+  m_MipCount: 4
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 0
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 112
+  _typelessdata: ffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffcc
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+--- !u!4 &187555448 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3679632829209458529, guid: c2cb561c1f2528c47b2a080d04170b48, type: 3}
+  m_PrefabInstance: {fileID: 1845842612}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &224327922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1475867795, guid: f56d46228aee4734f9114056c53bb57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OSMNodeID: 0
+  activeSplineNode: 1
+  leftIndent: 3.6621094
+  leftIndentAlignment: 0
+  rightIndent: 3.6621094
+  rightIndentAlignment: 0
+  leftSurrounding: 2
+  rightSurrounding: 2
+  leftSurroundingAdjusted: 0.009448558
+  rightSurroundingAdjusted: 0.009551436
+  radius: 0
+  bridgeObject: 0
+  bridgeStartLevelDistance: 0
+  bridgeEndLevelDistance: 0
+  rotation: 0
+  position: {x: -0.4725455, y: 0.95, z: -2.2399511}
+  oldPosition: {x: -0.4725455, y: 0.95, z: -2.2399511}
+  positionTmp: {x: 0, y: 0, z: 0}
+  controlType: 0
+  controlTypeTmp: 0
+  rotations: 0
+  circularRadius: 1
+  circularAngle: 90
+  circularSegments: 10
+  splineStrength: 0.5
+  direction: {x: 0.92452204, y: 0, z: 0.38112858}
+  direction1: {x: 0.92452204, y: 0, z: 0.38112858}
+  rl: {x: -0.9836476, y: 0.95000434, z: -1.1162148}
+  rr: {x: 0.038556546, y: 0.94999564, z: -3.3636875}
+  followTerrainContours: 0
+  startSplinePoint: 9
+  startDistance: 14.219222
+  startUVY: 0
+  totalDistance: 0.9524517
+  totalDistanceString: 0.95 m
+  slopeAngle: 25.98986
+  angleString: 26
+  gradeString: 48.75
+  rotationCenter: 0.5
+  soData: []
+  controllerType: 0
+  randomYPosition: 0
+  randomMinYPosition: 0
+  randomMaxYPosition: 0
+  minRandomYPositionDistance: 0
+  maxRandomYPositionDistance: 0
+  randomMinRotation: 0
+  randomMaxRotation: 0
+  minRandomRotationDistance: 0
+  maxRandomRotationDistance: 0
+  prevLeftIndent: 0
+  prevRightIndent: 0
+  prevLeftSurrounding: 0
+  prevRightSurrounding: 0
+  prevControlType: 0
+  snappedMarker: 0
+  attachExit: 0
+  exitType: 0
+  exitGeometryType: 0
+  startExitInt: 0
+  endExitInt: 0
+  startExitOffset: 0
+  extrusionDistance: 10
+  extrusionType: 0
+  fixedDistance: 10
+  connectionAngle: 10
+  connectionRadius: 5
+  exitMaterial: {fileID: 0}
+  connectionMaterial: {fileID: 0}
+  exitRoadType: 0
+  connectionRoadType: 0
+  exitInnerVertices: []
+  customColor: {r: 0, g: 0, b: 0, a: 0}
+  roadMarkerWidth: 0
+  roadShape:
+  - {x: 0.25, y: 0}
+  - {x: -0.25, y: 0}
+  roadShapeVecsGlobal:
+  - {x: -0.57604927, y: 0.95000434, z: -2.0123837}
+  - {x: -0.36904174, y: 0.94999564, z: -2.4675186}
+  roadShapeDistanceMin: 0
+  roadShapeDistanceMax: 1
+  perpDir: {x: -0.4075983, y: 0, z: 0.896169}
+  perpDirRotated: {x: -0.41401517, y: 0.000017404562, z: 0.91027004}
+  markerStartUVY: 0.8438444
+  customPoints: []
+  handleObject: {fileID: 0}
+--- !u!1 &364231600
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 364231602}
+  - component: {fileID: 364231601}
+  - component: {fileID: 364231605}
+  - component: {fileID: 364231604}
+  - component: {fileID: 364231603}
+  m_Layer: 0
+  m_Name: road_0001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!114 &364231601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364231600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -216737829, guid: f56d46228aee4734f9114056c53bb57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseScript: {fileID: 1983559466}
+  roadName: road_0001
+  id: 0
+  locked: 0
+  roadType: 0
+  rt:
+    roadTypeName: 
+    id: 0
+    timestamp: 0
+    roadWidth: 0
+    totalLanes: 0
+    laneWidth: 0
+    medianWidth: 0
+    shoulderWidthLeft: 0
+    shoulderWidthRight: 0
+    advancedWidthSettings: 0
+    faceDistance: 0
+    angleTreshold: 0
+    uvTiling: 0
+    uv4Type: 0
+    type: 0
+    detailDistance: 0
+    planarUVs: 0
+    outerIndent: 0
+    roadShapeDataActive: 0
+    roadShapeData:
+      nodes: []
+      hardEdge: 
+      priorityNodeIndexLeft: 0
+      priorityNodeIndexRight: 0
+      nodesV3: []
+      lanes: []
+      leftLanes: 0
+      rightLanes: 0
+      symmetrical: 0
+      leftSidewalkOffset: 0
+      rightSidewalkOffset: 0
+      outerLaneMarkingLeftIndex: 0
+      includeOuterlaneLeftInShape: 0
+      includeOuterlaneRightInShape: 0
+      outerLaneMarkingRightIndex: 0
+      outerOuterLaneMarkingLeftIndex: 0
+      outerOuterLaneMarkingRightIndex: 0
+      selectedNode: 0
+      selectedLaneNode: 0
+      isSymmetrical: 0
+      isset: 0
+    minSpeed: 0
+    maxSpeed: 0
+    speedLimit: 0
+    speedLimitConnections: 0
+    roadShape: []
+    roadShapeExt: []
+    roadShapeExt2: []
+    doConnectionTri: 
+    doConnectionTriExt: 
+    roadShapeUVs: []
+    roadShapeExtUVs: []
+    roadShapeExtUVs2: []
+    roadShapeUVs2: []
+    preserveUVs: 0
+    hardEdge: 
+    roadShapeVecsString: 
+    defaultSidewalk: 0
+    sidewalks: 0
+    sidewalkHeight: 0
+    sidewalkWidth: 0
+    crosswalks: 0
+    crosswalkIntervals: 0
+    crosswalksIntersections: 0
+    crosswalkPrefab: {fileID: 0}
+    crosswalkHeightOffset: 0
+    crosswalkType: 0
+    roadMaterial: {fileID: 0}
+    roadMaterials: []
+    roadPhysicsMaterial: {fileID: 0}
+    roadPhysicsMaterials: []
+    connectionMaterial: {fileID: 0}
+    isSideObject: 0
+    isCustomRoad: 0
+    subSegments: 0
+    soData: []
+    soDataExt: []
+    soDataLog: []
+    layer: 0
+    isStatic: 0
+    tag: 
+    splatMapActive: 0
+    splatIndex: 0
+    expandLevel: 0
+    smoothLevel: 0
+    splatOpacity: 0
+    followTerrainContours: 0
+    terrainContoursOffset: 0
+    terrainDeformation: 0
+    defaultIndent: 0
+    defaultSurrounding: 0
+    maxRoadheight: 0
+    maxTerrainHeightOffset: 0
+    minTerrainHeightDistance: 0
+    maxTerrainHeightDistance: 0
+    castShadow: 0
+    randomnessFlag: 0
+    randomYPosition: 0
+    randomMinYPosition: 0
+    randomMaxYPosition: 0
+    minRandomYPositionDistance: 0
+    maxRandomYPositionDistance: 0
+    randomMinRotation: 0
+    randomMaxRotation: 0
+    minRandomRotationDistance: 0
+    maxRandomRotationDistance: 0
+    vegetationStudioMaskLineActive: 0
+    vegetationStudioGrassPerimeter: 0
+    vegetationStudioPlantPerimeter: 0
+    vegetationStudioTreePerimeter: 0
+    vegetationStudioObjectPerimeter: 0
+    vegetationStudioLargeObjectPerimeter: 0
+    vegetationStudioBiomeMaskActive: 0
+    vegetationStudioBiomeMaskDistance: 0
+    vegetationStudioBiomeMaskBlendDistance: 0
+    vegetationStudioBiomeMaskNoiseScale: 0
+    decalPresets: []
+    decalClassPresets: []
+    defaultRamp: 0
+    extrusionType: 0
+    extrusionDistance: 0
+    fixedDistance: 0
+    connectionAngle: 0
+    connectionRadius: 0
+    oneWay: 0
+    cornerRadiusMainRoad: 0
+    cornerSementsMainRoad: 0
+    cornerRadiusSecondaryRoad: 0
+    cornerRadiusSecondaryCurvature: 0
+    cornerSementsSecondaryRoad: 0
+    mainRoadsOnly: 0
+    isRoadShape: 0
+    controlType: 0
+    vertexColor: {r: 0, g: 0, b: 0, a: 0}
+    trafficPosts: []
+    activeTrafficPostIndex: 0
+    showTrafficPosts: 0
+  defaultControlType: 0
+  isCustomRoadSet: 0
+  isCustomRoad: 0
+  isBridge: 0
+  markers: []
+  tmpMarkers: []
+  markersExt:
+  - {fileID: 465111701}
+  - {fileID: 846475767}
+  - {fileID: 2115725359}
+  - {fileID: 109064478}
+  - {fileID: 1383031141}
+  - {fileID: 680297966}
+  - {fileID: 1408594635}
+  - {fileID: 2062928327}
+  - {fileID: 224327922}
+  - {fileID: 561733412}
+  - {fileID: 906229087}
+  - {fileID: 146795618}
+  - {fileID: 1361031891}
+  - {fileID: 393221096}
+  - {fileID: 47680160}
+  - {fileID: 2144654783}
+  tmpMarkersExt:
+  - {fileID: 465111701}
+  - {fileID: 846475767}
+  - {fileID: 2115725359}
+  - {fileID: 109064478}
+  - {fileID: 1383031141}
+  - {fileID: 680297966}
+  - {fileID: 1408594635}
+  - {fileID: 2062928327}
+  - {fileID: 224327922}
+  - {fileID: 561733412}
+  - {fileID: 906229087}
+  - {fileID: 146795618}
+  - {fileID: 1361031891}
+  - {fileID: 393221096}
+  - {fileID: 47680160}
+  - {fileID: 2144654783}
+  - {fileID: 465111701}
+  tValues:
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  roadWidth: 0.5
+  lanes: 0
+  leftShoulderWidth: 3
+  rightShoulderWidth: 3
+  laneWidth: 3
+  faceDistance: 2
+  angleTreshold: 45
+  resolutionFlag: 0
+  angleThresholdFlag: 0
+  closedTrack: 1
+  minNodeDistance: 5
+  nodeWithinRange: 13
+  uvTiling: 1
+  planarUVs: 0
+  flipNormals: 0
+  vertexColor: {r: 0, g: 0, b: 0, a: 0}
+  defaultLeftSidewalk: 0
+  defaultRightSidewalk: 0
+  defaultLeftSidewalkid: 0
+  defaultRightSidewalkid: 0
+  leftSidewalkActive: 0
+  rightSidewalkActive: 0
+  leftSidewalks: []
+  rightSidewalks: []
+  crosswalkObjects: []
+  crosswalkDistances: []
+  exitRoads: []
+  selectedExit: 0
+  randomnessFlag: 1
+  randomnessMarkerFlag: 0
+  randomYPosition: 0
+  randomMinYPosition: 0
+  randomMaxYPosition: 0
+  minRandomYPositionDistance: 0
+  maxRandomYPositionDistance: 0
+  randomMinRotation: 0
+  randomMaxRotation: 0
+  minRandomRotationDistance: 0
+  maxRandomRotationDistance: 0
+  vegetationStudioMaskLineActive: 1
+  vegetationStudioGrassPerimeter: 2
+  vegetationStudioPlantPerimeter: 3
+  vegetationStudioTreePerimeter: 4
+  vegetationStudioObjectPerimeter: 3
+  vegetationStudioLargeObjectPerimeter: 4
+  vegetationStudioBiomeMaskActive: 0
+  vegetationStudioBiomeMaskDistance: 0
+  vegetationStudioBiomeMaskBlendDistance: 0
+  vegetationStudioBiomeMaskNoiseScale: 0
+  vertsStats: 34
+  trisStats: 32
+  indent: 3.6621094
+  surrounding: 2
+  followTerrainContours: 0
+  terrainContoursOffset: 5
+  roadShape:
+  - {x: 0.25, y: 0}
+  - {x: -0.25, y: 0}
+  roadShapeIntsStart: 
+  roadShapeIntsEnd: 
+  roadShapeIntsStartFull: 
+  roadShapeIntsEndFull: 
+  roadShapeString: 
+  roadShapeReversedString: 
+  roadShapeMatchCount: 2
+  geoReversed: -1
+  roadShapeCols: 2
+  flipRoadUVs: 0
+  subSegments: 1
+  nodeDistance:
+  - 0
+  - 1
+  roadShapeUVs:
+  - 0
+  - 1
+  roadShapeUVs2:
+  - 0
+  - 1
+  doConnectionTri: 0101
+  randomRotations:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  randomLeftTerrainHeightOffset:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  randomRightTerrainHeightOffset:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  hardEdge: 0000
+  roadShapeMaterialInts: 0000000000000000
+  subMeshCount: 1
+  roadShapeMaterialIntCounts: 02000000
+  controlPoints: []
+  splinePoints:
+  - {x: 2.9441142, y: 0.95, z: 1.3218064}
+  - {x: 1.9013624, y: 0.95, z: 2.067844}
+  - {x: 0.1312219, y: 0.949, z: 2.1293874}
+  - {x: -1.8966968, y: 0.95, z: 2.2356005}
+  - {x: -3.7162712, y: 0.95, z: 1.3337731}
+  - {x: -4.1760063, y: 0.95, z: -0.9559717}
+  - {x: -3.6089985, y: 0.95, z: -2.2834673}
+  - {x: -1.8500574, y: 0.95, z: -2.807822}
+  - {x: -0.4725455, y: 0.95, z: -2.2399511}
+  - {x: 0.28314543, y: 1.3673759, z: -1.8375922}
+  - {x: 1.2086575, y: 1.7683356, z: -1.4202015}
+  - {x: 1.6110262, y: 1.7522225, z: -1.19133}
+  - {x: 1.9441606, y: 1.7796922, z: -1.0693419}
+  - {x: 2.5817602, y: 1.7623099, z: -1.0380955}
+  - {x: 3.4608922, y: 1.2305874, z: -0.4402718}
+  - {x: 3.6065347, y: 0.949, z: 0.5315411}
+  - {x: 2.9441142, y: 0.95, z: 1.3218064}
+  distances:
+  - 0
+  - 1.2821479
+  - 3.053358
+  - 5.084057
+  - 7.114856
+  - 9.450297
+  - 10.893815
+  - 12.72925
+  - 14.219222
+  - 15.171674
+  - 16.263258
+  - 16.726444
+  - 17.082273
+  - 17.720875
+  - 18.909569
+  - 19.931784
+  - 20.96296
+  markerInts: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f00000010000000
+  insertSplinePoints:
+  - {x: 2.9441142, y: 0.95, z: 1.3218064}
+  - {x: 1.9013624, y: 0.95, z: 2.067844}
+  - {x: 0.1312219, y: 0.949, z: 2.1293874}
+  - {x: -1.8966968, y: 0.95, z: 2.2356005}
+  - {x: -3.7162712, y: 0.95, z: 1.3337731}
+  - {x: -4.1760063, y: 0.95, z: -0.9559717}
+  - {x: -3.6089985, y: 0.95, z: -2.2834673}
+  - {x: -1.8500574, y: 0.95, z: -2.807822}
+  - {x: -0.4725455, y: 0.95, z: -2.2399511}
+  - {x: 0.28314543, y: 1.3673759, z: -1.8375922}
+  - {x: 1.2086575, y: 1.7683356, z: -1.4202015}
+  - {x: 1.6110262, y: 1.7522225, z: -1.19133}
+  - {x: 1.9441606, y: 1.7796922, z: -1.0693419}
+  - {x: 2.5817602, y: 1.7623099, z: -1.0380955}
+  - {x: 3.4608922, y: 1.2305874, z: -0.4402718}
+  - {x: 3.6065347, y: 0.949, z: 0.5315411}
+  - {x: 2.9441142, y: 0.95, z: 1.3218064}
+  soSplinePoints:
+  - {x: 2.9441142, y: 0.95, z: 1.3218064}
+  - {x: 1.9013624, y: 0.95, z: 2.067844}
+  - {x: 0.1312219, y: 0.949, z: 2.1293874}
+  - {x: -1.8966968, y: 0.95, z: 2.2356005}
+  - {x: -3.7162712, y: 0.95, z: 1.3337731}
+  - {x: -4.1760063, y: 0.95, z: -0.9559717}
+  - {x: -3.6089985, y: 0.95, z: -2.2834673}
+  - {x: -1.8500574, y: 0.95, z: -2.807822}
+  - {x: -0.4725455, y: 0.95, z: -2.2399511}
+  - {x: 0.28314543, y: 1.3673759, z: -1.8375921}
+  - {x: 1.2086575, y: 1.7683356, z: -1.4202015}
+  - {x: 1.6110262, y: 1.7522225, z: -1.19133}
+  - {x: 1.9441606, y: 1.7796922, z: -1.0693419}
+  - {x: 2.5817602, y: 1.7623099, z: -1.0380955}
+  - {x: 3.4608922, y: 1.2305874, z: -0.4402718}
+  - {x: 3.6065347, y: 0.949, z: 0.5315411}
+  - {x: 2.9441142, y: 0.95, z: 1.3218064}
+  soSplinePointsLeft:
+  - {x: 2.7986479, y: 0.95, z: 1.1184852}
+  - {x: 1.8323743, y: 0.95, z: 1.8275511}
+  - {x: 0.120190404, y: 0.949, z: 1.8796309}
+  - {x: -1.846071, y: 0.95, z: 1.9907801}
+  - {x: -3.5128262, y: 0.95, z: 1.1884798}
+  - {x: -3.9261162, y: 0.95, z: -0.948561}
+  - {x: -3.4532819, y: 0.95, z: -2.0878851}
+  - {x: -1.8535256, y: 0.9500044, z: -2.557846}
+  - {x: -0.57604927, y: 0.95000434, z: -2.0123837}
+  - {x: 0.17357564, y: 1.3673799, z: -1.6128824}
+  - {x: 1.0992537, y: 1.7683399, z: -1.195411}
+  - {x: 1.5033982, y: 1.7522225, z: -0.96571064}
+  - {x: 1.9051796, y: 1.7796966, z: -0.8223997}
+  - {x: 2.485984, y: 1.7623141, z: -0.8071692}
+  - {x: 3.2515576, y: 1.2305914, z: -0.3036006}
+  - {x: 3.3666387, y: 0.94900435, z: 0.46118575}
+  - {x: 2.7525208, y: 0.95, z: 1.1612079}
+  soSplinePointsRight:
+  - {x: 3.0895805, y: 0.95, z: 1.5251276}
+  - {x: 1.9703505, y: 0.95, z: 2.3081367}
+  - {x: 0.1422534, y: 0.949, z: 2.379144}
+  - {x: -1.9473226, y: 0.95, z: 2.4804208}
+  - {x: -3.9197161, y: 0.95, z: 1.4790665}
+  - {x: -4.4258966, y: 0.95, z: -0.9633824}
+  - {x: -3.7647152, y: 0.95, z: -2.4790494}
+  - {x: -1.8465891, y: 0.9499956, z: -3.057798}
+  - {x: -0.36904174, y: 0.94999564, z: -2.4675186}
+  - {x: 0.39271522, y: 1.3673718, z: -2.0623019}
+  - {x: 1.3180614, y: 1.7683313, z: -1.6449921}
+  - {x: 1.7186542, y: 1.7522225, z: -1.4169493}
+  - {x: 1.9831415, y: 1.7796878, z: -1.3162842}
+  - {x: 2.6775362, y: 1.7623057, z: -1.2690217}
+  - {x: 3.6702268, y: 1.2305833, z: -0.576943}
+  - {x: 3.8464308, y: 0.94899565, z: 0.60189646}
+  - {x: 3.1357076, y: 0.95, z: 1.482405}
+  soSplinePointsLeftClamped:
+  - {x: 2.7986479, y: 0.95, z: 1.1184852}
+  - {x: 1.8323743, y: 0.95, z: 1.8275511}
+  - {x: 0.120190404, y: 0.949, z: 1.8796309}
+  - {x: -1.846071, y: 0.95, z: 1.9907801}
+  - {x: -3.5128262, y: 0.95, z: 1.1884798}
+  - {x: -3.9261162, y: 0.95, z: -0.948561}
+  - {x: -3.4532819, y: 0.95, z: -2.0878851}
+  - {x: -1.8535256, y: 0.9500044, z: -2.557846}
+  - {x: -0.57604927, y: 0.95000434, z: -2.0123837}
+  - {x: 0.17357564, y: 1.3673799, z: -1.6128824}
+  - {x: 1.0992537, y: 1.7683399, z: -1.195411}
+  - {x: 1.5033982, y: 1.7522225, z: -0.96571064}
+  - {x: 1.9051796, y: 1.7796966, z: -0.8223997}
+  - {x: 2.485984, y: 1.7623141, z: -0.8071692}
+  - {x: 3.2515576, y: 1.2305914, z: -0.3036006}
+  - {x: 3.3666387, y: 0.94900435, z: 0.46118575}
+  - {x: 2.7525208, y: 0.95, z: 1.1612079}
+  soSplinePointsRightClamped:
+  - {x: 3.0895805, y: 0.95, z: 1.5251276}
+  - {x: 1.9703505, y: 0.95, z: 2.3081367}
+  - {x: 0.1422534, y: 0.949, z: 2.379144}
+  - {x: -1.9473226, y: 0.95, z: 2.4804208}
+  - {x: -3.9197161, y: 0.95, z: 1.4790665}
+  - {x: -4.4258966, y: 0.95, z: -0.9633824}
+  - {x: -3.7647152, y: 0.95, z: -2.4790494}
+  - {x: -1.8465891, y: 0.9499956, z: -3.057798}
+  - {x: -0.36904174, y: 0.94999564, z: -2.4675186}
+  - {x: 0.39271522, y: 1.3673718, z: -2.0623019}
+  - {x: 1.3180614, y: 1.7683313, z: -1.6449921}
+  - {x: 1.7186542, y: 1.7522225, z: -1.4169493}
+  - {x: 1.9831415, y: 1.7796878, z: -1.3162842}
+  - {x: 2.6775362, y: 1.7623057, z: -1.2690217}
+  - {x: 3.6702268, y: 1.2305833, z: -0.576943}
+  - {x: 3.8464308, y: 0.94899565, z: 0.60189646}
+  - {x: 3.1357076, y: 0.95, z: 1.482405}
+  soSplinePointsLeftFixed: []
+  soSplinePointsRightFixed: []
+  startXPositionIndex: 0
+  endXPositionIndex: 0
+  ODQCOOCCDC:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0.001
+  - 0.001
+  - 0.001
+  - 0.001
+  - 0
+  - 0.001
+  - 0.001
+  - 0.001
+  - 0.001
+  - 0
+  ODOOQCQCDO:
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  bendAngles:
+  - 0
+  - 0
+  - 3
+  - 72
+  - 129
+  - 74
+  - 174
+  - 106
+  - 89
+  - 29
+  - 110
+  - 124
+  - 257
+  - 307
+  - 189
+  - 247
+  - 0
+  meshVecs:
+  - {x: 2.7986479, y: 0.95, z: 1.1184852}
+  - {x: 3.0895805, y: 0.95, z: 1.5251276}
+  - {x: 1.8323743, y: 0.95, z: 1.8275511}
+  - {x: 1.9703505, y: 0.95, z: 2.3081367}
+  - {x: 0.120190404, y: 0.949, z: 1.8796309}
+  - {x: 0.1422534, y: 0.949, z: 2.379144}
+  - {x: -1.846071, y: 0.95, z: 1.9907801}
+  - {x: -1.9473226, y: 0.95, z: 2.4804208}
+  - {x: -3.5128262, y: 0.95, z: 1.1884798}
+  - {x: -3.9197161, y: 0.95, z: 1.4790665}
+  - {x: -3.9261162, y: 0.95, z: -0.948561}
+  - {x: -4.4258966, y: 0.95, z: -0.9633824}
+  - {x: -3.4532819, y: 0.95, z: -2.0878851}
+  - {x: -3.7647152, y: 0.95, z: -2.4790494}
+  - {x: -1.8535256, y: 0.9500044, z: -2.557846}
+  - {x: -1.8465891, y: 0.9499956, z: -3.057798}
+  - {x: -0.57604927, y: 0.95000434, z: -2.0123837}
+  - {x: -0.36904174, y: 0.94999564, z: -2.4675186}
+  - {x: 0.17357564, y: 1.3673799, z: -1.6128824}
+  - {x: 0.39271522, y: 1.3673718, z: -2.0623019}
+  - {x: 1.0992537, y: 1.7683399, z: -1.195411}
+  - {x: 1.3180614, y: 1.7683313, z: -1.6449921}
+  - {x: 1.5033982, y: 1.7522225, z: -0.96571064}
+  - {x: 1.7186542, y: 1.7522225, z: -1.4169493}
+  - {x: 1.9051796, y: 1.7796966, z: -0.8223997}
+  - {x: 1.9831415, y: 1.7796878, z: -1.3162842}
+  - {x: 2.485984, y: 1.7623141, z: -0.8071692}
+  - {x: 2.6775362, y: 1.7623057, z: -1.2690217}
+  - {x: 3.2515576, y: 1.2305914, z: -0.3036006}
+  - {x: 3.6702268, y: 1.2305833, z: -0.576943}
+  - {x: 3.3666387, y: 0.94900435, z: 0.46118575}
+  - {x: 3.8464308, y: 0.94899565, z: 0.60189646}
+  - {x: 2.7986479, y: 0.95, z: 1.1184852}
+  - {x: 3.0895805, y: 0.95, z: 1.5251276}
+  meshUVs:
+  - {x: 0, y: 0}
+  - {x: 1, y: 0}
+  - {x: 0, y: 0.24465019}
+  - {x: 1, y: 0.24465019}
+  - {x: 0, y: 0.5826197}
+  - {x: 1, y: 0.5826197}
+  - {x: 0, y: 0.97010297}
+  - {x: 1, y: 0.97010297}
+  - {x: 0, y: 1.3576053}
+  - {x: 1, y: 1.3576053}
+  - {x: 0, y: 1.8032374}
+  - {x: 1, y: 1.8032374}
+  - {x: 0, y: 2.0786788}
+  - {x: 1, y: 2.0786788}
+  - {x: 0, y: 2.4289033}
+  - {x: 1, y: 2.4289033}
+  - {x: 0, y: 2.7132092}
+  - {x: 1, y: 2.7132092}
+  - {x: 0, y: 2.894949}
+  - {x: 1, y: 2.894949}
+  - {x: 0, y: 3.1032374}
+  - {x: 1, y: 3.1032374}
+  - {x: 0, y: 3.191619}
+  - {x: 1, y: 3.191619}
+  - {x: 0, y: 3.259516}
+  - {x: 1, y: 3.259516}
+  - {x: 0, y: 3.381369}
+  - {x: 1, y: 3.381369}
+  - {x: 0, y: 3.6081872}
+  - {x: 1, y: 3.6081872}
+  - {x: 0, y: 3.8032389}
+  - {x: 1, y: 3.8032389}
+  - {x: 0, y: 4}
+  - {x: 1, y: 4}
+  meshUVs2:
+  - {x: 0.47032866, y: 0.5066485}
+  - {x: 0.4706196, y: 0.5070551}
+  - {x: 0.46936238, y: 0.50735754}
+  - {x: 0.46950036, y: 0.50783813}
+  - {x: 0.46765018, y: 0.50740963}
+  - {x: 0.46767226, y: 0.5079091}
+  - {x: 0.46568394, y: 0.5075208}
+  - {x: 0.46558267, y: 0.50801045}
+  - {x: 0.46401718, y: 0.50671846}
+  - {x: 0.4636103, y: 0.5070091}
+  - {x: 0.46360388, y: 0.50458145}
+  - {x: 0.4631041, y: 0.5045666}
+  - {x: 0.46407673, y: 0.5034421}
+  - {x: 0.4637653, y: 0.5030509}
+  - {x: 0.4656765, y: 0.5029721}
+  - {x: 0.4656834, y: 0.5024722}
+  - {x: 0.46695396, y: 0.5035176}
+  - {x: 0.46716097, y: 0.5030625}
+  - {x: 0.46770358, y: 0.5039171}
+  - {x: 0.46792272, y: 0.5034677}
+  - {x: 0.46862924, y: 0.50433457}
+  - {x: 0.46884805, y: 0.50388503}
+  - {x: 0.4690334, y: 0.5045643}
+  - {x: 0.46924865, y: 0.5041131}
+  - {x: 0.4694352, y: 0.5047076}
+  - {x: 0.46951315, y: 0.5042137}
+  - {x: 0.47001597, y: 0.50472283}
+  - {x: 0.47020754, y: 0.50426096}
+  - {x: 0.47078156, y: 0.5052264}
+  - {x: 0.47120023, y: 0.504953}
+  - {x: 0.47089663, y: 0.50599116}
+  - {x: 0.47137642, y: 0.5061319}
+  - {x: 0.47028252, y: 0.5066912}
+  - {x: 0.4706657, y: 0.5070124}
+  surfaceMeshVecs: []
+  leftIndentVecs:
+  - {x: 0.66779304, y: 0.95, z: -1.8598535}
+  - {x: 0.82180643, y: 0.95, z: -1.6923635}
+  - {x: -0.042633943, y: 0.949, z: -1.8067628}
+  - {x: -1.1044819, y: 0.95, z: -1.5954561}
+  - {x: -0.532676, y: 0.95, z: -0.9398407}
+  - {x: 0.041381836, y: 0.95, z: -0.8309015}
+  - {x: -1.0839605, y: 0.95, z: 0.88801336}
+  - {x: -1.9043305, y: 0.930069, z: 1.1039107}
+  - {x: -2.0922182, y: 0.9300681, z: 1.3211248}
+  - {x: -1.5411333, y: 1.3474433, z: 1.9037056}
+  - {x: -0.5033418, y: 1.7484027, z: 2.0974197}
+  - {x: -0.07333696, y: 1.7522225, z: 2.339581}
+  - {x: 1.3341694, y: 1.7597612, z: 2.7949188}
+  - {x: 1.0830141, y: 1.7423753, z: 2.5755398}
+  - {x: 0.1851325, y: 1.2106508, z: 1.6984191}
+  - {x: -0.14746404, y: 0.9290681, z: -0.5694104}
+  - {x: 0.66779304, y: 0.95, z: -1.8598535}
+  rightIndentVecs:
+  - {x: 5.8023005, y: 0.95, z: 5.3167515}
+  - {x: 3.2568707, y: 0.95, z: 6.7892227}
+  - {x: 0.34797356, y: 0.949, z: 7.036712}
+  - {x: -2.8914149, y: 0.95, z: 7.0459385}
+  - {x: -7.713646, y: 0.95, z: 4.1885605}
+  - {x: -9.085958, y: 0.95, z: -1.1015805}
+  - {x: -6.6685863, y: 0.95, z: -6.126349}
+  - {x: -1.7819111, y: 0.92991334, z: -7.7194586}
+  - {x: 1.5611423, y: 0.92991453, z: -6.7112975}
+  - {x: 2.4360204, y: 1.3472962, z: -6.252787}
+  - {x: 3.358272, y: 1.7482513, z: -5.836985}
+  - {x: 3.725943, y: 1.7522225, z: -5.624806}
+  - {x: 2.7100756, y: 1.7596055, z: -5.9213715}
+  - {x: 4.4636106, y: 1.7422279, z: -5.5754356}
+  - {x: 7.5739903, y: 1.2105078, z: -3.1256473}
+  - {x: 8.320118, y: 0.92891455, z: 1.913914}
+  - {x: 5.8023005, y: 0.95, z: 5.3167515}
+  middleIndentVecs:
+  - {x: 2.9441142, y: 0.95, z: 1.3218064}
+  - {x: 1.9013624, y: 0.95, z: 2.067844}
+  - {x: 0.1312219, y: 0.949, z: 2.1293874}
+  - {x: -1.8966968, y: 0.95, z: 2.2356005}
+  - {x: -3.7162712, y: 0.95, z: 1.3337731}
+  - {x: -4.1760063, y: 0.95, z: -0.9559717}
+  - {x: -3.6089985, y: 0.95, z: -2.2834673}
+  - {x: -1.8500574, y: 0.93, z: -2.807822}
+  - {x: -0.4725455, y: 0.93, z: -2.2399511}
+  - {x: 0.28314543, y: 1.3473759, z: -1.8375921}
+  - {x: 1.2086575, y: 1.7483356, z: -1.4202015}
+  - {x: 1.6110262, y: 1.7522225, z: -1.19133}
+  - {x: 1.9441606, y: 1.7596922, z: -1.0693419}
+  - {x: 2.5817602, y: 1.7423099, z: -1.0380955}
+  - {x: 3.4608922, y: 1.2105874, z: -0.4402718}
+  - {x: 3.6065347, y: 0.929, z: 0.5315411}
+  - {x: 2.9441142, y: 0.95, z: 1.3218064}
+  leftSurroundingVecs:
+  - {x: -0.49593782, y: 0.949, z: -3.4864237}
+  - {x: 0.26990163, y: 0.949, z: -3.6147063}
+  - {x: -0.13088593, y: 0.949, z: -3.8048148}
+  - {x: -0.6994755, y: 0.949, z: -3.5540192}
+  - {x: 1.0948837, y: 0.949, z: -2.1021872}
+  - {x: 2.0405781, y: 0.949, z: -0.77161366}
+  - {x: 0.16177225, y: 0.949, z: 2.4526699}
+  - {x: -1.9251187, y: 0.949, z: 2.6022196}
+  - {x: -2.9202485, y: 0.949, z: 3.1416647}
+  - {x: -2.4176915, y: 0.949, z: 3.7013838}
+  - {x: -1.3785725, y: 0.949, z: 3.895744}
+  - {x: -0.9344444, y: 0.949, z: 4.144711}
+  - {x: 1.0223217, y: 0.949, z: 4.770457}
+  - {x: 0.3168056, y: 0.949, z: 4.42295}
+  - {x: -1.4895446, y: 0.949, z: 2.7917886}
+  - {x: -2.139123, y: 0.949, z: -1.1535127}
+  - {x: -0.49593782, y: 0.949, z: -3.4864237}
+  rightSurroundingVecs:
+  - {x: 6.3841662, y: 0.949, z: 6.1300364}
+  - {x: 3.532823, y: 0.949, z: 7.750394}
+  - {x: 0.39209956, y: 0.949, z: 8.035738}
+  - {x: -3.093918, y: 0.949, z: 8.02522}
+  - {x: -8.527426, y: 0.949, z: 4.7697334}
+  - {x: -10.085518, y: 0.949, z: -1.1312233}
+  - {x: -7.2914524, y: 0.949, z: -6.908677}
+  - {x: -1.768038, y: 0.949, z: -8.719362}
+  - {x: 1.9751575, y: 0.949, z: -7.621567}
+  - {x: 2.8742993, y: 0.949, z: -7.1516256}
+  - {x: 3.7958875, y: 0.949, z: -6.736147}
+  - {x: 4.156497, y: 0.949, z: -6.527371}
+  - {x: 2.8659995, y: 0.949, z: -6.9091406}
+  - {x: 4.846715, y: 0.949, z: -6.4991407}
+  - {x: 8.411329, y: 0.949, z: -3.672332}
+  - {x: 9.279702, y: 0.949, z: 2.1953356}
+  - {x: 6.3841662, y: 0.949, z: 6.1300364}
+  leftIndentVecsSV:
+  - {x: 0.66779304, y: 0.95, z: -1.8598535}
+  - {x: 0.82180643, y: 0.95, z: -1.6923635}
+  - {x: -0.042633943, y: 0.949, z: -1.8067628}
+  - {x: -1.1044819, y: 0.95, z: -1.5954561}
+  - {x: -0.532676, y: 0.95, z: -0.9398407}
+  - {x: 0.041381836, y: 0.95, z: -0.8309015}
+  - {x: -1.0839605, y: 0.95, z: 0.88801336}
+  - {x: -1.9043305, y: 0.930069, z: 1.1039107}
+  - {x: -2.0922182, y: 0.9300681, z: 1.3211248}
+  - {x: -1.5411333, y: 1.3474433, z: 1.9037056}
+  - {x: -0.5033418, y: 1.7484027, z: 2.0974197}
+  - {x: -0.07333696, y: 1.7522225, z: 2.339581}
+  - {x: 1.3341694, y: 1.7597612, z: 2.7949188}
+  - {x: 1.0830141, y: 1.7423753, z: 2.5755398}
+  - {x: 0.1851325, y: 1.2106508, z: 1.6984191}
+  - {x: -0.14746404, y: 0.9290681, z: -0.5694104}
+  - {x: -0.054024935, y: 0.95, z: -1.1913109}
+  rightIndentVecsSV:
+  - {x: 5.220435, y: 0.95, z: 4.5034666}
+  - {x: 2.9809184, y: 0.95, z: 5.8280516}
+  - {x: 0.30384758, y: 0.949, z: 6.0376863}
+  - {x: -2.6889117, y: 0.95, z: 6.066657}
+  - {x: -6.899866, y: 0.95, z: 3.607387}
+  - {x: -8.086397, y: 0.95, z: -1.0719377}
+  - {x: -6.04572, y: 0.95, z: -5.344021}
+  - {x: -1.7957842, y: 0.929931, z: -6.719555}
+  - {x: 1.1471272, y: 0.92993194, z: -5.8010273}
+  - {x: 1.9977412, y: 1.3473125, z: -5.353948}
+  - {x: 2.9206567, y: 1.7482685, z: -4.937823}
+  - {x: 3.2953892, y: 1.7522225, z: -4.722241}
+  - {x: 2.5541518, y: 1.7596232, z: -4.9336023}
+  - {x: 4.0805063, y: 1.7422446, z: -4.6517305}
+  - {x: 6.736652, y: 1.210524, z: -2.5789626}
+  - {x: 7.3605337, y: 0.92893195, z: 1.6324925}
+  - {x: 5.942253, y: 0.95, z: 3.8349237}
+  bridgeElement: 0000000000000000000000000000000000
+  vecsBelowTerrain:
+  - {x: 3.8464308, y: 0.94899565, z: 0.60189646}
+  treeVecs:
+  - {x: -0.11067891, y: 0.95, z: -2.94794}
+  - {x: 5.998907, y: 0.95, z: 5.5915527}
+  - {x: 0.4526137, y: 0.95, z: -2.9783056}
+  - {x: 3.350111, y: 0.95, z: 7.1139936}
+  - {x: -0.100439586, y: 0.949, z: -3.1154985}
+  - {x: 0.3628834, y: 0.949, z: 7.3742733}
+  - {x: -0.83355415, y: 0.95, z: -2.9056275}
+  - {x: -2.9598393, y: 0.95, z: 7.376828}
+  - {x: 0.5560734, y: 0.95, z: -1.7173864}
+  - {x: -7.988616, y: 0.95, z: 4.3849325}
+  - {x: 1.0716865, y: 0.95, z: -0.8003465}
+  - {x: -9.423699, y: 0.95, z: -1.111597}
+  - {x: -0.33895087, y: 0.95, z: 1.8237567}
+  - {x: -6.8790464, y: 0.95, z: -6.3906913}
+  - {x: -1.9228905, y: 0.9500044, z: 2.4416728}
+  - {x: -1.7772242, y: 0.9499956, z: -8.057317}
+  - {x: -2.6140409, y: 0.95000434, z: 2.4684613}
+  - {x: 1.6689498, y: 0.94999564, z: -6.9483633}
+  - {x: -1.8340459, y: 1.3673799, z: 2.5044959}
+  - {x: 2.4003367, y: 1.3673718, z: -6.17968}
+  - {x: -1.0180898, y: 1.7683399, z: 3.1551135}
+  - {x: 3.4354048, y: 1.7683313, z: -5.995517}
+  - {x: -0.6491616, y: 1.7522225, z: 3.5466762}
+  - {x: 3.871214, y: 1.7522225, z: -5.929336}
+  - {x: 1.125603, y: 1.7796966, z: 4.1161857}
+  - {x: 2.7627182, y: 1.7796878, z: -6.2548695}
+  - {x: 0.66932464, y: 1.7623141, z: 3.5729225}
+  - {x: 4.494196, y: 1.7623057, z: -5.6491137}
+  - {x: -0.5892303, y: 1.2305914, z: 2.2039492}
+  - {x: 7.511015, y: 1.2305833, z: -3.0844927}
+  - {x: -1.3762298, y: 0.94900435, z: -0.92979103}
+  - {x: 8.589299, y: 0.94899565, z: 1.9928732}
+  - {x: -1.0793486, y: 0.95, z: -2.0507624}
+  - {x: 6.967577, y: 0.95, z: 4.694375}
+  detailVecs:
+  - {x: 0.56477046, y: 0.95, z: -1.8096514}
+  - {x: 4.346895, y: 0.95, z: 3.4767017}
+  - {x: 0.51623666, y: 0.95, z: -1.544244}
+  - {x: 2.3099256, y: 0.95, z: 4.703369}
+  - {x: -0.50046885, y: 0.949, z: -1.6057283}
+  - {x: -0.21364987, y: 0.949, z: 4.8879404}
+  - {x: -1.7268422, y: 0.95, z: -1.4353459}
+  - {x: -3.043114, y: 0.95, z: 4.929984}
+  - {x: -1.5597677, y: 0.95, z: -1.0433213}
+  - {x: -6.849337, y: 0.95, z: 2.734305}
+  - {x: -1.4157159, y: 0.95, z: -1.3479135}
+  - {x: -7.9128594, y: 0.95, z: -1.5405923}
+  - {x: -2.0729644, y: 0.95, z: -0.22918129}
+  - {x: -6.1215954, y: 0.95, z: -5.314316}
+  - {x: -2.3834257, y: 0.9500044, z: -0.046415806}
+  - {x: -2.2932515, y: 0.9499956, z: -6.5457907}
+  - {x: -2.2871253, y: 0.95000434, z: 0.18784213}
+  - {x: 0.3654719, y: 0.94999564, z: -5.644307}
+  - {x: -1.5192785, y: 1.3673799, z: 0.3692634}
+  - {x: 1.1090069, y: 1.3673718, z: -5.0210104}
+  - {x: -0.6594337, y: 1.7683399, z: 0.9266224}
+  - {x: 2.1001863, y: 1.7683313, z: -4.743588}
+  - {x: -0.27641892, y: 1.7522225, z: 1.2534401}
+  - {x: 2.5219088, y: 1.7522225, z: -4.6126623}
+  - {x: 0.94915235, y: 1.7796966, z: 1.6524704}
+  - {x: 1.9626064, y: 1.7796878, z: -4.7677164}
+  - {x: 0.9077072, y: 1.7623141, z: 1.3326046}
+  - {x: 3.2792506, y: 1.7623057, z: -4.385358}
+  - {x: 0.45880342, y: 1.2305914, z: 0.71264815}
+  - {x: 5.4864187, y: 1.2305833, z: -2.5697541}
+  - {x: 0.032636404, y: 0.94900435, z: -0.8616815}
+  - {x: 6.203871, y: 0.94899565, z: 0.9482012}
+  - {x: -0.03488207, y: 0.95, z: -1.2542555}
+  - {x: 4.946548, y: 0.95, z: 2.921306}
+  vegetationTris: 000000000300000001000000020000000300000000000000020000000500000003000000040000000500000002000000040000000700000005000000060000000700000004000000060000000900000007000000080000000900000006000000080000000b000000090000000a0000000b000000080000000a0000000d0000000b0000000c0000000d0000000a0000000c0000000f0000000d0000000e0000000f0000000c0000000e000000110000000f00000010000000110000000e000000100000001300000011000000120000001300000010000000120000001500000013000000140000001500000012000000140000001700000015000000160000001700000014000000160000001900000017000000180000001900000016000000180000001b000000190000001a0000001b000000180000001a0000001d0000001b0000001c0000001d0000001a0000001c0000001f0000001d0000001e0000001f0000001c0000001e000000210000001f00000020000000210000001e000000
+  vegetationTreeTris: 000000000300000001000000020000000300000000000000020000000500000003000000040000000500000002000000040000000700000005000000060000000700000004000000060000000900000007000000080000000900000006000000080000000b000000090000000a0000000b000000080000000a0000000d0000000b0000000c0000000d0000000a0000000c0000000f0000000d0000000e0000000f0000000c0000000e000000110000000f00000010000000110000000e000000100000001300000011000000120000001300000010000000120000001500000013000000140000001500000012000000140000001700000015000000160000001700000014000000160000001900000017000000180000001900000016000000180000001b000000190000001a0000001b000000180000001a0000001d0000001b0000001c0000001d0000001a0000001c0000001f0000001d0000001e0000001f0000001c0000001e000000210000001f00000020000000210000001e000000
+  doLeftSurrounding: 0101010101010101010101010101010101
+  doRightSurrounding: 0101010101010101010101010101010101
+  totalDistance: 20.96296
+  nodeSplinePoint: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f00000010000000
+  totalDistanceString: 20.96 m
+  startPrefabScript: {fileID: 0}
+  endPrefabScript: {fileID: 0}
+  startConnectionSegment: -1
+  startConnectionFlag: 0
+  endConnectionSegment: -1
+  endConnectionFlag: 0
+  startSegmentIntAdjusted: 0
+  endSegmentIntAdjusted: 0
+  tCrossingConnected: 0
+  roadMaterial: {fileID: 2100000, guid: f182e2714eb8a714a99ed091081ce16c, type: 2}
+  roadMaterials:
+  - {fileID: 2100000, guid: 9f8d3891bda29324f92d3051dd2898c6, type: 2}
+  roadPhysicsMaterial: {fileID: 0}
+  roadPhysicsMaterials: []
+  startDir: {x: 0, y: 0, z: 0}
+  endDir: {x: 0, y: 0, z: 0}
+  startAngle: 0
+  endAngle: 0
+  startbendLeftRight: 0
+  endbendLeftRight: 0
+  connectionAdjustDistanceStart: 30
+  connectionAdjustDistanceEnd: 30
+  pivotp: {x: 0, y: 0, z: 0}
+  p1: {x: 0, y: 0, z: 0}
+  p2: {x: 0, y: 0, z: 0}
+  p3: {x: 0, y: 0, z: 0}
+  p4: {x: 0, y: 0, z: 0}
+  p5: {x: 0, y: 0, z: 0}
+  p6: {x: 0, y: 0, z: 0}
+  p7: {x: 0, y: 0, z: 0}
+  cp1: {x: 0, y: 0, z: 0}
+  cp2: {x: 0, y: 0, z: 0}
+  cp3: {x: 0, y: 0, z: 0}
+  cp4: {x: 0, y: 0, z: 0}
+  cp5: {x: 0, y: 0, z: 0}
+  cp6: {x: 0, y: 0, z: 0}
+  cp7: {x: 0, y: 0, z: 0}
+  cp8: {x: 0, y: 0, z: 0}
+  cp9: {x: 0, y: 0, z: 0}
+  cpcenter: {x: 0, y: 0, z: 0}
+  p1Circle: {x: 0, y: 0, z: 0}
+  p2Circle: {x: 0, y: 0, z: 0}
+  cpradius: 0
+  cpangle: 0
+  dp1: {x: 0, y: 0, z: 0}
+  dp2: {x: 0, y: 0, z: 0}
+  dp3: {x: 0, y: 0, z: 0}
+  dp4: {x: 0, y: 0, z: 0}
+  segPoints: []
+  testPoints: []
+  testPoints2: []
+  OOOOOCCQDC: {x: 0, y: 0, z: 0}
+  OOOQQOCQQC: {x: 0, y: 0, z: 0}
+  endLeft: {x: 0, y: 0, z: 0}
+  endRight: {x: 0, y: 0, z: 0}
+  testmesh: {fileID: 1672765382}
+  surfaceMesh: {fileID: 1685736590}
+  sv1: {x: 0.6677933, y: 0.95, z: -1.8598537}
+  sv2: {x: 5.220435, y: 0.95, z: 4.5034666}
+  prefabIndentLeft: {x: 0, y: 0, z: 0}
+  prefabIndentRight: {x: 0, y: 0, z: 0}
+  roadIndent1: {x: 0, y: 0, z: 0}
+  tmpPerpCP: {x: 0, y: 0, z: 0}
+  tmpCP: {x: 0, y: 0, z: 0}
+  splinePos: 0.001
+  camHeight: 5
+  camSpeed: 50
+  flyOverPoints: []
+  splinePosV3: {x: 0, y: 0, z: 0}
+  markerDistances:
+  - 0
+  - 1.2821479
+  - 3.053358
+  - 5.084057
+  - 7.114856
+  - 9.450297
+  - 10.893815
+  - 12.72925
+  - 14.219222
+  - 15.171674
+  - 16.263258
+  - 16.726444
+  - 17.082273
+  - 17.720875
+  - 18.909569
+  - 19.931784
+  - 20.96296
+  osmRoadType: 
+  osmID: 0
+  osmName: 
+  osmOneWay: 0
+  osmLanes: 0
+  osmSurface: 
+  osmturnLanes: 
+  osmBridge: 0
+  osmSpeed: 
+  soData: []
+  soDataExt: []
+  sideObjectNames: []
+  selectedSO: 0
+  rebuildSos: 0
+  sosCleared: 0
+  isSideObject: 0
+  startOffsetActiveMarker: -1
+  endOffsetActiveMarker: -1
+  leftToCenterPerc: 0.5
+  splatMapActive: 0
+  splatIndex: 0
+  expandLevel: 0
+  smoothLevel: 1
+  splatOpacity: 1
+  layer: 0
+  isStatic: 1
+  tag: Untagged
+  tagInt: 0
+  castShadow: 0
+  fadeInFlag: 0
+  fadeInDistance: 0
+  fadeOutFlag: 0
+  fadeOutDistance: 0
+  doSurroundingSurfaces: 1
+  terrainDeformation: 1
+  snapToTerrain: 0
+  soSectionList1: []
+  soSectionList2: []
+  soSectionList3: []
+  soSectionList4: []
+  soSectionList5: []
+  soSectionList6: []
+  soSectionList7: []
+  soSectionList8: []
+  snapVertices: 0
+  snapOffset: 0.01
+  hasMeshCollider: 1
+  isUpdated: 1
+  forceSORefresh: 0
+  QDDDQODQQDQDQQD: 1
+  uv4Type: 0
+  detailDistance: 50
+  startDecalCollapsed: 1
+  startDecal: {fileID: 0}
+  endDecal: {fileID: 0}
+  startDecalPrefab: {fileID: 0}
+  startDecalPrefabSource: {fileID: 0}
+  endDecalCollapsed: 1
+  endDecalPrefab: {fileID: 0}
+  endDecalPrefabSource: {fileID: 0}
+  startDecalID: -1
+  endDecalID: -1
+  lastForward: {x: -0.64239407, y: 0.00096975535, z: 0.7663739}
+  roadUpdate: 0
+  bounds:
+    m_Center: {x: -0.2897339, y: 4500000, z: -0.28868866}
+    m_Extent: {x: 104.13616, y: 5500000, z: 102.76911}
+  debugVecs: []
+  debugFloats: []
+  exitExtrudeEnd: {x: 0, y: 0, z: 0}
+  exitFixedEnd: {x: 0, y: 0, z: 0}
+  exitSplitEnd: {x: 0, y: 0, z: 0}
+  splatTextureMask: {fileID: 0}
+  lockUVs: 0
+  laneData: []
+  oneWayRoad: 0
+  oneWayDirection: 1
+  laneDirectionObject: {fileID: 0}
+  rotationsAdjustedFlag: 0
+  lastRotationStartInt: 0
+  lastRotationEndInt: 0
+  spawnDirectionMarkings: 1
+  vgData: []
+  centerPivotPointsFlag: 0
+  terrainXStart: 0
+  terrainYStart: 0
+  terrainHMRows: 0
+  terrainHMCols: 0
+--- !u!4 &364231602
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364231600}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1685736595}
+  m_Father: {fileID: 1789916074}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &364231603
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364231600}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 915785168}
+--- !u!23 &364231604
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364231600}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9f8d3891bda29324f92d3051dd2898c6, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &364231605
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364231600}
+  m_Mesh: {fileID: 915785168}
+--- !u!28 &370519173
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 2
+  m_Width: 2
+  m_Height: 2
+  m_CompleteImageSize: 20
+  m_MipsStripped: 0
+  m_TextureFormat: 4
+  m_MipCount: 2
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 0
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 20
+  _typelessdata: 383838ff383838ff383838ff383838ff383838ff
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+--- !u!114 &393221096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1475867795, guid: f56d46228aee4734f9114056c53bb57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OSMNodeID: 0
+  activeSplineNode: 1
+  leftIndent: 3.6621094
+  leftIndentAlignment: 0
+  rightIndent: 3.6621094
+  rightIndentAlignment: 0
+  leftSurrounding: 2
+  rightSurrounding: 2
+  leftSurroundingAdjusted: 0
+  rightSurroundingAdjusted: 0
+  radius: 0
+  bridgeObject: 0
+  bridgeStartLevelDistance: 0
+  bridgeEndLevelDistance: 0
+  rotation: 0
+  position: {x: 2.5817602, y: 1.7623099, z: -1.0380955}
+  oldPosition: {x: 2.5817602, y: 1.7623099, z: -1.0380955}
+  positionTmp: {x: 0, y: 0, z: 0}
+  controlType: 0
+  controlTypeTmp: 0
+  rotations: 0
+  circularRadius: 1
+  circularAngle: 90
+  circularSegments: 10
+  splineStrength: 0.5
+  direction: {x: 0.9984313, y: -0.027219271, z: 0.048929468}
+  direction1: {x: 0.9984313, y: -0.027219271, z: 0.048929468}
+  rl: {x: 2.1226523, y: 1.7623141, z: 0.06884915}
+  rr: {x: 3.040868, y: 1.7623057, z: -2.14504}
+  followTerrainContours: 0
+  startSplinePoint: 14
+  startDistance: 17.720875
+  startUVY: 0
+  totalDistance: 1.188694
+  totalDistanceString: 1.19 m
+  slopeAngle: 26.571632
+  angleString: 27
+  gradeString: 50.01
+  rotationCenter: 0.5
+  soData: []
+  controllerType: 0
+  randomYPosition: 0
+  randomMinYPosition: 0
+  randomMaxYPosition: 0
+  minRandomYPositionDistance: 0
+  maxRandomYPositionDistance: 0
+  randomMinRotation: 0
+  randomMaxRotation: 0
+  minRandomRotationDistance: 0
+  maxRandomRotationDistance: 0
+  prevLeftIndent: 0
+  prevRightIndent: 0
+  prevLeftSurrounding: 0
+  prevRightSurrounding: 0
+  prevControlType: 0
+  snappedMarker: 0
+  attachExit: 0
+  exitType: 0
+  exitGeometryType: 0
+  startExitInt: 0
+  endExitInt: 0
+  startExitOffset: 0
+  extrusionDistance: 10
+  extrusionType: 0
+  fixedDistance: 10
+  connectionAngle: 10
+  connectionRadius: 5
+  exitMaterial: {fileID: 0}
+  connectionMaterial: {fileID: 0}
+  exitRoadType: 0
+  connectionRoadType: 0
+  exitInnerVertices: []
+  customColor: {r: 0, g: 0, b: 0, a: 0}
+  roadMarkerWidth: 0
+  roadShape:
+  - {x: 0.25, y: 0}
+  - {x: -0.25, y: 0}
+  roadShapeVecsGlobal:
+  - {x: 2.485984, y: 1.7623141, z: -0.8071692}
+  - {x: 2.6775362, y: 1.7623057, z: -1.2690217}
+  roadShapeDistanceMin: 0
+  roadShapeDistanceMax: 1
+  perpDir: {x: -0.36333188, y: 0, z: 0.87601835}
+  perpDirRotated: {x: -0.38310432, y: 0.0000166893, z: 0.9237051}
+  markerStartUVY: 0.5441749
+  customPoints: []
+  handleObject: {fileID: 0}
 --- !u!1001 &395957036
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -180,6 +1926,162 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 401d27194e0344948b125cf0483f7637, type: 3}
+--- !u!1 &441251403
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 441251404}
+  - component: {fileID: 441251406}
+  - component: {fileID: 441251405}
+  m_Layer: 0
+  m_Name: Connection Objects
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &441251404
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441251403}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1983559467}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &441251405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441251403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1994553136, guid: f56d46228aee4734f9114056c53bb57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &441251406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441251403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1419717442, guid: f56d46228aee4734f9114056c53bb57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &465111701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1475867795, guid: f56d46228aee4734f9114056c53bb57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OSMNodeID: 0
+  activeSplineNode: 1
+  leftIndent: 3.6621094
+  leftIndentAlignment: 0
+  rightIndent: 3.6621094
+  rightIndentAlignment: 0
+  leftSurrounding: 2
+  rightSurrounding: 2
+  leftSurroundingAdjusted: 0
+  rightSurroundingAdjusted: 0
+  radius: 0
+  bridgeObject: 0
+  bridgeStartLevelDistance: 0
+  bridgeEndLevelDistance: 0
+  rotation: 0
+  position: {x: 2.9441142, y: 0.95, z: 1.3218064}
+  oldPosition: {x: 3.0154114, y: 0.95, z: 0.5585022}
+  positionTmp: {x: 0, y: 0, z: 0}
+  controlType: 0
+  controlTypeTmp: 0
+  rotations: 0
+  circularRadius: 1
+  circularAngle: 90
+  circularSegments: 10
+  splineStrength: 0.5
+  direction: {x: -0.8132851, y: 0, z: 0.5818654}
+  direction1: {x: -0.8132851, y: 0, z: 0.5818654}
+  rl: {x: 2.2167826, y: 0.95, z: 0.3052001}
+  rr: {x: 3.6714458, y: 0.95, z: 2.3384128}
+  followTerrainContours: 0
+  startSplinePoint: 17
+  startDistance: 20.96296
+  startUVY: 0
+  totalDistance: 1.2821479
+  totalDistanceString: 1.28 m
+  slopeAngle: 0
+  angleString: 0.00
+  gradeString: 0.00
+  rotationCenter: 0.5
+  soData: []
+  controllerType: 0
+  randomYPosition: 0
+  randomMinYPosition: 0
+  randomMaxYPosition: 0
+  minRandomYPositionDistance: 0
+  maxRandomYPositionDistance: 0
+  randomMinRotation: 0
+  randomMaxRotation: 0
+  minRandomRotationDistance: 0
+  maxRandomRotationDistance: 0
+  prevLeftIndent: 0
+  prevRightIndent: 0
+  prevLeftSurrounding: 0
+  prevRightSurrounding: 0
+  prevControlType: 0
+  snappedMarker: 0
+  attachExit: 0
+  exitType: 0
+  exitGeometryType: 0
+  startExitInt: 0
+  endExitInt: 0
+  startExitOffset: 0
+  extrusionDistance: 10
+  extrusionType: 0
+  fixedDistance: 10
+  connectionAngle: 10
+  connectionRadius: 5
+  exitMaterial: {fileID: 0}
+  connectionMaterial: {fileID: 0}
+  exitRoadType: 0
+  connectionRoadType: 0
+  exitInnerVertices: []
+  customColor: {r: 0, g: 0, b: 0, a: 0}
+  roadMarkerWidth: 0
+  roadShape:
+  - {x: 0.25, y: 0}
+  - {x: -0.25, y: 0}
+  roadShapeVecsGlobal:
+  - {x: 2.7986479, y: 0.95, z: 1.1184852}
+  - {x: 3.0895805, y: 0.95, z: 1.5251276}
+  roadShapeDistanceMin: 0
+  roadShapeDistanceMax: 1
+  perpDir: {x: -0.5818654, y: 0, z: -0.8132851}
+  perpDirRotated: {x: -0.58186543, y: 0, z: -0.81328505}
+  markerStartUVY: 0
+  customPoints: []
+  handleObject: {fileID: 0}
 --- !u!1 &471325317
 GameObject:
   m_ObjectHideFlags: 0
@@ -285,6 +2187,204 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1901994114}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &561733412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1475867795, guid: f56d46228aee4734f9114056c53bb57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OSMNodeID: 0
+  activeSplineNode: 1
+  leftIndent: 3.9123676
+  leftIndentAlignment: 0
+  rightIndent: 3.6621094
+  rightIndentAlignment: 0
+  leftSurrounding: 2
+  rightSurrounding: 2
+  leftSurroundingAdjusted: 0
+  rightSurroundingAdjusted: 0
+  radius: 0
+  bridgeObject: 0
+  bridgeStartLevelDistance: 0
+  bridgeEndLevelDistance: 0
+  rotation: 0
+  position: {x: 0.28314543, y: 1.3673759, z: -1.8375922}
+  oldPosition: {x: 0.28314543, y: 1.3673759, z: -1.8375922}
+  positionTmp: {x: 0, y: 0, z: 0}
+  controlType: 0
+  controlTypeTmp: 0
+  rotations: 0
+  circularRadius: 1
+  circularAngle: 90
+  circularSegments: 10
+  splineStrength: 0.5
+  direction: {x: 0.7934166, y: 0.43821216, z: 0.4224455}
+  direction1: {x: 0.7934166, y: 0.43821216, z: 0.4224455}
+  rl: {x: -0.22794867, y: 1.3673799, z: -0.7894067}
+  rr: {x: 0.7942395, y: 1.3673718, z: -2.8857775}
+  followTerrainContours: 0
+  startSplinePoint: 10
+  startDistance: 15.171674
+  startUVY: 0
+  totalDistance: 1.0915842
+  totalDistanceString: 1.09 m
+  slopeAngle: 21.55037
+  angleString: 22
+  gradeString: 39.49
+  rotationCenter: 0.5
+  soData: []
+  controllerType: 0
+  randomYPosition: 0
+  randomMinYPosition: 0
+  randomMaxYPosition: 0
+  minRandomYPositionDistance: 0
+  maxRandomYPositionDistance: 0
+  randomMinRotation: 0
+  randomMaxRotation: 0
+  minRandomRotationDistance: 0
+  maxRandomRotationDistance: 0
+  prevLeftIndent: 0
+  prevRightIndent: 0
+  prevLeftSurrounding: 0
+  prevRightSurrounding: 0
+  prevControlType: 0
+  snappedMarker: 0
+  attachExit: 0
+  exitType: 0
+  exitGeometryType: 0
+  startExitInt: 0
+  endExitInt: 0
+  startExitOffset: 0
+  extrusionDistance: 10
+  extrusionType: 0
+  fixedDistance: 10
+  connectionAngle: 10
+  connectionRadius: 5
+  exitMaterial: {fileID: 0}
+  connectionMaterial: {fileID: 0}
+  exitRoadType: 0
+  connectionRoadType: 0
+  exitInnerVertices: []
+  customColor: {r: 0, g: 0, b: 0, a: 0}
+  roadMarkerWidth: 0
+  roadShape:
+  - {x: 0.25, y: 0}
+  - {x: -0.25, y: 0}
+  roadShapeVecsGlobal:
+  - {x: 0.17357564, y: 1.3673799, z: -1.6128824}
+  - {x: 0.39271522, y: 1.3673718, z: -2.0623019}
+  roadShapeDistanceMin: 0
+  roadShapeDistanceMax: 1
+  perpDir: {x: -0.4015243, y: 0, z: 0.82347566}
+  perpDirRotated: {x: -0.4382791, y: 0.000016212462, z: 0.8988389}
+  markerStartUVY: 0.03433466
+  customPoints: []
+  handleObject: {fileID: 0}
+--- !u!114 &680297966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1475867795, guid: f56d46228aee4734f9114056c53bb57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OSMNodeID: 0
+  activeSplineNode: 1
+  leftIndent: 3.969242
+  leftIndentAlignment: 0
+  rightIndent: 3.6621094
+  rightIndentAlignment: 0
+  leftSurrounding: 2.000075
+  rightSurrounding: 2
+  leftSurroundingAdjusted: 0
+  rightSurroundingAdjusted: 0
+  radius: 0
+  bridgeObject: 0
+  bridgeStartLevelDistance: 0
+  bridgeEndLevelDistance: 0
+  rotation: 0
+  position: {x: -4.1760063, y: 0.95, z: -0.9559717}
+  oldPosition: {x: -4.1760063, y: 0.95, z: -0.9559717}
+  positionTmp: {x: 0, y: 0, z: 0}
+  controlType: 0
+  controlTypeTmp: 0
+  rotations: 0
+  circularRadius: 1
+  circularAngle: 90
+  circularSegments: 10
+  splineStrength: 0.5
+  direction: {x: -0.19685149, y: 0, z: -0.98043334}
+  direction1: {x: -0.19685149, y: 0, z: -0.98043334}
+  rl: {x: -2.9265556, y: 0.95, z: -0.91891813}
+  rr: {x: -5.425457, y: 0.95, z: -0.9930253}
+  followTerrainContours: 0
+  startSplinePoint: 6
+  startDistance: 9.450297
+  startUVY: 0
+  totalDistance: 1.4435177
+  totalDistanceString: 1.44 m
+  slopeAngle: 0
+  angleString: 0.00
+  gradeString: 0.00
+  rotationCenter: 0.5
+  soData: []
+  controllerType: 0
+  randomYPosition: 0
+  randomMinYPosition: 0
+  randomMaxYPosition: 0
+  minRandomYPositionDistance: 0
+  maxRandomYPositionDistance: 0
+  randomMinRotation: 0
+  randomMaxRotation: 0
+  minRandomRotationDistance: 0
+  maxRandomRotationDistance: 0
+  prevLeftIndent: 0
+  prevRightIndent: 0
+  prevLeftSurrounding: 0
+  prevRightSurrounding: 0
+  prevControlType: 0
+  snappedMarker: 0
+  attachExit: 0
+  exitType: 0
+  exitGeometryType: 0
+  startExitInt: 0
+  endExitInt: 0
+  startExitOffset: 0
+  extrusionDistance: 10
+  extrusionType: 0
+  fixedDistance: 10
+  connectionAngle: 10
+  connectionRadius: 5
+  exitMaterial: {fileID: 0}
+  connectionMaterial: {fileID: 0}
+  exitRoadType: 0
+  connectionRoadType: 0
+  exitInnerVertices: []
+  customColor: {r: 0, g: 0, b: 0, a: 0}
+  roadMarkerWidth: 0
+  roadShape:
+  - {x: 0.25, y: 0}
+  - {x: -0.25, y: 0}
+  roadShapeVecsGlobal:
+  - {x: -3.9261162, y: 0.95, z: -0.948561}
+  - {x: -4.4258966, y: 0.95, z: -0.9633824}
+  roadShapeDistanceMin: 0
+  roadShapeDistanceMax: 1
+  perpDir: {x: 0.99956053, y: 0, z: 0.029642897}
+  perpDirRotated: {x: 0.9995606, y: 0, z: 0.029642813}
+  markerStartUVY: 0.8900595
+  customPoints: []
+  handleObject: {fileID: 0}
 --- !u!1 &683517936
 GameObject:
   m_ObjectHideFlags: 0
@@ -420,10 +2520,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e71218f00789ef459760401a922c8ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forwardSpeed: 62.5
-  reverseSpeed: 31.25
-  boostMult: 2
-  turnSpeed: 150
+  forwardSpeed: 15.63
+  reverseSpeed: 7.81
+  boostMult: 1.25
+  turnSpeed: 50
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -438,15 +2538,153 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 739981276}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.6, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
-  m_ConstrainProportionsScale: 0
+  m_LocalRotation: {x: -0, y: -0.6714274, z: -0, w: 0.7410704}
+  m_LocalPosition: {x: 2.15, y: 1.1, z: 2.06}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1422510243005709727}
   - {fileID: 748400073}
   - {fileID: 1229839723}
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -84.355, z: 0}
+--- !u!1 &746957799
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 746957803}
+  - component: {fileID: 746957800}
+  - component: {fileID: 746957802}
+  - component: {fileID: 746957801}
+  m_Layer: 0
+  m_Name: Terrain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!218 &746957800
+Terrain:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746957799}
+  m_Enabled: 1
+  serializedVersion: 6
+  m_TerrainData: {fileID: 15600000, guid: 960e4271f9ad1954c97ee20648f18ffb, type: 2}
+  m_TreeDistance: 5000
+  m_TreeBillboardDistance: 50
+  m_TreeCrossFadeLength: 5
+  m_TreeMaximumFullLODCount: 50
+  m_DetailObjectDistance: 80
+  m_DetailObjectDensity: 1
+  m_HeightmapPixelError: 5
+  m_SplatMapDistance: 1000
+  m_HeightmapMaximumLOD: 0
+  m_ShadowCastingMode: 2
+  m_DrawHeightmap: 1
+  m_DrawInstanced: 0
+  m_DrawTreesAndFoliage: 1
+  m_StaticShadowCaster: 0
+  m_IgnoreQualitySettings: 0
+  m_ReflectionProbeUsage: 1
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
+  m_BakeLightProbesForTrees: 1
+  m_PreserveTreePrototypeLayers: 0
+  m_DeringLightProbesForTrees: 1
+  m_ReceiveGI: 1
+  m_ScaleInLightmap: 0.0256
+  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
+  m_GroupingID: 0
+  m_RenderingLayerMask: 1
+  m_AllowAutoConnect: 1
+  m_EnableHeightmapRayTracing: 1
+  m_EnableTreesAndDetailsRayTracing: 0
+  m_TreeMotionVectorModeOverride: 3
+--- !u!114 &746957801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746957799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 910771039, guid: f56d46228aee4734f9114056c53bb57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  surfacevecs: []
+  tdataFloat: []
+  terrainData: {fileID: 15600000, guid: 960e4271f9ad1954c97ee20648f18ffb, type: 2}
+  xStart: 234
+  zStart: 255
+  roadSurface: {fileID: 0}
+  surfaceMesh: {fileID: 0}
+  surfaceCollider: {fileID: 0}
+  terrainDataStored: []
+  terrainChanges: []
+  terrainTrees: []
+  detailInstances: []
+  detailInstanceStarts: 
+  surfaceObjects: []
+  terrainTestPoints: []
+  splatData: []
+  addedTrees: []
+  holes: []
+  terrainHeightsBackup: []
+  terrainTreesBackup: []
+  terrainDetailBackup: []
+  terrainSplatBackup: []
+  detailInstanceStartsBackUp: 
+  heightmapFlag: 0
+  splatmapFlag: 0
+  treeFlag: 0
+  detailFlag: 0
+  holesFlag: 1
+  terrainDone: 0
+  backupFlagNotification: 0
+  ignore: 0
+  backupObject: {fileID: 0}
+  terrain: {fileID: 0}
+--- !u!154 &746957802
+TerrainCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746957799}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_TerrainData: {fileID: 15600000, guid: 960e4271f9ad1954c97ee20648f18ffb, type: 2}
+  m_EnableTreeColliders: 1
+--- !u!4 &746957803
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746957799}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -467.53, y: 0.004000008, z: -505.53}
+  m_LocalScale: {x: 1.4331, y: 1.4331, z: 1.4331}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 823777757}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &748400068
 GameObject:
@@ -606,13 +2844,429 @@ Transform:
   m_GameObject: {fileID: 823777756}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.736, z: 0}
+  m_LocalPosition: {x: 0, y: 0.945, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 187555448}
   - {fileID: 683517937}
+  - {fileID: 746957803}
+  - {fileID: 1451405615}
+  - {fileID: 1983559467}
+  - {fileID: 1901994114}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &846475767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1475867795, guid: f56d46228aee4734f9114056c53bb57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OSMNodeID: 0
+  activeSplineNode: 1
+  leftIndent: 3.6621094
+  leftIndentAlignment: 0
+  rightIndent: 3.6621094
+  rightIndentAlignment: 0
+  leftSurrounding: 2
+  rightSurrounding: 2
+  leftSurroundingAdjusted: 0
+  rightSurroundingAdjusted: 0
+  radius: 0
+  bridgeObject: 0
+  bridgeStartLevelDistance: 0
+  bridgeEndLevelDistance: 0
+  rotation: 0
+  position: {x: 1.9013624, y: 0.95, z: 2.067844}
+  oldPosition: {x: 1.9013624, y: 0.95, z: 2.067844}
+  positionTmp: {x: 0, y: 0, z: 0}
+  controlType: 0
+  controlTypeTmp: 0
+  rotations: 0
+  circularRadius: 1
+  circularAngle: 90
+  circularSegments: 10
+  splineStrength: 0.5
+  direction: {x: -0.8132851, y: 0, z: 0.5818654}
+  direction1: {x: -0.8132851, y: 0, z: 0.5818654}
+  rl: {x: 1.5564222, y: 0.95, z: 0.8663798}
+  rr: {x: 2.2463026, y: 0.95, z: 3.269308}
+  followTerrainContours: 0
+  startSplinePoint: 2
+  startDistance: 1.2821479
+  startUVY: 0
+  totalDistance: 1.7712102
+  totalDistanceString: 1.77 m
+  slopeAngle: 0.032341003
+  angleString: 0.03
+  gradeString: 0.06
+  rotationCenter: 0.5
+  soData: []
+  controllerType: 0
+  randomYPosition: 0
+  randomMinYPosition: 0
+  randomMaxYPosition: 0
+  minRandomYPositionDistance: 0
+  maxRandomYPositionDistance: 0
+  randomMinRotation: 0
+  randomMaxRotation: 0
+  minRandomRotationDistance: 0
+  maxRandomRotationDistance: 0
+  prevLeftIndent: 0
+  prevRightIndent: 0
+  prevLeftSurrounding: 0
+  prevRightSurrounding: 0
+  prevControlType: 0
+  snappedMarker: 0
+  attachExit: 0
+  exitType: 0
+  exitGeometryType: 0
+  startExitInt: 0
+  endExitInt: 0
+  startExitOffset: 0
+  extrusionDistance: 10
+  extrusionType: 0
+  fixedDistance: 10
+  connectionAngle: 10
+  connectionRadius: 5
+  exitMaterial: {fileID: 0}
+  connectionMaterial: {fileID: 0}
+  exitRoadType: 0
+  connectionRoadType: 0
+  exitInnerVertices: []
+  customColor: {r: 0, g: 0, b: 0, a: 0}
+  roadMarkerWidth: 0
+  roadShape:
+  - {x: 0.25, y: 0}
+  - {x: -0.25, y: 0}
+  roadShapeVecsGlobal:
+  - {x: 1.8323743, y: 0.95, z: 1.8275511}
+  - {x: 1.9703505, y: 0.95, z: 2.3081367}
+  roadShapeDistanceMin: 0
+  roadShapeDistanceMax: 1
+  perpDir: {x: -0.27595213, y: 0, z: -0.9611713}
+  perpDirRotated: {x: -0.2759524, y: 0, z: -0.9611713}
+  markerStartUVY: 0.25642958
+  customPoints: []
+  handleObject: {fileID: 0}
+--- !u!28 &862688055
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 2
+  m_Width: 2
+  m_Height: 2
+  m_CompleteImageSize: 20
+  m_MipsStripped: 0
+  m_TextureFormat: 4
+  m_MipCount: 2
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 0
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 20
+  _typelessdata: 414141ff414141ff414141ff414141ff414141ff
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+--- !u!114 &906229087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1475867795, guid: f56d46228aee4734f9114056c53bb57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OSMNodeID: 0
+  activeSplineNode: 1
+  leftIndent: 3.6621094
+  leftIndentAlignment: 0
+  rightIndent: 3.6621094
+  rightIndentAlignment: 0
+  leftSurrounding: 2
+  rightSurrounding: 2
+  leftSurroundingAdjusted: 0
+  rightSurroundingAdjusted: 0
+  radius: 0
+  bridgeObject: 0
+  bridgeStartLevelDistance: 0
+  bridgeEndLevelDistance: 0
+  rotation: 0
+  position: {x: 1.2086575, y: 1.7683356, z: -1.4202015}
+  oldPosition: {x: 1.2086575, y: 1.7683356, z: -1.4202015}
+  positionTmp: {x: 0, y: 0, z: 0}
+  controlType: 0
+  controlTypeTmp: 0
+  rotations: 0
+  circularRadius: 1
+  circularAngle: 90
+  circularSegments: 10
+  splineStrength: 0.5
+  direction: {x: 0.8478613, y: 0.36731905, z: 0.3823715}
+  direction1: {x: 0.8478613, y: 0.36731905, z: 0.3823715}
+  rl: {x: 0.67578495, y: 1.7683399, z: -0.32530612}
+  rr: {x: 1.7415301, y: 1.7683313, z: -2.515097}
+  followTerrainContours: 0
+  startSplinePoint: 11
+  startDistance: 16.263258
+  startUVY: 0
+  totalDistance: 0.46318626
+  totalDistanceString: 0.46 m
+  slopeAngle: 1.9935684
+  angleString: 1.99
+  gradeString: 3.48
+  rotationCenter: 0.5
+  soData: []
+  controllerType: 0
+  randomYPosition: 0
+  randomMinYPosition: 0
+  randomMaxYPosition: 0
+  minRandomYPositionDistance: 0
+  maxRandomYPositionDistance: 0
+  randomMinRotation: 0
+  randomMaxRotation: 0
+  minRandomRotationDistance: 0
+  maxRandomRotationDistance: 0
+  prevLeftIndent: 0
+  prevRightIndent: 0
+  prevLeftSurrounding: 0
+  prevRightSurrounding: 0
+  prevControlType: 0
+  snappedMarker: 0
+  attachExit: 0
+  exitType: 0
+  exitGeometryType: 0
+  startExitInt: 0
+  endExitInt: 0
+  startExitOffset: 0
+  extrusionDistance: 10
+  extrusionType: 0
+  fixedDistance: 10
+  connectionAngle: 10
+  connectionRadius: 5
+  exitMaterial: {fileID: 0}
+  connectionMaterial: {fileID: 0}
+  exitRoadType: 0
+  connectionRoadType: 0
+  exitInnerVertices: []
+  customColor: {r: 0, g: 0, b: 0, a: 0}
+  roadMarkerWidth: 0
+  roadShape:
+  - {x: 0.25, y: 0}
+  - {x: -0.25, y: 0}
+  roadShapeVecsGlobal:
+  - {x: 1.0992537, y: 1.7683399, z: -1.195411}
+  - {x: 1.3180614, y: 1.7683313, z: -1.6449921}
+  roadShapeDistanceMin: 0
+  roadShapeDistanceMax: 1
+  perpDir: {x: -0.4234687, y: 0, z: 0.87010485}
+  perpDirRotated: {x: -0.4376154, y: 0.000017166138, z: 0.8991623}
+  markerStartUVY: 0.2526517
+  customPoints: []
+  handleObject: {fileID: 0}
+--- !u!43 &915785168
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ER Road Mesh
+  serializedVersion: 11
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 96
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 34
+    localAABB:
+      m_Center: {x: -0.28973293, y: 1.3643461, z: -0.28868854}
+      m_Extent: {x: 4.1361637, y: 0.41535047, z: 2.7691092}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 00000300010002000300000002000500030004000500020004000700050006000700040006000900070008000900060008000b0009000a000b0008000a000d000b000c000d000a000c000f000d000e000f000c000e0011000f00100011000e0010001300110012001300100012001500130014001500120014001700150016001700140016001900170018001900160018001b0019001a001b0018001a001d001b001c001d001a001c001f001d001e001f001c001e0021001f00200021001e00
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 34
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 56
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 64
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 2448
+    _typelessdata: 0c1d33403333733f862a8f3f000000000000803f00000000ceb1053f00000000d5505a3f000080bf000000000000000000000000000000000000000000000000ebcef03eb7b3013fb0bb45403333733f6237c33f000000000000803f0000000022f5143f000000007333503f000080bf000000000000000000000000000000000000803f000000000df5f03e5dce013f3e8bea3f3333733f32ede93f8fbcdeb9feff7f3f497b9138a50c833ea8d02e38e578773f000080bf000000000000000000000000000000000000000094857a3e4450f03e2fe2013f7234fc3f3333733f83b813404b326cb9ffff7f3fc29f87387026a03eae8a17377c27733f000080bf000000000000000000000000000000000000803f94857a3e5a62f03eae01023f6326f63daaf1723fbf97f03f4ae633390000803fd0cd14382a25cd3c0fc726b873eb7f3f000080bf00000000000000000000000000000000000000009126153fd86fef3e99e5013fe0aa113eaaf1723fe54318407b9134b90000803f5e5d4f38ac79813d9c4921b8e77c7f3f000080bf000000000000000000000000000000000000803f9126153fbd72ef3e5506023f0e4cecbf3333733fe2d1fe3fa67435390000803f52171638105f76beac96e736e37a783f000080bf0000000000000000000000000000000000000000ab58783f206eee3ee2ec013fde41f9bf3333733f37bf1e40a737a939ffff7f3f9dc0d8377c4339be32550a387fc67b3f000080bf000000000000000000000000000000000000803fab58783fda60ee3ef90c023f25d260c03333733f1b20983f000000000000803f00000000703d55bf0000000062a60d3f000080bf000000000000000000000000000000000000000003c6ad3fa993ed3e4db8013fa1dc7ac03333733f0d52bd3f00000000ffff7f3f00000000892246bf000000004c1b223f000080bf000000000000000000000000000000000000803f03c6ad3f545eed3e59cb013f7d457bc03333733fe5d472bf000000000000803f0000000019427fbf0000000081cb9bbd000080bf00000000000000000000000000000000000000007cd0e63f7d5ded3e402c013ff2a08dc03333733f3ba076bf00000000ffff7f3f0000000090e47fbf000000007504ed3c000080bf000000000000000000000000000000000000803f7cd0e63ffb1bed3e472b013f92025dc03333733fe99f05c0e9ef08b60000803f4fade5b69d0b16bf9f38e2b61b6b4fbf000080bf000000000000000000000000000000000000000013090540779bed3e95e1003f18f170c03333733fbfa81ec054fa4e350000803f22ca24b5067b31bfc7e3c533817d38bf000080bf000000000000000000000000000000000000803f13090540a572ed3ef2c7003f5440edbf7d33733fc0b323c04756d8350000803fcbc48fb7f6be3d3da13d90b7a5b97fbf000080bf000000000000000000000000000000000000000027731b40266dee3ec8c2003f085decbfe932733ff6b243c0c3dd6f340000803f77f041b7688d6fbd5e6341b7d38f7fbf000080bf000000000000000000000000000000000000803f27731b400e6eee3e05a2003ff77713bf7c33733fe5ca00c037ed70be8a30773f660be3bd52cad53e8b0b29bb079d68bf000080bf000000000000000000000000000000000000000038a52d409714ef3e88e6003f0af3bcbeea32733fd3eb1dc0d2fecebdb36a7e3fe25f3cbde6ccbb3e794abcbb07276ebf000080bf000000000000000000000000000000000000803f38a52d40b92fef3eb4c8003fd0bd313e4e06af3fee72cebf6183b3be9cb96b3f0bf92ebeec56e03e35d70438031e66bf000080bf0000000000000000000000000000000000000000d8463940d876ef3eb600013ff811c93e0a06af3fc1fc03c020e5bebe9025693ff2ea35be9e37de3edde8fe3a84a166bf000080bf000000000000000000000000000000000000803fd84639409193ef3e42e3003f58b48c3ff658e23f3a0399bf6e022cbec37d7b3f3e9ba7bd7e82df3ef4f69fb9aa5166bf000080bf0000000000000000000000000000000000000000719b46402cf0ef3e121c013f3cb6a83fae58e23f1a8fd2bf2d8a8abed920743ff3ff06be8822e03e597eafb8c62a66bf000080bf000000000000000000000000000000000000803f719b4640da0cf03e9cfe003f5a6fc03fd448e03fd03877bf095b03bd42dc7f3f16ff00bc35f2b53e685a843bc6496fbf000080bf00000000000000000000000000000000000000007c434c402525f03e202b013fdcfcdb3fd448e03f985eb5bf18dc663b7dff7f3fa983ea3a7f83dd3ebdb7ba38f5cc66bf000080bf000000000000000000000000000000000000803f7c434c405c41f03e8e0d013feddcf33f19cde33fc98852bf043c713b3fff7f3f6e42483be6b15a3eb71e103bc9177abf000080bf0000000000000000000000000000000000000000e99b5040cf59f03e8434013f95d7fd3fcfcce33f007ca8bf5c13ccbca1e87f3f38941dbc80025c3e0a7584bbf2047abf000080bf000000000000000000000000000000000000803fe99b50400764f03e2614013f5d1a1f408293e13fa4a24ebf5cc4933e99786d3f9fce723eb9e7f33e4b099b3df73f60bf000080bf00000000000000000000000000000000000000005a685840efa5f03e8435013fc15c2b403c93e13f4e6fa2bfb041583e9d42793fb3b5af3d2e6cb33e798ed53bb1c26fbf000080bf000000000000000000000000000000000000803f5a6858400bbff03e3f17013f8519504005849d3f8a719bbe3ae2043eafa66e3f7bf3ac3e148b623f7a70373d5457edbe000080bf00000000000000000000000000000000000000008aec6640480af13e8456013fffe46a40c1839d3f89b213bff4828e3eda796c3fb3b9863e0505443f31aa44bde23224bf000080bf000000000000000000000000000000000000803f8aec66402841f13e9a44013f02775740f3f1723f8a20ec3e7fa2f0bc4e947e3fbae4ce3dcacf6f3f3df800bc7122b33e000080bf0000000000000000000000000000000000000000446873405d19f13ea388013fec2b764061f1723fe3151a3f85dcd13c62147c3f8695303ee2757d3fa10248bd9ce8063e000080bf000000000000000000000000000000000000803f446873404058f13edc91013f0c1d33403333733f862a8f3f02627b3af4ff7f3f21da33ba22f5143f2bd7132e7333503f000080bf000000000000000000000000000000000000000000008040dfc8f03e84b6013fb0bb45403333733f6237c33f4386153af8ff7f3f73604eba27103e3f27f3d938d47f2b3f000080bf000000000000000000000000000000000000803f0000804018fbf03e91cb013f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: -0.28973293, y: 1.3643461, z: -0.28868854}
+    m_Extent: {x: 4.1361637, y: 0.41535047, z: 2.7691092}
+  m_MeshUsageFlags: 0
+  m_CookingOptions: 30
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &1098279275
 GameObject:
   m_ObjectHideFlags: 0
@@ -793,7 +3447,7 @@ Transform:
   m_GameObject: {fileID: 1229839720}
   serializedVersion: 2
   m_LocalRotation: {x: 0.21164133, y: -0, z: -0, w: 0.97734743}
-  m_LocalPosition: {x: 0, y: 2.71, z: -5.25}
+  m_LocalPosition: {x: 0.5, y: 2.71, z: -10.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -904,6 +3558,351 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1901994114}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!114 &1361031891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1475867795, guid: f56d46228aee4734f9114056c53bb57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OSMNodeID: 0
+  activeSplineNode: 1
+  leftIndent: 3.6621094
+  leftIndentAlignment: 0
+  rightIndent: 3.6621094
+  rightIndentAlignment: 0
+  leftSurrounding: 2
+  rightSurrounding: 2
+  leftSurroundingAdjusted: 0
+  rightSurroundingAdjusted: 0
+  radius: 0
+  bridgeObject: 0
+  bridgeStartLevelDistance: 0
+  bridgeEndLevelDistance: 0
+  rotation: 0
+  position: {x: 1.9441606, y: 1.7796922, z: -1.0693419}
+  oldPosition: {x: 1.9441606, y: 1.7796922, z: -1.0693419}
+  positionTmp: {x: 0, y: 0, z: 0}
+  controlType: 0
+  controlTypeTmp: 0
+  rotations: 0
+  circularRadius: 1
+  circularAngle: 90
+  circularSegments: 10
+  splineStrength: 0.5
+  direction: {x: 0.93622077, y: 0.077199, z: 0.34282786}
+  direction1: {x: 0.93622077, y: 0.077199, z: 0.34282786}
+  rl: {x: 1.7492642, y: 1.7796966, z: 0.16531742}
+  rr: {x: 2.139057, y: 1.7796878, z: -2.3040013}
+  followTerrainContours: 0
+  startSplinePoint: 13
+  startDistance: 17.082273
+  startUVY: 0
+  totalDistance: 0.6386013
+  totalDistanceString: 0.64 m
+  slopeAngle: 1.5597382
+  angleString: 1.56
+  gradeString: 2.72
+  rotationCenter: 0.5
+  soData: []
+  controllerType: 0
+  randomYPosition: 0
+  randomMinYPosition: 0
+  randomMaxYPosition: 0
+  minRandomYPositionDistance: 0
+  maxRandomYPositionDistance: 0
+  randomMinRotation: 0
+  randomMaxRotation: 0
+  minRandomRotationDistance: 0
+  maxRandomRotationDistance: 0
+  prevLeftIndent: 0
+  prevRightIndent: 0
+  prevLeftSurrounding: 0
+  prevRightSurrounding: 0
+  prevControlType: 0
+  snappedMarker: 0
+  attachExit: 0
+  exitType: 0
+  exitGeometryType: 0
+  startExitInt: 0
+  endExitInt: 0
+  startExitOffset: 0
+  extrusionDistance: 10
+  extrusionType: 0
+  fixedDistance: 10
+  connectionAngle: 10
+  connectionRadius: 5
+  exitMaterial: {fileID: 0}
+  connectionMaterial: {fileID: 0}
+  exitRoadType: 0
+  connectionRoadType: 0
+  exitInnerVertices: []
+  customColor: {r: 0, g: 0, b: 0, a: 0}
+  roadMarkerWidth: 0
+  roadShape:
+  - {x: 0.25, y: 0}
+  - {x: -0.25, y: 0}
+  roadShapeVecsGlobal:
+  - {x: 1.9051796, y: 1.7796966, z: -0.8223997}
+  - {x: 1.9831415, y: 1.7796878, z: -1.3162842}
+  roadShapeDistanceMin: 0
+  roadShapeDistanceMax: 1
+  perpDir: {x: -0.15591533, y: 0, z: 0.9877171}
+  perpDirRotated: {x: -0.15592386, y: 0.000017642977, z: 0.98776907}
+  markerStartUVY: 0.4164548
+  customPoints: []
+  handleObject: {fileID: 0}
+--- !u!114 &1383031141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1475867795, guid: f56d46228aee4734f9114056c53bb57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OSMNodeID: 0
+  activeSplineNode: 1
+  leftIndent: 0
+  leftIndentAlignment: 0
+  rightIndent: 3.6621094
+  rightIndentAlignment: 0
+  leftSurrounding: 2
+  rightSurrounding: 2
+  leftSurroundingAdjusted: 0
+  rightSurroundingAdjusted: 0
+  radius: 0
+  bridgeObject: 0
+  bridgeStartLevelDistance: 0
+  bridgeEndLevelDistance: 0
+  rotation: 0
+  position: {x: -3.7162712, y: 0.95, z: 1.3337731}
+  oldPosition: {x: -3.7162712, y: 0.95, z: 1.3337731}
+  positionTmp: {x: 0, y: 0, z: 0}
+  controlType: 0
+  controlTypeTmp: 0
+  rotations: 0
+  circularRadius: 1
+  circularAngle: 90
+  circularSegments: 10
+  splineStrength: 0.5
+  direction: {x: -0.89598954, y: 0, z: -0.4440752}
+  direction1: {x: -0.89598954, y: 0, z: -0.4440752}
+  rl: {x: -2.6990464, y: 0.95, z: 0.60730654}
+  rr: {x: -4.733496, y: 0.95, z: 2.0602398}
+  followTerrainContours: 0
+  startSplinePoint: 5
+  startDistance: 7.114856
+  startUVY: 0
+  totalDistance: 2.3354416
+  totalDistanceString: 2.34 m
+  slopeAngle: 0
+  angleString: 0.00
+  gradeString: 0.00
+  rotationCenter: 0.5
+  soData: []
+  controllerType: 0
+  randomYPosition: 0
+  randomMinYPosition: 0
+  randomMaxYPosition: 0
+  minRandomYPositionDistance: 0
+  maxRandomYPositionDistance: 0
+  randomMinRotation: 0
+  randomMaxRotation: 0
+  minRandomRotationDistance: 0
+  maxRandomRotationDistance: 0
+  prevLeftIndent: 0
+  prevRightIndent: 0
+  prevLeftSurrounding: 0
+  prevRightSurrounding: 0
+  prevControlType: 0
+  snappedMarker: 0
+  attachExit: 0
+  exitType: 0
+  exitGeometryType: 0
+  startExitInt: 0
+  endExitInt: 0
+  startExitOffset: 0
+  extrusionDistance: 10
+  extrusionType: 0
+  fixedDistance: 10
+  connectionAngle: 10
+  connectionRadius: 5
+  exitMaterial: {fileID: 0}
+  connectionMaterial: {fileID: 0}
+  exitRoadType: 0
+  connectionRoadType: 0
+  exitInnerVertices: []
+  customColor: {r: 0, g: 0, b: 0, a: 0}
+  roadMarkerWidth: 0
+  roadShape:
+  - {x: 0.25, y: 0}
+  - {x: -0.25, y: 0}
+  roadShapeVecsGlobal:
+  - {x: -3.5128262, y: 0.95, z: 1.1884798}
+  - {x: -3.9197161, y: 0.95, z: 1.4790665}
+  roadShapeDistanceMin: 0
+  roadShapeDistanceMax: 1
+  perpDir: {x: 0.8137799, y: 0, z: -0.58117324}
+  perpDirRotated: {x: 0.8137797, y: 0, z: -0.58117336}
+  markerStartUVY: 0.42297113
+  customPoints: []
+  handleObject: {fileID: 0}
+--- !u!114 &1408594635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1475867795, guid: f56d46228aee4734f9114056c53bb57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OSMNodeID: 0
+  activeSplineNode: 1
+  leftIndent: 3.8039002
+  leftIndentAlignment: 0
+  rightIndent: 3.6621094
+  rightIndentAlignment: 0
+  leftSurrounding: 2
+  rightSurrounding: 2
+  leftSurroundingAdjusted: 0
+  rightSurroundingAdjusted: 0
+  radius: 0
+  bridgeObject: 0
+  bridgeStartLevelDistance: 0
+  bridgeEndLevelDistance: 0
+  rotation: 0
+  position: {x: -3.6089985, y: 0.95, z: -2.2834673}
+  oldPosition: {x: -3.6089985, y: 0.95, z: -2.2834673}
+  positionTmp: {x: 0, y: 0, z: 0}
+  controlType: 0
+  controlTypeTmp: 0
+  rotations: 0
+  circularRadius: 1
+  circularAngle: 90
+  circularSegments: 10
+  splineStrength: 0.5
+  direction: {x: 0.39279595, y: 0, z: -0.91962564}
+  direction1: {x: 0.39279595, y: 0, z: -0.91962564}
+  rl: {x: -2.8304157, y: 0.95, z: -1.3055568}
+  rr: {x: -4.3875813, y: 0.95, z: -3.2613778}
+  followTerrainContours: 0
+  startSplinePoint: 7
+  startDistance: 10.893815
+  startUVY: 0
+  totalDistance: 1.8354349
+  totalDistanceString: 1.84 m
+  slopeAngle: 0
+  angleString: 0.00
+  gradeString: 0.00
+  rotationCenter: 0.5
+  soData: []
+  controllerType: 0
+  randomYPosition: 0
+  randomMinYPosition: 0
+  randomMaxYPosition: 0
+  minRandomYPositionDistance: 0
+  maxRandomYPositionDistance: 0
+  randomMinRotation: 0
+  randomMaxRotation: 0
+  minRandomRotationDistance: 0
+  maxRandomRotationDistance: 0
+  prevLeftIndent: 0
+  prevRightIndent: 0
+  prevLeftSurrounding: 0
+  prevRightSurrounding: 0
+  prevControlType: 0
+  snappedMarker: 0
+  attachExit: 0
+  exitType: 0
+  exitGeometryType: 0
+  startExitInt: 0
+  endExitInt: 0
+  startExitOffset: 0
+  extrusionDistance: 10
+  extrusionType: 0
+  fixedDistance: 10
+  connectionAngle: 10
+  connectionRadius: 5
+  exitMaterial: {fileID: 0}
+  connectionMaterial: {fileID: 0}
+  exitRoadType: 0
+  connectionRoadType: 0
+  exitInnerVertices: []
+  customColor: {r: 0, g: 0, b: 0, a: 0}
+  roadMarkerWidth: 0
+  roadShape:
+  - {x: 0.25, y: 0}
+  - {x: -0.25, y: 0}
+  roadShapeVecsGlobal:
+  - {x: -3.4532819, y: 0.95, z: -2.0878851}
+  - {x: -3.7647152, y: 0.95, z: -2.4790494}
+  roadShapeDistanceMin: 0
+  roadShapeDistanceMax: 1
+  perpDir: {x: 0.6228662, y: 0, z: 0.78232837}
+  perpDirRotated: {x: 0.62286633, y: 0, z: 0.78232825}
+  markerStartUVY: 0.17876291
+  customPoints: []
+  handleObject: {fileID: 0}
+--- !u!28 &1429306167
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 2
+  m_Width: 12
+  m_Height: 12
+  m_CompleteImageSize: 760
+  m_MipsStripped: 0
+  m_TextureFormat: 4
+  m_MipCount: 4
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 0
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 760
+  _typelessdata: 0000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc0000000000000000000000000000000000000000ffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffcc0000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc000000000000000000000000000000000000000000000000000000007f7f7f667f7f7f66000000000000000000000000000000007f7f7f667f7f7f6600000000000000007f7f7f667f7f7f66bfbfbf99bfbfbf997f7f7f667f7f7f667f7f7f667f7f7f66bfbfbf99bfbfbf997f7f7f667f7f7f6600000000000000007f7f7f667f7f7f66000000000000000000000000000000007f7f7f667f7f7f660000000000000000000000007f7f7f66000000007f7f7f66bfbfbf997f7f7f66000000007f7f7f6600000000bfbfbf99
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &1433772348
 GameObject:
   m_ObjectHideFlags: 0
@@ -1003,7 +4002,7 @@ Transform:
   m_GameObject: {fileID: 1433772348}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -5.3539114, y: 1.3609319, z: 0.69415355}
+  m_LocalPosition: {x: -6.45, y: 1.3609319, z: 0.69415355}
   m_LocalScale: {x: 9.754005, y: 4.6416, z: 3.5871}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1017,13 +4016,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1451667809}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.4807167, y: 0.0000019073486, z: 7.050204}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0.5108592, z: -0, w: -0.8596645}
+  m_LocalPosition: {x: -0.55, y: 0.009000003, z: -2.53}
+  m_LocalScale: {x: 0.049999997, y: 0.07, z: 0.049999997}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Father: {fileID: 823777757}
+  m_LocalEulerAnglesHint: {x: 0, y: -298.55798, z: 0}
 --- !u!1 &1451667809
 GameObject:
   m_ObjectHideFlags: 0
@@ -1214,108 +4213,204 @@ Transform:
   m_GameObject: {fileID: 1489107610}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5439111, y: 1.3609319, z: 5.7441535}
+  m_LocalPosition: {x: -0.5439111, y: 1.3609319, z: 5.34}
   m_LocalScale: {x: 10.072071, y: 4.6416, z: 3.5871}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1901994114}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1589450893
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: cb1572db4713b404e8e51018f3b3bd27, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 96.87178
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: cb1572db4713b404e8e51018f3b3bd27, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 96.87178
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: cb1572db4713b404e8e51018f3b3bd27, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 96.87178
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: cb1572db4713b404e8e51018f3b3bd27, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.06
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: cb1572db4713b404e8e51018f3b3bd27, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.46
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: cb1572db4713b404e8e51018f3b3bd27, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.28
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: cb1572db4713b404e8e51018f3b3bd27, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: cb1572db4713b404e8e51018f3b3bd27, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: cb1572db4713b404e8e51018f3b3bd27, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: cb1572db4713b404e8e51018f3b3bd27, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: cb1572db4713b404e8e51018f3b3bd27, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: cb1572db4713b404e8e51018f3b3bd27, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: cb1572db4713b404e8e51018f3b3bd27, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: cb1572db4713b404e8e51018f3b3bd27, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: cb1572db4713b404e8e51018f3b3bd27, type: 3}
-      propertyPath: m_CastShadows
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: cb1572db4713b404e8e51018f3b3bd27, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 4da92ec84489a124ca143d3024de66e8, type: 2}
-    - target: {fileID: 919132149155446097, guid: cb1572db4713b404e8e51018f3b3bd27, type: 3}
-      propertyPath: m_Name
-      value: model_of_room_combined_cmr
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cb1572db4713b404e8e51018f3b3bd27, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1589450895}
-  m_SourcePrefab: {fileID: 100100000, guid: cb1572db4713b404e8e51018f3b3bd27, type: 3}
---- !u!1 &1589450894 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: cb1572db4713b404e8e51018f3b3bd27, type: 3}
-  m_PrefabInstance: {fileID: 1589450893}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &1589450895
-MeshCollider:
+--- !u!43 &1672765382
+Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1589450894}
+  m_Name: 
+  serializedVersion: 11
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 384
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 85
+    localAABB:
+      m_Center: {x: -0.40290785, y: 1.3443465, z: -0.34181213}
+      m_Extent: {x: 9.68261, y: 0.41541463, z: 8.37755}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 00000600010005000600000001000700020006000700010002000800030007000800020003000900040008000900030005000b0006000a000b00050006000c0007000b000c00060007000d0008000c000d00070008000e0009000d000e0008000a0010000b000f0010000a000b0011000c00100011000b000c0012000d00110012000c000d0013000e00120013000d000f0015001000140015000f0010001600110015001600100011001700120016001700110012001800130017001800120014001a00150019001a00140015001b0016001a001b00150016001c0017001b001c00160017001d0018001c001d00170019001f001a001e001f0019001a0020001b001f0020001a001b0021001c00200021001b001c0022001d00210022001c001e0024001f00230024001e001f0025002000240025001f0020002600210025002600200021002700220026002700210023002900240028002900230024002a00250029002a00240025002b0026002a002b00250026002c0027002b002c00260028002e0029002d002e00280029002f002a002e002f0029002a0030002b002f0030002a002b0031002c00300031002b002d0033002e00320033002d002e0034002f00330034002e002f0035003000340035002f0030003600310035003600300032003800330037003800320033003900340038003900330034003a00350039003a00340035003b0036003a003b00350037003d0038003c003d00370038003e0039003d003e00380039003f003a003e003f0039003a0040003b003f0040003a003c0042003d00410042003c003d0043003e00420043003d003e0044003f00430044003e003f0045004000440045003f0041004700420046004700410042004800430047004800420043004900440048004900430044004a00450049004a00440046004c0047004b004c00460047004d0048004c004d00470048004e0049004d004e00480049004f004a004e004f0049004b0051004c00500051004b004c0052004d00510052004c004d0053004e00520053004d004e0054004f00530054004e00
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 85
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 4080
+    _typelessdata: 90ebfdbeaaf1723f91215fc09dbccdb7fcff7fbf91d6163a0000000000000000000000000000000000000000000000007cf42a3f3333733fae0feebf13fd19b80000803f29990d3800000000000000000000000000000000000000000000803f5e6c3c403333733ff430a93f000000000000803f0000000000000000000000000000000000000000000000000000803fce0da7403333733f661c9040da4c0e390000803fcafd753900000000000000000000000000000000000000000000803f174bcc40aaf1723f4229c44041398239feff7f3f9127e5390000000000000000000000000000000000000000000000008c308a3eaaf1723f595767c0291a03bbdcff7f3fc7860d3a000000000000000000000000000000000000000000000000e861523f3333733f5e9fd8bf24dd80baf8ff7f3f0100493900000000000000000000000000000000000000000000803fd85ff33f3333733f8e5704402800b4b90000803fede5923800000000000000000000000000000000000000000000803f5ec73e403333733f667fba40fe54d0b80000803f7b6c243900000000000000000000000000000000000000000000803fc6196240aaf1723f3a03f8404cc63e39ffff7f3f2312f339000000000000000000000000000000000000000000000000f60606beaaf1723f168273c0a1b7e839feff7f3f38f82eb9000000000000000000000000000000000000000000000000eea02ebdaaf1723f0144e7bfcbe05439feff7f3f82c6a53700000000000000000000000000000000000000000000803f095f063eaaf1723fe24708405211d6350000803f7cbb303800000000000000000000000000000000000000000000803fe9919b3eaaf1723fba34c140f6dfa7b80000803f1043cb3800000000000000000000000000000000000000000000803f46c1c83eaaf1723f6292004167dec1b80000803f36c03639000000000000000000000000000000000000000000000000d41033bfaaf1723f0d7563c0b23300bafdff7fbfc171c339000000000000000000000000000000000000000000000000aa5f8dbf3333733fe837ccbf837d013afeff7f3f3dd1943800000000000000000000000000000000000000000000803ff6c6f2bf3333733f14140f40164468390000803f01fce13700000000000000000000000000000000000000000000803f21172cc03333733f0e22c240401c83380000803f3d395f3900000000000000000000000000000000000000000000803fc10246c0aaf1723f4d6700413fa956b8ffff7f3f93e3ba3900000000000000000000000000000000000000000000000026258c3faaf1723f3c8a06c0a9f3bfb9feff7fbfc304dc39000000000000000000000000000000000000000000000000745d08bf3333733f669970bfbe1d89bae8ff7fbf69e5b53a00000000000000000000000000000000000000000000803f63d76dc03333733f14b9aa3f000000000000803f0000000000000000000000000000000000000000000000000000803fb4cbdcc03333733f6edf6640f4293db90000803fe5cec93800000000000000000000000000000000000000000000803f567008c1aaf1723fa8a1984071b3bcb9feff7f3f33fdb539000000000000000000000000000000000000000000000000d5980240aaf1723f798845bfb2c9fbb9feff7fbfbe3925b90000000000000000000000000000000000000000000000000080293d3333733ff6b554bf37ddacb9feff7fbf19b12c3800000000000000000000000000000000000000000000803fd8a185c03333733f90ba74bf000000000000803f0000000000000000000000000000000000000000000000000000803fe26101c13333733f413589bfeeb353b90000803f73bf51b800000000000000000000000000000000000000000000803f485e21c1aaf1723fedcb90bf2a4904bafeff7f3f4bb8ccb5000000000000000000000000000000000000000000000000a0a7253eaaf1723f8bf81c40b9422c3bbdff7fbff2f9863a00000000000000000000000000000000000000000000000038bf8abf3333733fd854633f1628293cbffb7fbf9da29dbb00000000000000000000000000000000000000000000803fd5f966c03333733f542412c0cd93ca3b75fe7f3f846b44bb00000000000000000000000000000000000000000000803f8a76c1c03333733f3802abc0b32af13ae3ff7f3f4335c73900000000000000000000000000000000000000000000803f9453e9c0aaf1723fe213ddc0f4c1c7b9feff7f3f7875aeb90000000000000000000000000000000000000000000000004a6af6bfaaf1723fc48a264088eb6b3b0cfa7fbf8ecc543c0000000000000000000000000000000000000000000000001ac1f3bf01196e3ff24c8d3f4cac1b3d72cf7fbfb267c63b00000000000000000000000000000000000000000000803faeceecbf7b146e3f5bb333c096d1d73b82fe7f3fa3acbfba00000000000000000000000000000000000000000000803f42dce5bff50f6e3f9806d7c05523413b74ff7f3f747b393b00000000000000000000000000000000000000000000803f124fe2bfaaf1723f82820bc11cbcd43aeffe7f3f14c9b33b0000000000000000000000000000000000000000000000005ae53ac0aaf1723f0911494008cf08bfb47f573f40df9bbd000000000000000000000000000000000000000000000000e7e605c0f1186e3f9e1aa93fab8a04bf0f0a523fa24378be00000000000000000000000000000000000000000000803f7cf1f1be7b146e3f5c5b0fc0c6604fbe9a87793fb22cc1bd00000000000000000000000000000000000000000000803f10d5923f05106e3f04a2b9c0776888bd1f357f3f81202bbd00000000000000000000000000000000000000000000803ff6d1fc3faaf1723fe0e3f3c09e6546bbe8fc7f3f7e50173c00000000000000000000000000000000000000000000000075bb1ac0aaf1723f79e36c407d5d53beffa0753f9360443e000000000000000000000000000000000000000000000000db43c5bf0679ac3fa0acf33f8414b6bed9f46c3f35a004be00000000000000000000000000000000000000000000803f70f8903ed076ac3f3836ebbff60abcbec6c1693f2e4535be00000000000000000000000000000000000000000000803ffcb5ff3fbc74ac3f8b53abc0966f90bef4526e3fa5646dbe00000000000000000000000000000000000000000000803f85f43740aaf1723f1edae4c09c268cbdd6807b3fdec531be0000000000000000000000000000000000000000000000001075b0bfaaf1723fdf53794025b002be0f7e6d3fdb9eb33e00000000000000000000000000000000000000000000000002db00bfa9cbdf3f203c0640da654bbe3aae7a3fd77e273d00000000000000000000000000000000000000000000803f4ab59a3f76c9df3f2ac9b5bfde4476bea4ab763f30e3efbd00000000000000000000000000000000000000000000803f0aec3a4043c7df3fa5029ec03ba153be531e743fca3f60be00000000000000000000000000000000000000000000803fd2ef7240aaf1723f848ed7c0f07631bc8f08713fa868acbe000000000000000000000000000000000000000000000000c0376fbfaaf1723f79a18440e1b400bea52c6d3fcca5b53e000000000000000000000000000000000000000000000000b03196bdd448e03fb2bb1540bf8f76bd73717d3f1b8b023e00000000000000000000000000000000000000000000803f1b36ce3fd448e03f807d98bff384bcbcd2eb7f3fb60918bc00000000000000000000000000000000000000000000803fa8e75240d448e03f991c97c085cef9bda66566bfaf45d63e00000000000000000000000000000000000000000000803f06028540aaf1723f39e0d0c07059ca3c6f7f68bf5eecd53e00000000000000000000000000000000000000000000000070db823faaf1723f95a7984097ae17bc3e2a6b3fde43ca3e00000000000000000000000000000000000000000000000010c6aa3fdb3fe13ff3df324084312cbd80477b3f60f33e3e00000000000000000000000000000000000000000000803f41daf83f983de13f32e088bfc0edbe3bd5fe7f3f639faa3a00000000000000000000000000000000000000000000803f39772340553be13f12e09dc0d279253dbcc3793fa5c95cbe00000000000000000000000000000000000000000000803f896c3740aaf1723fae17ddc0608c3abf75eb2bbf495d093e0000000000000000000000000000000000000000000000005834a23eaaf1723fce888d40acfc863ec90374bf46a717be00000000000000000000000000000000000000000000000035a08a3f2706df3fa5d524403421203ffe7c42bfa1ef353e00000000000000000000000000000000000000000000803f8f3b25400304df3f50e084bfd1f4533e8c06783f91390b3e00000000000000000000000000000000000000000000803f82938240df01df3ffada94c0aaed113e54a77c3ffa219abd00000000000000000000000000000000000000000000803f4a189b40aaf1723ff6f8cfc071202a3e29d76d3fa738a9be00000000000000000000000000000000000000000000000066a9bebfaaf1723faaac3240ef139c3db7407fbf5b3496bb00000000000000000000000000000000000000000000000060933d3e9bf69a3fcc65d93f0679543e7a3c77bf3d6f1f3e00000000000000000000000000000000000000000000803f427f5d4087f49a3f4e6be1be6313433e81b5713ff89c893e00000000000000000000000000000000000000000000803fa792d74073f29a3fb90d25c08e3dda3de1e97d3f140a8f3d00000000000000000000000000000000000000000000803fce940641aaf1723f7d076bc0fc3c3d3e6f127a3f75cedcbd00000000000000000000000000000000000000000000000064e708c0aaf1723f4ea693bf63ebb8bbb7fe7fbfdb8732bb000000000000000000000000000000000000000000000000d00017be68d76d3fe1c411bff530c33cb6967fbf5190523d00000000000000000000000000000000000000000000803f77d16640f2d26d3f1413083f84569e3b355c7d3fc097123e00000000000000000000000000000000000000000000803f7e89eb407cce6d3f84f5d03f9de1123a24c47f3f6a032f3d00000000000000000000000000000000000000000000803fa9791441aaf1723f61800c409732333d30be7f3f6c441e3c00000000000000000000000000000000000000000000000090ebfdbeaaf1723f91215fc02305e339ffff7fbfc9e69f390000000000000000000000000000000000000000000000007cf42a3f3333733fae0feebf2312823babfd7fbf0de2f3bb00000000000000000000000000000000000000000000803f5e6c3c403333733ff430a93fc8db993dc1607e3f1434abbd00000000000000000000000000000000000000000000803fce0da7403333733f661c904073ddae3bc9fd7f3f7ec5ccbb00000000000000000000000000000000000000000000803f174bcc40aaf1723f4229c4406e442bbbf4fe7f3f76cca4bb000000000000000000000000000000000000000000000000
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: -0.40290785, y: 1.3443465, z: -0.34181213}
+    m_Extent: {x: 9.68261, y: 0.41541463, z: 8.37755}
+  m_MeshUsageFlags: 0
+  m_CookingOptions: 30
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+--- !u!1 &1685736590
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1685736595}
+  - component: {fileID: 1685736594}
+  - component: {fileID: 1685736593}
+  - component: {fileID: 1685736592}
+  - component: {fileID: 1685736591}
+  m_Layer: 31
+  m_Name: surface
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &1685736591
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685736590}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -1326,26 +4421,196 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1157204381693331432, guid: cb1572db4713b404e8e51018f3b3bd27, type: 3}
+  m_Mesh: {fileID: 1672765382}
+--- !u!114 &1685736592
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685736590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -257043915, guid: f56d46228aee4734f9114056c53bb57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!23 &1685736593
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685736590}
+  m_Enabled: 0
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 6df83606ee896204ea5f2925b610f5fb, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1685736594
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685736590}
+  m_Mesh: {fileID: 1672765382}
+--- !u!4 &1685736595
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685736590}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 364231602}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!28 &1734831212
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 2
+  m_Width: 2
+  m_Height: 2
+  m_CompleteImageSize: 20
+  m_MipsStripped: 0
+  m_TextureFormat: 4
+  m_MipCount: 2
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 0
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 20
+  _typelessdata: 4d4d4dff4d4d4dff4d4d4dff4d4d4dff4d4d4dff
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+--- !u!1 &1789916073
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1789916074}
+  - component: {fileID: 1789916075}
+  m_Layer: 0
+  m_Name: Road Objects
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1789916074
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789916073}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 364231602}
+  m_Father: {fileID: 1983559467}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1789916075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789916073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1994553136, guid: f56d46228aee4734f9114056c53bb57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1845842612
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 823777757}
     m_Modifications:
     - target: {fileID: 3679632829209458529, guid: c2cb561c1f2528c47b2a080d04170b48, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3679632829209458529, guid: c2cb561c1f2528c47b2a080d04170b48, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.65500003
       objectReference: {fileID: 0}
     - target: {fileID: 3679632829209458529, guid: c2cb561c1f2528c47b2a080d04170b48, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1357,7 +4622,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3679632829209458529, guid: c2cb561c1f2528c47b2a080d04170b48, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3679632829209458529, guid: c2cb561c1f2528c47b2a080d04170b48, type: 3}
       propertyPath: m_LocalRotation.y
@@ -1412,17 +4677,995 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1901994113}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.10608886, y: 0.089068234, z: -0.3541535}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.10758, y: -0.81984997, z: -0.33853}
+  m_LocalScale: {x: 0.97348, y: 0.97348, z: 0.97348}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1489107614}
   - {fileID: 471325321}
   - {fileID: 1231919892}
   - {fileID: 1433772352}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 823777757}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1983559465
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1983559467}
+  - component: {fileID: 1983559466}
+  m_Layer: 0
+  m_Name: Road Network
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1983559466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983559465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 365290288, guid: f56d46228aee4734f9114056c53bb57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updateInt: 10
+  newSplatMapRestoreCode: 1
+  toolbarInt: 0
+  oldToolbarInt: 0
+  roadToolbarInt: 0
+  markerToolbarInt: 0
+  menuTexs:
+  - {fileID: 2800000, guid: 34aed1010b525bf4c9cfd7da35361a90, type: 3}
+  - {fileID: 2800000, guid: 32e963efb91d19147842f8bd95d6ac56, type: 3}
+  - {fileID: 2800000, guid: ffc15be4bded7b34f9f406cde082a4a2, type: 3}
+  - {fileID: 2800000, guid: 881f73f964cf5104abc91a5f657615a8, type: 3}
+  - {fileID: 2800000, guid: b2f9adc22d0fa0647880b18b89bf0872, type: 3}
+  - {fileID: 2800000, guid: 8583bfb2058e94a48801d7212430d8d1, type: 3}
+  - {fileID: 2800000, guid: a734eccac0ad8bc49950dd4fbee58611, type: 3}
+  menuGUIContents:
+  - m_Text: 
+    m_Image: {fileID: 2800000, guid: 34aed1010b525bf4c9cfd7da35361a90, type: 3}
+    m_Tooltip: Scene View Status
+  - m_Text: 
+    m_Image: {fileID: 2800000, guid: 32e963efb91d19147842f8bd95d6ac56, type: 3}
+    m_Tooltip: Add Road Object
+  - m_Text: 
+    m_Image: {fileID: 2800000, guid: ffc15be4bded7b34f9f406cde082a4a2, type: 3}
+    m_Tooltip: Add Connection Object
+  - m_Text: 
+    m_Image: {fileID: 2800000, guid: 881f73f964cf5104abc91a5f657615a8, type: 3}
+    m_Tooltip: Update Terrain
+  - m_Text: 
+    m_Image: {fileID: 2800000, guid: b2f9adc22d0fa0647880b18b89bf0872, type: 3}
+    m_Tooltip: General Settings
+  - m_Text: 
+    m_Image: {fileID: 2800000, guid: 8583bfb2058e94a48801d7212430d8d1, type: 3}
+    m_Tooltip: Side Object Manager
+  - m_Text: 
+    m_Image: {fileID: 2800000, guid: a734eccac0ad8bc49950dd4fbee58611, type: 3}
+    m_Tooltip: Info
+  subMenuTexs: []
+  cprefab: {fileID: 0}
+  nodeHandleTexture: {fileID: 0}
+  lockedTexture: {fileID: 2800000, guid: 8fb7d6b5f8b40f34e8048f47afa20f2a, type: 3}
+  unLockedTexture: {fileID: 2800000, guid: eb319a63188c2d44bacc8572c8a2111a, type: 3}
+  favOffTexture: {fileID: 0}
+  favOffFreeTexture: {fileID: 0}
+  favOnTexture: {fileID: 0}
+  selRoadTexture: {fileID: 2800000, guid: 46e81e5d2c8b2144582558b65e45db86, type: 3}
+  headerTexture: {fileID: 2800000, guid: 16ef664a0f7023c4a94fa58f50bf2899, type: 3}
+  sceneGUITex: {fileID: 0}
+  soIcon: {fileID: 0}
+  closeIcon: {fileID: 0}
+  refreshIcon: {fileID: 0}
+  refreshIconOff: {fileID: 0}
+  roadObjectsParent: {fileID: 1789916074}
+  connectionObjectsParent: {fileID: 441251404}
+  ODQCDQQCCC: {fileID: 0}
+  roadTypes:
+  - roadTypeName: Default Road
+    id: 0
+    timestamp: 1450386558.4872544
+    roadWidth: 5
+    totalLanes: 0
+    laneWidth: 3.5
+    medianWidth: 0
+    shoulderWidthLeft: 1
+    shoulderWidthRight: 1
+    advancedWidthSettings: 0
+    faceDistance: 4
+    angleTreshold: 45
+    uvTiling: 1
+    uv4Type: 0
+    type: 0
+    detailDistance: 50
+    planarUVs: 0
+    outerIndent: 0
+    roadShapeDataActive: 0
+    roadShapeData:
+      nodes: []
+      hardEdge: 
+      priorityNodeIndexLeft: 0
+      priorityNodeIndexRight: 0
+      nodesV3: []
+      lanes: []
+      leftLanes: 0
+      rightLanes: 0
+      symmetrical: 0
+      leftSidewalkOffset: 0
+      rightSidewalkOffset: 0
+      outerLaneMarkingLeftIndex: 0
+      includeOuterlaneLeftInShape: 0
+      includeOuterlaneRightInShape: 0
+      outerLaneMarkingRightIndex: 0
+      outerOuterLaneMarkingLeftIndex: 0
+      outerOuterLaneMarkingRightIndex: 0
+      selectedNode: 0
+      selectedLaneNode: 0
+      isSymmetrical: 0
+      isset: 0
+    minSpeed: 0
+    maxSpeed: 0
+    speedLimit: 0
+    speedLimitConnections: 0
+    roadShape: []
+    roadShapeExt: []
+    roadShapeExt2: []
+    doConnectionTri: 
+    doConnectionTriExt: 
+    roadShapeUVs: []
+    roadShapeExtUVs: []
+    roadShapeExtUVs2: []
+    roadShapeUVs2: []
+    preserveUVs: 0
+    hardEdge: 
+    roadShapeVecsString: 
+    defaultSidewalk: 0
+    sidewalks: 0
+    sidewalkHeight: 0.2
+    sidewalkWidth: 2
+    crosswalks: 0
+    crosswalkIntervals: 0
+    crosswalksIntersections: 0
+    crosswalkPrefab: {fileID: 0}
+    crosswalkHeightOffset: 0
+    crosswalkType: 1
+    roadMaterial: {fileID: 2100000, guid: f182e2714eb8a714a99ed091081ce16c, type: 2}
+    roadMaterials: []
+    roadPhysicsMaterial: {fileID: 2100000, guid: f182e2714eb8a714a99ed091081ce16c, type: 2}
+    roadPhysicsMaterials: []
+    connectionMaterial: {fileID: 2100000, guid: 3c555588afad81d428ad1704d5d015a7, type: 2}
+    isSideObject: 0
+    isCustomRoad: 0
+    subSegments: 0
+    soData: []
+    soDataExt: []
+    soDataLog: []
+    layer: 0
+    isStatic: 0
+    tag: Untagged
+    splatMapActive: 0
+    splatIndex: 0
+    expandLevel: 1
+    smoothLevel: 1
+    splatOpacity: 1
+    followTerrainContours: 0
+    terrainContoursOffset: 0
+    terrainDeformation: 1
+    defaultIndent: 3
+    defaultSurrounding: 3
+    maxRoadheight: 0
+    maxTerrainHeightOffset: 0
+    minTerrainHeightDistance: 0
+    maxTerrainHeightDistance: 0
+    castShadow: 0
+    randomnessFlag: 0
+    randomYPosition: 0
+    randomMinYPosition: 0
+    randomMaxYPosition: 0
+    minRandomYPositionDistance: 0
+    maxRandomYPositionDistance: 0
+    randomMinRotation: 0
+    randomMaxRotation: 0
+    minRandomRotationDistance: 0
+    maxRandomRotationDistance: 0
+    vegetationStudioMaskLineActive: 0
+    vegetationStudioGrassPerimeter: 0
+    vegetationStudioPlantPerimeter: 0
+    vegetationStudioTreePerimeter: 0
+    vegetationStudioObjectPerimeter: 0
+    vegetationStudioLargeObjectPerimeter: 0
+    vegetationStudioBiomeMaskActive: 0
+    vegetationStudioBiomeMaskDistance: 0
+    vegetationStudioBiomeMaskBlendDistance: 0
+    vegetationStudioBiomeMaskNoiseScale: 0
+    decalPresets: []
+    decalClassPresets: []
+    defaultRamp: 0
+    extrusionType: 0
+    extrusionDistance: 0
+    fixedDistance: 0
+    connectionAngle: 0
+    connectionRadius: 0
+    oneWay: 0
+    cornerRadiusMainRoad: 0
+    cornerSementsMainRoad: 0
+    cornerRadiusSecondaryRoad: 0
+    cornerRadiusSecondaryCurvature: 0
+    cornerSementsSecondaryRoad: 0
+    mainRoadsOnly: 0
+    isRoadShape: 0
+    controlType: 0
+    vertexColor: {r: 0, g: 0, b: 0, a: 0}
+    trafficPosts: []
+    activeTrafficPostIndex: -1
+    showTrafficPosts: 0
+  selectedRoadType: 0
+  selectedNewRoadType: 0
+  inspRoadTypes:
+  - roadTypeName: Default Road
+    id: 0
+    timestamp: 1450386558.4872544
+    roadWidth: 5
+    totalLanes: 0
+    laneWidth: 3.5
+    medianWidth: 0
+    shoulderWidthLeft: 1
+    shoulderWidthRight: 1
+    advancedWidthSettings: 0
+    faceDistance: 4
+    angleTreshold: 45
+    uvTiling: 1
+    uv4Type: 0
+    type: 0
+    detailDistance: 50
+    planarUVs: 0
+    outerIndent: 0
+    roadShapeDataActive: 0
+    roadShapeData:
+      nodes: []
+      hardEdge: 
+      priorityNodeIndexLeft: 0
+      priorityNodeIndexRight: 0
+      nodesV3: []
+      lanes: []
+      leftLanes: 0
+      rightLanes: 0
+      symmetrical: 0
+      leftSidewalkOffset: 0
+      rightSidewalkOffset: 0
+      outerLaneMarkingLeftIndex: 0
+      includeOuterlaneLeftInShape: 0
+      includeOuterlaneRightInShape: 0
+      outerLaneMarkingRightIndex: 0
+      outerOuterLaneMarkingLeftIndex: 0
+      outerOuterLaneMarkingRightIndex: 0
+      selectedNode: 0
+      selectedLaneNode: 0
+      isSymmetrical: 0
+      isset: 0
+    minSpeed: 0
+    maxSpeed: 0
+    speedLimit: 0
+    speedLimitConnections: 0
+    roadShape: []
+    roadShapeExt: []
+    roadShapeExt2: []
+    doConnectionTri: 
+    doConnectionTriExt: 
+    roadShapeUVs: []
+    roadShapeExtUVs: []
+    roadShapeExtUVs2: []
+    roadShapeUVs2: []
+    preserveUVs: 0
+    hardEdge: 
+    roadShapeVecsString: 
+    defaultSidewalk: 0
+    sidewalks: 0
+    sidewalkHeight: 0.2
+    sidewalkWidth: 2
+    crosswalks: 0
+    crosswalkIntervals: 0
+    crosswalksIntersections: 0
+    crosswalkPrefab: {fileID: 0}
+    crosswalkHeightOffset: 0
+    crosswalkType: 1
+    roadMaterial: {fileID: 2100000, guid: f182e2714eb8a714a99ed091081ce16c, type: 2}
+    roadMaterials: []
+    roadPhysicsMaterial: {fileID: 2100000, guid: f182e2714eb8a714a99ed091081ce16c, type: 2}
+    roadPhysicsMaterials: []
+    connectionMaterial: {fileID: 2100000, guid: 3c555588afad81d428ad1704d5d015a7, type: 2}
+    isSideObject: 0
+    isCustomRoad: 0
+    subSegments: 0
+    soData: []
+    soDataExt: []
+    soDataLog: []
+    layer: 0
+    isStatic: 0
+    tag: Untagged
+    splatMapActive: 0
+    splatIndex: 0
+    expandLevel: 1
+    smoothLevel: 1
+    splatOpacity: 1
+    followTerrainContours: 0
+    terrainContoursOffset: 0
+    terrainDeformation: 1
+    defaultIndent: 3
+    defaultSurrounding: 3
+    maxRoadheight: 0
+    maxTerrainHeightOffset: 0
+    minTerrainHeightDistance: 0
+    maxTerrainHeightDistance: 0
+    castShadow: 0
+    randomnessFlag: 0
+    randomYPosition: 0
+    randomMinYPosition: 0
+    randomMaxYPosition: 0
+    minRandomYPositionDistance: 0
+    maxRandomYPositionDistance: 0
+    randomMinRotation: 0
+    randomMaxRotation: 0
+    minRandomRotationDistance: 0
+    maxRandomRotationDistance: 0
+    vegetationStudioMaskLineActive: 0
+    vegetationStudioGrassPerimeter: 0
+    vegetationStudioPlantPerimeter: 0
+    vegetationStudioTreePerimeter: 0
+    vegetationStudioObjectPerimeter: 0
+    vegetationStudioLargeObjectPerimeter: 0
+    vegetationStudioBiomeMaskActive: 0
+    vegetationStudioBiomeMaskDistance: 0
+    vegetationStudioBiomeMaskBlendDistance: 0
+    vegetationStudioBiomeMaskNoiseScale: 0
+    decalPresets: []
+    decalClassPresets: []
+    defaultRamp: 0
+    extrusionType: 0
+    extrusionDistance: 0
+    fixedDistance: 0
+    connectionAngle: 0
+    connectionRadius: 0
+    oneWay: 0
+    cornerRadiusMainRoad: 0
+    cornerSementsMainRoad: 0
+    cornerRadiusSecondaryRoad: 0
+    cornerRadiusSecondaryCurvature: 0
+    cornerSementsSecondaryRoad: 0
+    mainRoadsOnly: 0
+    isRoadShape: 0
+    controlType: 0
+    vertexColor: {r: 0, g: 0, b: 0, a: 0}
+    trafficPosts: []
+    activeTrafficPostIndex: -1
+    showTrafficPosts: 0
+  inspRoadTypeInts: 00000000
+  roadTypesSoFoldOutActive: 1
+  decalPresets: []
+  roadTypesDecalsFoldOutActive: 1
+  roadWidth: 5
+  roadMaterial: {fileID: 2100000, guid: f182e2714eb8a714a99ed091081ce16c, type: 2}
+  crossingMaterial: {fileID: 2100000, guid: f182e2714eb8a714a99ed091081ce16c, type: 2}
+  roundAboutMaterial: {fileID: 2100000, guid: 55e19257e99adea4380d1160ee92af9f, type: 2}
+  roundAboutConnectionMaterial: {fileID: 0}
+  roundAboutRoadMaterial: {fileID: 2100000, guid: f182e2714eb8a714a99ed091081ce16c, type: 2}
+  sidewalkMaterial: {fileID: 0}
+  targetMaterial: {fileID: 0}
+  sourceTerrain: {fileID: 0}
+  roadMaterials:
+  - dirt material
+  - pink road material
+  - road material
+  connectionMaterials:
+  - crossing material
+  selectedMaterial: 0
+  selectedConnectionMaterial: 0
+  materials: []
+  selectedRoadRoadType: 1
+  roadOptions: 1
+  sidewalkOptions: 0
+  markerOptions: 1
+  showRoadSideObjects: 0
+  markerSOOptions: 1
+  roadTerrainOptions: 1
+  camFlyOver: 1
+  advancedRoadOptions: 1
+  advancedMarkerOptions: 1
+  selectedRoadMaterial: 0
+  roadTextureInfoIndex: 0
+  selectedRoadTexture: {fileID: 0}
+  selectedRoadWidth: 0
+  selectedRoadLeftOffset: 0
+  selectedRoadRightOffset: 0
+  selectedRoadLeftInnerOffset: 0
+  selectedRoadRightInnerOffset: 0
+  selectedCrossingMaterial: 0
+  crossingTextureInfoIndex: 0
+  handleSelection: 1
+  positionHandleSelection: 1
+  markerDirXZ: 0
+  markerDirXZInt: 2
+  defaultCrossing: {fileID: 0}
+  defaultTCrossing: {fileID: 0}
+  defaultCulDeSac: {fileID: 0}
+  defaultRoundabout: {fileID: 0}
+  tex: {fileID: 0}
+  infoTexture: {fileID: 0}
+  infoTexture2: {fileID: 0}
+  infoTextures: []
+  plusSignTexture: {fileID: 1429306167}
+  minSignTexture: {fileID: 166290026}
+  signPostHeaderBG: {fileID: 370519173}
+  signPostListBG: {fileID: 862688055}
+  signPostListSelBG: {fileID: 1734831212}
+  editorSkin: 0
+  showAllPrefabs: 1
+  standardPrefabsFlag: 0
+  sceneSettingsFoldOut: 1
+  sceneRoadsFoldOut: 0
+  scenePrefabsFoldOut: 0
+  sidewalksFoldOut: 0
+  terrainManagementFoldOut: 0
+  importRoadDataFoldOut: 0
+  lodGroupsFoldOut: 0
+  defaultMaterialsFoldOut: 0
+  aiTrafficFoldout: 0
+  projectSettingsFoldout: 0
+  kmlFlag: 0
+  osmFlag: 0
+  useOSMHeights: 0
+  heightRatio: 1
+  dynamicPrefabsFoldOut: 1
+  customPrefabsFoldOut: 1
+  dynamicFavList: []
+  customFavList: []
+  prefabsDisplayType: 0
+  ignoreTerrainAlerts: 0
+  osmTerrainTopLon: 0
+  osmTerrainBottomLon: 0
+  osmTerrainLeftLat: 0
+  osmTerrainRightLat: 0
+  terrainCheckDone: 1
+  terrainMinIndent: 3.6621094
+  terrainCellSize: 2.4414062
+  minIndent: 3.6621094
+  minSurrounding: 3
+  surroundingHeightFactor: 0.5
+  terrainCellAngleThreshold: 30
+  terrainCellHeightThreshold: 25
+  maxIndentSurrounding: 50
+  terrainY: 0.949
+  terrainDetailSplatX: 0.48828125
+  terrainDetailSplatY: 0.48828125
+  detailOffsetVec: {x: 0.48828125, y: 0, z: 0.48828125}
+  raise: 0
+  baseVector: {x: 0, y: 0, z: 0}
+  mirrorCrossings: 1
+  terrainNames:
+  - All Terrains
+  - Terrain
+  terrainObjects:
+  - {fileID: 0}
+  - {fileID: 746957800}
+  terrainSplatTextures:
+  - Splat 1 - layer_Grass ER
+  activeTerrain: {fileID: 0}
+  activeTerrainY: 0.949
+  selectedTerrain: 0
+  selectedRoadsOnly: 0
+  terrainDone: 0
+  enableBackWithoutRestore: 0
+  detailDistance: 3
+  treeDistance: 5
+  doHeightmap: 0
+  doTrees: 1
+  soTrees: 1
+  doDetail: 1
+  terrainRect:
+    serializedVersion: 2
+    x: -467.53
+    y: -505.53
+    width: 1000
+    height: 1000
+  tunnelObjects: []
+  surfaceObjects:
+  - {fileID: 1685736590}
+  preserveTerrainFloat: 1
+  terrainSmoothIndentDistance: 1
+  terrainSmoothSurroundingDistance: 1
+  indentSmoothStep: 0
+  surroundingSmoothStep: 0
+  terrainRaycastHeight: 100
+  doTangents: 1
+  doLightmapUVs: 0
+  doLODGroups: 0
+  doSplatmaps: 0
+  sLayer: 31
+  terrainHits: []
+  osmCrossingPoints: []
+  cornerPresets: []
+  sidewalkPresets: []
+  sidewalks: []
+  selectedSidewalk: 0
+  selectedRoadTypeSidewalk: 0
+  osmMotorway: 0
+  osmMotorwayLink: 0
+  osmTrunk: 0
+  osmPrimary: 0
+  osmSecondary: 0
+  osmTertiary: 0
+  osmUnclassified: 0
+  osmResidential: 0
+  osmService: 0
+  osmTrack: 0
+  osmPath: 0
+  osmWalkway: 0
+  osmRaceway: 0
+  osmHighwayStringInt: 0
+  osmMotorwayFlag: 1
+  osmMotorwayLinkFlag: 1
+  osmTrunkFlag: 1
+  osmPrimaryFlag: 1
+  osmSecondaryFlag: 1
+  osmTertiaryFlag: 1
+  osmUnclassifiedFlag: 1
+  osmResidentialFlag: 1
+  osmServiceFlag: 1
+  osmTrackFlag: 1
+  osmPathFlag: 1
+  osmWalkwayFlag: 0
+  osmRacewayFlag: 1
+  osmHighwayString: 
+  osmInsertFlexConnectors: 0
+  kmlRoadType: 0
+  roadDataScale: 1
+  lodGroups: 0
+  LODLevels: 4
+  LODLevelValues:
+  - 0.6
+  - 0.4
+  - 0.2
+  - 0
+  LODLevelResolution:
+  - 0.9
+  - 0.8
+  - 0.6
+  - 0.4
+  embedRoadShape: 0
+  hideSurfaces: 1
+  showSurfaces: 0
+  useLightProbes: 0
+  hideLockedObjects: 0
+  OQQQODQDDC: 0
+  isInBuildMode: 1
+  progressFlag: 0
+  progressTerrain: 0
+  progressStatus: 10
+  progressMax: 11
+  roadSoObjects: []
+  QOQDQOOQDDQOOQ: []
+  sideObjectNames: []
+  selSideObject: 0
+  selSubSideObject: 0
+  soID: 
+  sideObjectName: 
+  sideObjectType: 0
+  sideObjectSource: {fileID: 0}
+  soEndObject: {fileID: 0}
+  sideObjectTerrainVegetationInt: 0
+  prefabChildHandling: 0
+  sideObjectDistance: 1
+  soYAxisRotation: 0
+  soSidewaysDistance: 0
+  soSidewaysDistanceHandling: 0
+  soDensity: 1
+  soOffset: 0
+  soTerrainAligment: 0
+  soCombine: 0
+  soWeld: 0
+  soControllerType: 0
+  soMaterial: {fileID: 0}
+  soXPosition: 0
+  soYPosition: 0
+  soMarkerActive: 1
+  enableSOHandles: 1
+  enableShapeNodeHandles: 0
+  enableSOShapeNodeHandles: 0
+  displayCriticalPoints: 1
+  highlightRoad: 1
+  highlightMarkerSection: 1
+  highlightIndents: 1
+  highlightSurroundings: 1
+  tempHighlights: 0
+  tempHighlightRoad: 0
+  tempHighlightIndents: 0
+  tempHighlightSurroundings: 0
+  highlightSideObject: 1
+  highlightRoadColor: {r: 0.39, g: 0.53, b: 0.9, a: 0.1}
+  highlightMarkerColor: {r: 0.6, g: 0.15, b: 0.15, a: 0.25}
+  highlightIndentColor: {r: 1, g: 1, b: 1, a: 0.1}
+  highlightSurroundingColor: {r: 1, g: 1, b: 1, a: 0.05}
+  highlightSurfacesDrag: 0
+  onlyShowSelectedRoad: 0
+  soDeformationObjects: []
+  soSplatmapObjects: []
+  buildSOinEditMode: 1
+  tangentsInEditMode: 0
+  calculateSmoothNormals: 1
+  importSideObjectsAlert: 1
+  importRoadPresetsAlert: 1
+  importCrossingPresetsAlert: 0
+  importSidewalkPresetsAlert: 1
+  updateSideObjectsAlert: 0
+  updateRoadPresetsAlert: 0
+  updateCrossingPresetsAlert: 0
+  updateSidewalkPresetsAlert: 0
+  waypointDistance: 10
+  RoadObjectsSoUpdates: []
+  connectionObjects: []
+  connectionSWObjects: []
+  assetsFolderID: 
+  meshSurface: {fileID: 0}
+  meshTerrainCollider: {fileID: 0}
+  markerScale: 1
+  markerDistance: 200
+  minMarkerDistance: 100
+  maxMarkerDistance: 500
+  debugFlag: 0
+  leftTHandles: []
+  rightTHandles: []
+  roadNetworkY: 0
+  ignoreMinIndents: 0
+  zoomStart: {x: 0, y: 0, z: 0}
+  zoomEnd: {x: 0, y: 0, z: 0}
+  lookAtStart: {x: 0, y: 0, z: 0}
+  lookAtEnd: {x: 0, y: 0, z: 0}
+  zoomRot: {x: 0, y: 0, z: 0, w: 0}
+  zoomStartTime: 0
+  hideSurfaceHandles: 0
+  tempHideSurfaceHandles: 1
+  dirtyBool: 0
+  dirtyOnSceneBool: 0
+  forceRoadNetworkSelect: 0
+  OCOCCCOOOD: 1
+  ODQCDQQCCCScript: {fileID: 0}
+  OQDQCCQOODCrossingsScript: {fileID: 0}
+  OQDQCCQOODScript: {fileID: 0}
+  ODQCDQQCCCElement: -1
+  OQDCCDOCCO: -1
+  OCOODCCOQO: {fileID: 364231601}
+  OQCQDDDODD: {fileID: 364231601}
+  OCDQQODODQ: {fileID: 0}
+  OCQOCDCDOD: 11
+  selectedRoadSOMarker: -1
+  selectedMarkerNode: -1
+  selectedMarkerNodes: 
+  selectedMarkerSONode: -1
+  selectedMarkerSONodes: 
+  selectedObjects:
+  - {fileID: 2057650473}
+  selectedExitRoad: -1
+  newRoadFlag: 0
+  roadTypeUpdateFlag: 1
+  roadUpdateDragFlag: 0
+  mouseDragFlag: 0
+  roadScripts: []
+  prefabScripts: []
+  globalGridActive: 0
+  gridGUIActive: 0
+  globalGridColor: {r: 0.35, g: 0.5, b: 0.9, a: 0.9}
+  globalGridSize: 10
+  globalGridRadius: 1000
+  globalGridRotation: 0
+  gridOffset: {x: 0, y: 0}
+  ggTL: {x: 0, y: 0, z: 0}
+  ggBL: {x: 0, y: 0, z: 0}
+  ggBR: {x: 0, y: 0, z: 0}
+  localGridActive: 0
+  localGrids: []
+  selectedLocalGrid: 0
+  fbxExport: 0
+  sw:
+    name: 
+    id: 0
+    timestamp: 0
+    layer: 0
+    sidewalkWidth: 1.5
+    curbHeight: 0.25
+    curbDepth: 0.25
+    beveledCurb: 0
+    beveledHeight: 0
+    beveledDepth: 0
+    outerCurb: 0
+    roadSideCurbUVControl: 0
+    outerSideCurbUVControl: 0
+    material: {fileID: 0}
+    pavementMaterial: {fileID: 0}
+    hardEdges: 0
+    hardEdgePadding: 0
+    shape: []
+    shapePercentages: []
+    shapeCurbPercentages: []
+    sidewalkUVs: []
+    curbUVs: []
+    doConnectionTri: 
+    tileRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tileSize: 1
+    tiling: 1
+    uvRatio: 1
+    minEnd: 1
+    maxEnd: 1
+    lockUVs: 0
+    planarUVs: 0
+    planarTileSize: 1
+    planarTiling: {x: 1, y: 1}
+    planarUVRatioX: 1
+    planarUVRatioY: 1
+    cornerRadius: 1
+    defaultCornerRadius: 1
+    cornerSegments: 5
+    defaultCornerSegments: 5
+    innerSegmentDistance: 0.5
+    pavementIndex: 2
+    pavementSize: 0
+    curbVecCount: 0
+    subdivision: 0
+    crosswalkPavement: 0
+    crosswalkPavementCurb: 0
+    includeOuterStrip: 0
+    useCrosswalkUVs: 0
+    crosswalkLevelDistance: 0.5
+    crosswalkdepth: 1
+    crosswalkUVs: []
+    crosswalkLevelYLeft: 0.9
+    crosswalkLevelYRight: 0.1
+    crosswalkStripYLeft: 0.95
+    crosswalkStripYRight: 0.05
+    crosswalkSize: 5
+    crosswalkWidth: 1
+    crosswalkMinHeight: 0.02
+    crosswalkMaxHeight: 0.05
+    bottomInnerDistance: 0
+    topInnerDistance: 0
+    bottomStripDistance: 0
+    topStripDistance: 0
+    yPositions: []
+    realPavementIndex: 0
+    realColCount: 0
+    crosswalkOuterUVX: 0
+    crosswalkOuterOffset: 0
+    crosswalkOuterStripOffset: 0
+    crosswalkStripUVX: 0
+    texSizeRatio: 1
+    castShadow: 1
+  roadUpdated: 0
+  clampUVs: 1
+  soCategoryInt: 0
+  soRoadCategoryInt: 0
+  minRoadWidth: 1
+  maxRoadWidth: 75
+  maxCurbHeight: 0.5
+  maxRoundAboutWidth: 60
+  maxRoundAboutRadius: 80
+  minCornerRadius: 0.5
+  maxCornerRadius: 5
+  flexConnectorRadiusMultiplier: 1
+  SoTestObject: {fileID: 0}
+  lockRoadNetwork: 0
+  showNotifications: 1
+  multipleTerrainsWarning: 0
+  OOOCCDDCOC: []
+  OOOQDCCDCC: []
+  textureCounter: 0
+  vegetationStudio: 0
+  vegetationStudioPro: 0
+  vegetationStudioActive: 0
+  vegetationStudioMaskLineActive: 1
+  vegetationStudioGrassPerimeter: 2
+  vegetationStudioPlantPerimeter: 3
+  vegetationStudioTreePerimeter: 4
+  vegetationStudioObjectPerimeter: 3
+  vegetationStudioLargeObjectPerimeter: 4
+  vegetationStudioGrassPerimeterMax: 1
+  vegetationStudioPlantPerimeterMax: 3
+  vegetationStudioTreePerimeterMax: 4
+  vegetationStudioObjectPerimeterMax: 3
+  vegetationStudioLargeObjectPerimeterMax: 4
+  vegetationStudioBiomeMaskActive: 0
+  vegetationStudioBiomeMaskDistance: 0
+  vegetationStudioBiomeMaskBlendDistance: 0
+  vegetationStudioBiomeMaskNoiseScale: 0
+  aiTraffic: 0
+  aiMatchingLanesOnly: 1
+  aiconnectNonMatchinglaneCounts: 1
+  aiIgnoreConnections: 1
+  displayLaneData: 0
+  rightHandDriving: 1
+  leftLaneHandleColour: {r: 0.1, g: 0.1, b: 0.1, a: 0.75}
+  rightLaneHandleColour: {r: 1, g: 1, b: 1, a: 0.75}
+  laneHandleSelectedColour: {r: 1, g: 1, b: 0, a: 0.5}
+  roadUvThreshold: 1750
+  updateQueue: 658605902
+  checkPresetsFlag: 0
+  logChange: 0
+  debugMode: 0
+  RoadNetworkInitFlag: 1
+  excludeFromSelection: []
+  addExcludeFromSelection: {fileID: 0}
+  shapeUVColor: {r: 0, g: 0, b: 0, a: 1}
+  startCapColor: {r: 0.35, g: 0.5, b: 0.9, a: 1}
+  endCapColor: {r: 0.35, g: 0.5, b: 0.9, a: 1}
+  soSectionMaterial: {fileID: 0}
+  v32b4Flag: 1
+  ctrlKey: 0
+  soSectionInstance: {fileID: 0}
+  ignoreFlexConnectorUpdate: 0
+  surfaceChangeFlag: 0
+  waterLevel: 0
+  runtimeAIFlag: 1
+  runtimeRoadNetworkFlag: 1
+  resourcesFolderName: Resources
+  cornerRadiusMainRoad: 3
+  cornerSementsMainRoad: 6
+  cornerRadiusSecondaryRoad: 3
+  cornerRadiusSecondaryCurvature: 0.5
+  cornerSementsSecondaryRoad: 6
+  surfaceMaterial: {fileID: 2100000, guid: 6df83606ee896204ea5f2925b610f5fb, type: 2}
+  postInstances: []
+  synchSideObjects: 1
+  onSaleFlag: 0
+  onSalePrice: 
+  onSalePercentage: 
+  onSaleString: 
+  onSaleDate: 
+--- !u!4 &1983559467
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983559465}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.945, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 441251404}
+  - {fileID: 1789916074}
+  m_Father: {fileID: 823777757}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2057650473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 561528938, guid: f56d46228aee4734f9114056c53bb57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roadScr: {fileID: 364231601}
+  prefabScr: {fileID: 0}
+  markers: 0b000000
+  startEnd: 0
+  prefab: {fileID: 0}
+--- !u!114 &2062928327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1475867795, guid: f56d46228aee4734f9114056c53bb57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OSMNodeID: 0
+  activeSplineNode: 1
+  leftIndent: 3.6621094
+  leftIndentAlignment: 0
+  rightIndent: 3.6621094
+  rightIndentAlignment: 0
+  leftSurrounding: 1.4984531
+  rightSurrounding: 2
+  leftSurroundingAdjusted: 0.009452254
+  rightSurroundingAdjusted: 0.009552151
+  radius: 0
+  bridgeObject: 0
+  bridgeStartLevelDistance: 0
+  bridgeEndLevelDistance: 0
+  rotation: 0
+  position: {x: -1.8500574, y: 0.95, z: -2.807822}
+  oldPosition: {x: -1.8500574, y: 0.95, z: -2.807822}
+  positionTmp: {x: 0, y: 0, z: 0}
+  controlType: 0
+  controlTypeTmp: 0
+  rotations: 0
+  circularRadius: 1
+  circularAngle: 90
+  circularSegments: 10
+  splineStrength: 0.5
+  direction: {x: 0.95832384, y: 0, z: -0.28568414}
+  direction1: {x: 0.95832384, y: 0, z: -0.28568414}
+  rl: {x: -1.8673986, y: 0.9500044, z: -1.5579423}
+  rr: {x: -1.8327161, y: 0.9499956, z: -4.0577016}
+  followTerrainContours: 0
+  startSplinePoint: 8
+  startDistance: 12.72925
+  startUVY: 0
+  totalDistance: 1.4899721
+  totalDistanceString: 1.49 m
+  slopeAngle: 0
+  angleString: 0.00
+  gradeString: 0.00
+  rotationCenter: 0.5
+  soData: []
+  controllerType: 0
+  randomYPosition: 0
+  randomMinYPosition: 0
+  randomMaxYPosition: 0
+  minRandomYPositionDistance: 0
+  maxRandomYPositionDistance: 0
+  randomMinRotation: 0
+  randomMaxRotation: 0
+  minRandomRotationDistance: 0
+  maxRandomRotationDistance: 0
+  prevLeftIndent: 0
+  prevRightIndent: 0
+  prevLeftSurrounding: 0
+  prevRightSurrounding: 0
+  prevControlType: 0
+  snappedMarker: 0
+  attachExit: 0
+  exitType: 0
+  exitGeometryType: 0
+  startExitInt: 0
+  endExitInt: 0
+  startExitOffset: 0
+  extrusionDistance: 10
+  extrusionType: 0
+  fixedDistance: 10
+  connectionAngle: 10
+  connectionRadius: 5
+  exitMaterial: {fileID: 0}
+  connectionMaterial: {fileID: 0}
+  exitRoadType: 0
+  connectionRoadType: 0
+  exitInnerVertices: []
+  customColor: {r: 0, g: 0, b: 0, a: 0}
+  roadMarkerWidth: 0
+  roadShape:
+  - {x: 0.25, y: 0}
+  - {x: -0.25, y: 0}
+  roadShapeVecsGlobal:
+  - {x: -1.8535256, y: 0.9500044, z: -2.557846}
+  - {x: -1.8465891, y: 0.9499956, z: -3.057798}
+  roadShapeDistanceMin: 0
+  roadShapeDistanceMax: 1
+  perpDir: {x: -0.013872987, y: 0, z: 0.9999038}
+  perpDirRotated: {x: -0.013873101, y: 0.000017642977, z: 0.99990374}
+  markerStartUVY: 0.54585004
+  customPoints: []
+  handleObject: {fileID: 0}
 --- !u!1001 &2077011158
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1480,6 +5723,206 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 401d27194e0344948b125cf0483f7637, type: 3}
+--- !u!114 &2115725359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1475867795, guid: f56d46228aee4734f9114056c53bb57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OSMNodeID: 0
+  activeSplineNode: 1
+  leftIndent: 3.689988
+  leftIndentAlignment: 0
+  rightIndent: 3.6621094
+  rightIndentAlignment: 0
+  leftSurrounding: 2
+  rightSurrounding: 2
+  leftSurroundingAdjusted: 0
+  rightSurroundingAdjusted: 0
+  radius: 0
+  bridgeObject: 0
+  bridgeStartLevelDistance: 0
+  bridgeEndLevelDistance: 0
+  rotation: 0
+  position: {x: 0.1312219, y: 0.949, z: 2.1293874}
+  oldPosition: {x: 0.1312219, y: 0.949, z: 2.1293874}
+  positionTmp: {x: 0, y: 0, z: 0}
+  controlType: 0
+  controlTypeTmp: 0
+  rotations: 0
+  circularRadius: 1
+  circularAngle: 90
+  circularSegments: 10
+  splineStrength: 0.5
+  direction: {x: -0.999396, y: -0.0005645784, z: 0.03474656}
+  direction1: {x: -0.999396, y: -0.0005645784, z: 0.03474656}
+  rl: {x: 0.07606441, y: 0.949, z: 0.880605}
+  rr: {x: 0.1863794, y: 0.949, z: 3.37817}
+  followTerrainContours: 0
+  startSplinePoint: 3
+  startDistance: 3.053358
+  startUVY: 0
+  totalDistance: 2.0306988
+  totalDistanceString: 2.03 m
+  slopeAngle: 0.028213501
+  angleString: 0.03
+  gradeString: 0.05
+  rotationCenter: 0.5
+  soData: []
+  controllerType: 0
+  randomYPosition: 0
+  randomMinYPosition: 0
+  randomMaxYPosition: 0
+  minRandomYPositionDistance: 0
+  maxRandomYPositionDistance: 0
+  randomMinRotation: 0
+  randomMaxRotation: 0
+  minRandomRotationDistance: 0
+  maxRandomRotationDistance: 0
+  prevLeftIndent: 0
+  prevRightIndent: 0
+  prevLeftSurrounding: 0
+  prevRightSurrounding: 0
+  prevControlType: 0
+  snappedMarker: 0
+  attachExit: 0
+  exitType: 0
+  exitGeometryType: 0
+  startExitInt: 0
+  endExitInt: 0
+  startExitOffset: 0
+  extrusionDistance: 10
+  extrusionType: 0
+  fixedDistance: 10
+  connectionAngle: 10
+  connectionRadius: 5
+  exitMaterial: {fileID: 0}
+  connectionMaterial: {fileID: 0}
+  exitRoadType: 0
+  connectionRoadType: 0
+  exitInnerVertices: []
+  customColor: {r: 0, g: 0, b: 0, a: 0}
+  roadMarkerWidth: 0
+  roadShape:
+  - {x: 0.25, y: 0}
+  - {x: -0.25, y: 0}
+  roadShapeVecsGlobal:
+  - {x: 0.120190404, y: 0.949, z: 1.8796309}
+  - {x: 0.1422534, y: 0.949, z: 2.379144}
+  roadShapeDistanceMin: 0
+  roadShapeDistanceMax: 1
+  perpDir: {x: -0.044125997, y: 0, z: -0.99902594}
+  perpDirRotated: {x: -0.044125985, y: 0, z: -0.99902594}
+  markerStartUVY: 0.61067164
+  customPoints: []
+  handleObject: {fileID: 0}
+--- !u!114 &2144654783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1475867795, guid: f56d46228aee4734f9114056c53bb57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OSMNodeID: 0
+  activeSplineNode: 1
+  leftIndent: 3.6621094
+  leftIndentAlignment: 0
+  rightIndent: 3.6621094
+  rightIndentAlignment: 0
+  leftSurrounding: 2.0755434
+  rightSurrounding: 2
+  leftSurroundingAdjusted: 0
+  rightSurroundingAdjusted: 0
+  radius: 0
+  bridgeObject: 0
+  bridgeStartLevelDistance: 0
+  bridgeEndLevelDistance: 0
+  rotation: 0
+  position: {x: 3.6065347, y: 0.949, z: 0.5315411}
+  oldPosition: {x: 3.6065347, y: 0.949, z: 0.5315411}
+  positionTmp: {x: 0, y: 0, z: 0}
+  controlType: 0
+  controlTypeTmp: 0
+  rotations: 0
+  circularRadius: 1
+  circularAngle: 90
+  circularSegments: 10
+  splineStrength: 0.5
+  direction: {x: 0.14247738, y: -0.27546784, z: 0.95069325}
+  direction1: {x: 0.14821164, y: 0, z: 0.9889557}
+  rl: {x: 1.9861469, y: 0.95, z: 0.51881385}
+  rr: {x: 3.9020815, y: 0.95, z: 2.124799}
+  followTerrainContours: 0
+  startSplinePoint: 16
+  startDistance: 19.931784
+  startUVY: 0
+  totalDistance: 1.0311756
+  totalDistanceString: 1.03 m
+  slopeAngle: 0.05555725
+  angleString: 0.06
+  gradeString: 28.66
+  rotationCenter: 0.5
+  soData: []
+  controllerType: 0
+  randomYPosition: 0
+  randomMinYPosition: 0
+  randomMaxYPosition: 0
+  minRandomYPositionDistance: 0
+  maxRandomYPositionDistance: 0
+  randomMinRotation: 0
+  randomMaxRotation: 0
+  minRandomRotationDistance: 0
+  maxRandomRotationDistance: 0
+  prevLeftIndent: 0
+  prevRightIndent: 0
+  prevLeftSurrounding: 0
+  prevRightSurrounding: 0
+  prevControlType: 0
+  snappedMarker: 0
+  attachExit: 0
+  exitType: 0
+  exitGeometryType: 0
+  startExitInt: 0
+  endExitInt: 0
+  startExitOffset: 0
+  extrusionDistance: 10
+  extrusionType: 0
+  fixedDistance: 10
+  connectionAngle: 10
+  connectionRadius: 5
+  exitMaterial: {fileID: 0}
+  connectionMaterial: {fileID: 0}
+  exitRoadType: 0
+  connectionRoadType: 0
+  exitInnerVertices: []
+  customColor: {r: 0, g: 0, b: 0, a: 0}
+  roadMarkerWidth: 0
+  roadShape:
+  - {x: 0.25, y: 0}
+  - {x: -0.25, y: 0}
+  roadShapeVecsGlobal:
+  - {x: 3.3666387, y: 0.94900435, z: 0.46118575}
+  - {x: 3.8464308, y: 0.94899565, z: 0.60189646}
+  - {x: 2.7525208, y: 0.95, z: 1.1612079}
+  - {x: 3.1357076, y: 0.95, z: 1.482405}
+  roadShapeDistanceMin: 0
+  roadShapeDistanceMax: 1
+  perpDir: {x: -0.7663739, y: 0, z: -0.64239407}
+  perpDirRotated: {x: -0.7663741, y: 0, z: -0.6423945}
+  markerStartUVY: 0.19259167
+  customPoints: []
+  handleObject: {fileID: 0}
 --- !u!4 &119434476378386197
 Transform:
   m_ObjectHideFlags: 0
@@ -2046,6 +6489,75 @@ Transform:
   - {fileID: 2973779333481308279}
   m_Father: {fileID: 1422510243005709727}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &7077596197397350114
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1439644256012165893, guid: c9d2899643e4d2e4db685ea1ab436183, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2632675242987081283, guid: c9d2899643e4d2e4db685ea1ab436183, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3603777855251961803, guid: c9d2899643e4d2e4db685ea1ab436183, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5826496905671155135, guid: c9d2899643e4d2e4db685ea1ab436183, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5826496905671155135, guid: c9d2899643e4d2e4db685ea1ab436183, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5826496905671155135, guid: c9d2899643e4d2e4db685ea1ab436183, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5826496905671155135, guid: c9d2899643e4d2e4db685ea1ab436183, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5826496905671155135, guid: c9d2899643e4d2e4db685ea1ab436183, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5826496905671155135, guid: c9d2899643e4d2e4db685ea1ab436183, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5826496905671155135, guid: c9d2899643e4d2e4db685ea1ab436183, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5826496905671155135, guid: c9d2899643e4d2e4db685ea1ab436183, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5826496905671155135, guid: c9d2899643e4d2e4db685ea1ab436183, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5826496905671155135, guid: c9d2899643e4d2e4db685ea1ab436183, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8125526785374153622, guid: c9d2899643e4d2e4db685ea1ab436183, type: 3}
+      propertyPath: m_Name
+      value: LIDAR
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c9d2899643e4d2e4db685ea1ab436183, type: 3}
 --- !u!1 &7236494258824212149
 GameObject:
   m_ObjectHideFlags: 0
@@ -2087,9 +6599,6 @@ SceneRoots:
   - {fileID: 1098279277}
   - {fileID: 823777757}
   - {fileID: 739981278}
-  - {fileID: 1451405615}
   - {fileID: 2077011158}
   - {fileID: 395957036}
-  - {fileID: 1845842612}
-  - {fileID: 1589450893}
-  - {fileID: 1901994114}
+  - {fileID: 7077596197397350114}

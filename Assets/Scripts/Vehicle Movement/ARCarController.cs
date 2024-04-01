@@ -2,12 +2,12 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ARCarController : MonoBehaviour
 {
     private float moveInput;
     private float turnInput;
-    private float shiftInput;
     private bool isCarGrounded;
     private bool isBoosting = false;
     private float boostForce;
@@ -22,49 +22,38 @@ public class ARCarController : MonoBehaviour
 
     public float airDrag;
     public float groundDrag;
-    
+
+    // UI buttons for car controls
+    public Button accelerateButton;
+    public Button reverseButton;
+    public Button boostButton;
+    public Button leftButton;
+    public Button rightButton;
+
     // Start is called before the first frame update
     void Start()
     {
         // detaches the sphere for the car
         sphereRB.transform.parent = null;
+
+        // Add onClick listeners to buttons
+        accelerateButton.onClick.AddListener(Accelerate);
+        reverseButton.onClick.AddListener(Reverse);
+        boostButton.onClick.AddListener(ToggleBoost);
+        leftButton.onClick.AddListener(MoveLeft);
+        rightButton.onClick.AddListener(MoveRight);
     }
 
     // Update is called once per frame
     void Update()
     {
-        moveInput = Input.GetAxisRaw("Vertical");
-        turnInput = Input.GetAxisRaw("Horizontal");
-        
-        // Boost
-        if (Input.GetKeyDown(KeyCode.LeftShift))
-        {
-            isBoosting = true;
-        }
-        else if (Input.GetKeyUp(KeyCode.LeftShift))
-        {
-            isBoosting = false;
-        }
-        
-        // if the move input is greater than 0, then multiple by the forward speed,
-        // else multiple by the reverse speed. This adjusts the speed of the car
-        moveInput *= moveInput > 0 ? forwardSpeed : reverseSpeed;
-        
-        if (isBoosting)
-        {
-            moveInput *= boostMult;
-           // Debug.Log($"Boosted, boost Count: {moveInput}");
-        }
-        else
-        {
-           // Debug.Log($"Normal Speed, boost Count: {moveInput}");
-        }
-        
+        // No need to get input from keys or joystick
+
         // sets the cars position to sphere
         transform.position = sphereRB.transform.position;
         
         // sets the cars rotation 
-        float newRotation = turnInput * turnSpeed * Time.deltaTime * Input.GetAxisRaw("Vertical");
+        float newRotation = turnInput * turnSpeed * Time.deltaTime * moveInput;
         transform.Rotate(0, newRotation, 0, Space.World);
         
         // check if there is ground
@@ -97,5 +86,31 @@ public class ARCarController : MonoBehaviour
             // adds extra gravity 
             sphereRB.AddForce(transform.up * -30);
         }
+    }
+
+    // Button click event methods
+    void Accelerate()
+    {
+        moveInput = forwardSpeed;
+    }
+
+    void Reverse()
+    {
+        moveInput = -reverseSpeed;
+    }
+
+    void ToggleBoost()
+    {
+        isBoosting = !isBoosting;
+    }
+
+    void MoveLeft()
+    {
+        turnInput = -1f;
+    }
+
+    void MoveRight()
+    {
+        turnInput = 1f;
     }
 }

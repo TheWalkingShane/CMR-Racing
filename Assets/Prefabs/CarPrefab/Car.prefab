@@ -133,7 +133,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2085399815191361034}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -381,16 +381,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e71218f00789ef459760401a922c8ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forwardSpeed: 125
-  reverseSpeed: 62.5
+  forwardSpeed: 75
+  reverseSpeed: 50
   boostMult: 2
-  turnSpeed: 130
+  turnSpeed: 80
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
   sphereRB: {fileID: 5766641107848102637}
   airDrag: 0.1
-  groundDrag: 4
+  groundDrag: 2
 --- !u!1 &3579998460229075490
 GameObject:
   m_ObjectHideFlags: 0

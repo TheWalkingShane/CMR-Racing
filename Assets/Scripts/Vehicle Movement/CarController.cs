@@ -7,8 +7,8 @@ public class CarController : MonoBehaviour
 {
     private float moveInput;
     private float turnInput;
-    private float shiftInput;
     private bool isCarGrounded;
+    
     private bool isBoosting = false;
     private float boostForce;
     

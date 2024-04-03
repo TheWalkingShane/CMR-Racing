@@ -30,7 +30,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Adrian/Level1.unity
     guid: 9d5d2b0e82c25d74ea3ef0365b26da1d
   - enabled: 0
-    path: Assets/Scenes/Janelle/Janelle Scene Desert.unity
+    path: Assets/Scenes/Janelle/Janelle Scene.unity
     guid: e0bae20e80d139048bdc0f065fdd5c6d
   - enabled: 0
     path: Assets/Scenes/Janelle/Title Screen Janelle.unity

@@ -12,21 +12,24 @@ public class AI_StatesController : MonoBehaviour
     private bool isBoosting = false;
 
     public Rigidbody sphereRB; // The AI's Rigidbody
-    public Transform[] waypoints; // Array of waypoints for the AI to follow
-    private int currentWaypointIndex = 0; // Index of the current waypoint
+    public Transform nextWaypoint; // You need to define how the AI chooses or is assigned the next waypoint
 
     public float groundDrag;
     public float airDrag;
-
+    
     void Update()
     {
         switch (currentState)
         {
             case State.Accelerating:
-                if (ShouldTurn())
+                if (ShouldTurn()) // You need to define ShouldTurn based on your AI's pathfinding logic
                 {
                     ChangeState(State.Turning);
                 }
+                /*else if (ShouldBoost()) // Define ShouldBoost based on your game's boost logic
+                {
+                    ChangeState(State.Boosting);
+                }*/
                 break;
             case State.Turning:
                 if (!ShouldTurn())
@@ -36,9 +39,11 @@ public class AI_StatesController : MonoBehaviour
                 break;
             case State.Reversing:
                 Reverse();
+                // Transition logic can be added here
                 break;
             case State.Boosting:
                 Boost();
+                // Transition logic can be added here
                 break;
             case State.Idle:
                 // Possible implementation for Idle state
@@ -60,6 +65,9 @@ public class AI_StatesController : MonoBehaviour
 
     void Accelerate()
     {
+        // Apply forward speed; similar logic to the player's Accelerate
+        // You need to adjust this to match AI behavior, possibly considering the direction to the next waypoint
+        // Assuming forwardSpeed is already set based on your game's requirements
         if (IsGrounded())
         {
             sphereRB.AddForce(transform.forward * forwardSpeed, ForceMode.Acceleration);
@@ -68,6 +76,8 @@ public class AI_StatesController : MonoBehaviour
 
     void Reverse()
     {
+        // Apply reverse speed; similar logic to player's Reverse
+        // Use reverseSpeed to move backwards
         if (IsGrounded())
         {
             sphereRB.AddForce(-transform.forward * reverseSpeed, ForceMode.Acceleration);
@@ -76,19 +86,32 @@ public class AI_StatesController : MonoBehaviour
 
     void Boost()
     {
+        // Apply boost; similar logic to the player's Boost
         if (IsGrounded() && !isBoosting)
         {
-            isBoosting = true;
+            isBoosting = true; // This flag could be reset elsewhere, depending on your boost logic (e.g., after a time delay or when a boost "resource" is depleted)
+            // Boost logic can be more complex depending on whether you have a boost duration, cooldown, etc.
         }
     }
 
     void Turn()
     {
-        Vector3 toWaypoint = (waypoints[currentWaypointIndex].position - transform.position).normalized;
-        float turnAmount = Vector3.Cross(transform.forward, toWaypoint).y;
-        transform.Rotate(0, turnAmount * turnSpeed * Time.deltaTime, 0);
+        // Calculate turn direction and apply turning logic
+        // Similar to how you're applying turnInput in the player's script but based on AI logic towards next waypoint
+        
+        void Turn()
+        {
+            Vector3 toWaypoint = (nextWaypoint.position - transform.position).normalized;
+            float turnAmount = Vector3.Cross(transform.forward, toWaypoint).y;
+
+            // Adjusting the turn speed based on how directly the AI is facing the waypoint
+            // You might need to scale turnAmount by your turnSpeed and potentially adjust based on deltaTime
+            transform.Rotate(0, turnAmount * turnSpeed * Time.deltaTime, 0);
+        }
+
     }
 
+    // Helper method to determine if AI should turn
     bool ShouldTurn()
     {
         // Implement logic to determine if the AI should start turning
@@ -101,8 +124,7 @@ public class AI_StatesController : MonoBehaviour
         if (IsGrounded())
         {
             sphereRB.drag = groundDrag;
-            Accelerate();
-            Turn();
+            // Apply movement force if needed, similar to player's FixedUpdate logic
         }
         else
         {

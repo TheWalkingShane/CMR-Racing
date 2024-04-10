@@ -12,11 +12,13 @@ public class ARCarController : MonoBehaviour
     
     private bool isCarGrounded;
     private bool isBoosting = false;
+    private bool isDrifting = false;
     
     public float forwardSpeed;
     public float reverseSpeed;
     public float turnSpeed;
     public float boostMult = 2.0f;
+    public float driftForce = 10f;
     
     public LayerMask groundLayer;
     public Rigidbody sphereRB;

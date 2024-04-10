@@ -10,11 +10,13 @@ public class CarController : MonoBehaviour
     private bool isCarGrounded;
     
     private bool isBoosting = false;
+    private bool isDrifting = false;
     private float boostForce;
     
     public float forwardSpeed;
     public float reverseSpeed;
     public float boostMult = 2.0f;
+    public float driftForce = 10f;
     public float turnSpeed;
     public LayerMask groundLayer;
     
@@ -45,6 +47,26 @@ public class CarController : MonoBehaviour
         {
             isBoosting = false;
         }
+        
+         // Drift
+         if (Input.GetKeyDown(KeyCode.LeftControl))
+         {
+             isDrifting = true;
+         }
+         else if (Input.GetKeyUp(KeyCode.LeftControl))
+         {
+             isDrifting = false;
+         }
+         
+         // Adjustes the move and turn input when drifting
+         if (isDrifting)
+         {
+             // Reduce forward/backward movement during drift
+             moveInput *= 0.5f;
+             
+             // Increase turn speed during drift
+             turnInput *= 2f;
+         }
         
         // if the move input is greater than 0, then multiple by the forward speed,
         // else multiple by the reverse speed. This adjusts the speed of the car
@@ -87,6 +109,13 @@ public class CarController : MonoBehaviour
             // If boosting, apply additional force
             boostForce = isBoosting ? forwardSpeed * boostMult : 0f;
             sphereRB.AddForce(transform.forward * (moveInput + boostForce), ForceMode.Acceleration);
+            
+            // If drifting, applying the additional sideways force
+            if (isDrifting)
+            {
+                Vector3 driftForceVector = transform.right * (turnInput * driftForce);
+                sphereRB.AddForce(driftForceVector, ForceMode.Acceleration);
+            }
         }
         else
         {

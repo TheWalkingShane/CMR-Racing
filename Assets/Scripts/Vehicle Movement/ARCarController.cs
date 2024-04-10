@@ -30,10 +30,8 @@ public class ARCarController : MonoBehaviour
     public Joystick joyStick;
 
     // buttons
-    public myButton MyButton;
     public myButton boostButton;
-    public float dampenPress = 0;
-    public float buttonSensitivity = 2f;
+    public myButton driftButton;
     
     // Start is called before the first frame update
     void Start()
@@ -44,9 +42,6 @@ public class ARCarController : MonoBehaviour
 
     private void GetInput()
     {
-        //moveInput = Input.GetAxisRaw("Vertical");
-        //turnInput = Input.GetAxisRaw("Horizontal");
-
         moveInput = joyStick.Vertical;
         turnInput = joyStick.Horizontal;
     }
@@ -55,17 +50,6 @@ public class ARCarController : MonoBehaviour
     void Update()
     {
         GetInput();
-        
-        // check if the button has been pressed, then increase the sensitivity
-        if (MyButton.isPressed)
-        {
-            dampenPress += buttonSensitivity * Time.deltaTime;
-        }
-        else
-        {
-            dampenPress -= buttonSensitivity * Time.deltaTime;
-        }
-        dampenPress = Mathf.Clamp01(dampenPress);
         
         // Boost
         if (boostButton.isPressed)
@@ -77,6 +61,26 @@ public class ARCarController : MonoBehaviour
             isBoosting = false;
         }
         
+        // Drift
+        if (driftButton.isPressed)
+        {
+            isDrifting = true;
+        }
+        else
+        {
+            isDrifting = false;
+        }
+         
+        // Adjustes the move and turn input when drifting
+        if (isDrifting)
+        {
+            // Reduce forward/backward movement during drift
+            moveInput *= 0.5f;
+             
+            // Increase turn speed during drift
+            turnInput *= 2f;
+        }
+        
         // if the move input is greater than 0, then multiple by the forward speed,
         // else multiple by the reverse speed. This adjusts the speed of the car
         moveInput *= moveInput > 0 ? forwardSpeed : reverseSpeed;
@@ -84,7 +88,6 @@ public class ARCarController : MonoBehaviour
         if (isBoosting)
         {
             moveInput *= boostMult;
-           // Debug.Log($"Boosted, boost Count: {moveInput}");
         }
         
         // sets the cars position to sphere
@@ -118,6 +121,13 @@ public class ARCarController : MonoBehaviour
             // If boosting, apply additional force
             boostForce = isBoosting ? forwardSpeed * boostMult : 0f;
             sphereRB.AddForce(transform.forward * (moveInput + boostForce), ForceMode.Acceleration);
+            
+            // If drifting, applying the additional sideways force
+            if (isDrifting)
+            {
+                Vector3 driftForceVector = transform.right * (turnInput * driftForce);
+                sphereRB.AddForce(driftForceVector, ForceMode.Acceleration);
+            }
         }
         else
         {

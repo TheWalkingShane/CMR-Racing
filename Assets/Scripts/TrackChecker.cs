@@ -10,6 +10,15 @@ public class TrackChecker : MonoBehaviour
     private Renderer floorRenderer;
     private Texture2D trackTexture;
 
+    private enum TrackState
+    {
+        OnTrack,
+        EdgeOfTrack,
+        OffTrack,
+        SpeedIncrease,
+        SpeedDecrease
+    }
+
     void Start()
     {
         // Check if the main camera is assigned
@@ -45,46 +54,79 @@ public class TrackChecker : MonoBehaviour
 
     void Update()
     {
-        // Ensure that the camera, carTransform, and track texture are assigned before proceeding
         if (mainCamera != null && carTransform != null && trackTexture != null)
         {
-            // Get the car's position on screen
-            Vector3 carScreenPosition = mainCamera.WorldToScreenPoint(carTransform.position);
-            Ray ray = mainCamera.ScreenPointToRay(carScreenPosition);
+            Ray ray = new Ray(carTransform.position, Vector3.down);
             RaycastHit hit;
 
             if (Physics.Raycast(ray, out hit, Mathf.Infinity, floorMask))
             {
-                // Convert hit point to texture space
                 Vector2 pixelUV = hit.textureCoord;
                 pixelUV.x *= trackTexture.width;
                 pixelUV.y *= trackTexture.height;
 
-                // Check pixel color
                 Color pixelColor = trackTexture.GetPixel((int)pixelUV.x, (int)pixelUV.y);
+                TrackState state = GetTrackState(pixelColor);
 
-                if (IsTrack(pixelColor))
+                switch (state)
                 {
-                    Debug.Log("TrackChecker: On track");
-                }
-                else
-                {
-                    Debug.Log("TrackChecker: Off track");
+                    case TrackState.OnTrack:
+                        Debug.Log("TrackChecker: On track");
+                        // Implement logic for being on track
+                        break;
+                    case TrackState.EdgeOfTrack:
+                        Debug.Log("TrackChecker: Edge of track");
+                        // Implement logic for being on the edge of the track
+                        break;
+                    case TrackState.OffTrack:
+                        Debug.Log("TrackChecker: Off track");
+                        // Implement logic for being off track
+                        break;
+                    case TrackState.SpeedIncrease:
+                        Debug.Log("TrackChecker: Speed increase");
+                        // Implement logic for speed increase
+                        break;
+                    case TrackState.SpeedDecrease:
+                        Debug.Log("TrackChecker: Speed decrease");
+                        // Implement logic for speed decrease
+                        break;
                 }
             }
         }
     }
 
-    // Determines if the color of the pixel corresponds to the track
-    private bool IsTrack(Color color)
+    private TrackState GetTrackState(Color color)
     {
-        // Define pink color range
-        Color lowerPink = new Color(0.8f, 0.6f, 0.9f); // These are RGB values as fractions of 255
-        Color upperPink = new Color(1.0f, 0.8f, 1.0f); // Adjust these values based on your actual track color
+        // Convert from float [0,1] to int [0,255]
+        int r = Mathf.RoundToInt(color.r * 255);
+        int g = Mathf.RoundToInt(color.g * 255);
+        int b = Mathf.RoundToInt(color.b * 255);
 
-        // Check if color is within the pink color range
-        return color.r >= lowerPink.r && color.r <= upperPink.r
-               && color.g >= lowerPink.g && color.g <= upperPink.g
-               && color.b >= lowerPink.b && color.b <= upperPink.b;
+        // Define specific RGB values for different track states
+        if (r == 6 && g == 0 && b == 254) // On track (blue)
+        {
+            return TrackState.OnTrack;
+        }
+        else if (r == 115 && g == 163 && b == 255) // Edge of track (light blue)
+        {
+            return TrackState.EdgeOfTrack;
+        }
+        else if (r == 113 && g == 253 && b == 144) // Speed increase (green)
+        {
+            return TrackState.SpeedIncrease;
+        }
+        else if (r == 255 && g == 114 && b == 113) // Speed decrease (red)
+        {
+            return TrackState.SpeedDecrease;
+        }
+        else if (r == 145 && g == 154 && b == 149) // Off track (grey)
+        {
+            return TrackState.OffTrack;
+        }
+        else
+        {
+            return TrackState.OffTrack; // Default to off track if none match
+        }
     }
 }
+

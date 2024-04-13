@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,10 +7,27 @@ using UnityEngine.EventSystems;
 public class myButton : MonoBehaviour
 {
     public bool isPressed;
-
+    
+    public float dampenPress = 0;
+    public float buttonSensitivity = 2f;
+    
     void Start()
     {
         setButton();
+    }
+
+    private void Update()
+    {
+        // check if the button has been pressed, then increase the sensitivity
+        if (isPressed)
+        {
+            dampenPress += buttonSensitivity * Time.deltaTime;
+        }
+        else
+        {
+            dampenPress -= buttonSensitivity * Time.deltaTime;
+        }
+        dampenPress = Mathf.Clamp01(dampenPress);
     }
 
     void setButton()

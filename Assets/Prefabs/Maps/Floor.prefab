@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1647470822439975852}
   - component: {fileID: 5162019913463179019}
   m_Layer: 6
-  m_Name: Track-image-Plane
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

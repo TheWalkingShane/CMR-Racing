@@ -1,11 +1,17 @@
 using UnityEngine;
+using UnityEngine.UI; // Namespace for UI elements like Image
 
 public class TrackChecker : MonoBehaviour
 {
     public Camera mainCamera; // Assign the camera used for raycasting in the Unity inspector.
     public LayerMask floorMask; // Assign the layer mask for the floor in the Unity inspector.
     public Transform carTransform; // Assign your car's Transform here in the Unity inspector.
-    public string floorObjectName = "Floor"; // Set this to the name of your floor object in the scene.
+    public Image trackStateImage; // UI Image component to show track state
+    public Sprite onTrackSprite;  // Sprite for being on track
+    public Sprite offTrackSprite; // Sprite for being off track
+    public Sprite edgeOfTrackSprite; // Sprite for edge of track
+    public Sprite speedIncreaseSprite; // Sprite for speed increase (boost)
+    public Sprite speedDecreaseSprite; // Sprite for speed decrease (slow)
 
     private Renderer floorRenderer;
     private Texture2D trackTexture;
@@ -21,22 +27,19 @@ public class TrackChecker : MonoBehaviour
 
     void Start()
     {
-        // Check if the main camera is assigned
         if (mainCamera == null)
         {
             Debug.LogError("TrackChecker: Main Camera is not assigned in the inspector.");
             return;
         }
 
-        // Find the floor object by name
-        GameObject floorObject = GameObject.Find(floorObjectName);
+        GameObject floorObject = GameObject.Find("Floor");
         if (floorObject == null)
         {
-            Debug.LogError("TrackChecker: No floor object found with name: " + floorObjectName);
+            Debug.LogError("TrackChecker: No floor object found with the specified name.");
             return;
         }
 
-        // Get the Renderer component from the floor object
         floorRenderer = floorObject.GetComponent<Renderer>();
         if (floorRenderer == null)
         {
@@ -44,7 +47,6 @@ public class TrackChecker : MonoBehaviour
             return;
         }
 
-        // Get the Texture from the Renderer component
         trackTexture = floorRenderer.material.mainTexture as Texture2D;
         if (trackTexture == null)
         {
@@ -68,65 +70,66 @@ public class TrackChecker : MonoBehaviour
                 Color pixelColor = trackTexture.GetPixel((int)pixelUV.x, (int)pixelUV.y);
                 TrackState state = GetTrackState(pixelColor);
 
-                switch (state)
-                {
-                    case TrackState.OnTrack:
-                        Debug.Log("TrackChecker: On track");
-                        // Implement logic for being on track
-                        break;
-                    case TrackState.EdgeOfTrack:
-                        Debug.Log("TrackChecker: Edge of track");
-                        // Implement logic for being on the edge of the track
-                        break;
-                    case TrackState.OffTrack:
-                        Debug.Log("TrackChecker: Off track");
-                        // Implement logic for being off track
-                        break;
-                    case TrackState.SpeedIncrease:
-                        Debug.Log("TrackChecker: Speed increase");
-                        // Implement logic for speed increase
-                        break;
-                    case TrackState.SpeedDecrease:
-                        Debug.Log("TrackChecker: Speed decrease");
-                        // Implement logic for speed decrease
-                        break;
-                }
+                UpdateTrackStateUI(state);
             }
         }
     }
 
     private TrackState GetTrackState(Color color)
     {
-        // Convert from float [0,1] to int [0,255]
         int r = Mathf.RoundToInt(color.r * 255);
         int g = Mathf.RoundToInt(color.g * 255);
         int b = Mathf.RoundToInt(color.b * 255);
 
-        // Define specific RGB values for different track states
-        if (r == 6 && g == 0 && b == 254) // On track (blue)
+        int tolerance = 10; // Tolerance for color matching
+        if (Mathf.Abs(r - 6) <= tolerance && Mathf.Abs(g - 0) <= tolerance && Mathf.Abs(b - 254) <= tolerance)
         {
             return TrackState.OnTrack;
         }
-        else if (r == 115 && g == 163 && b == 255) // Edge of track (light blue)
+        if (Mathf.Abs(r - 115) <= tolerance && Mathf.Abs(g - 163) <= tolerance && Mathf.Abs(b - 255) <= tolerance)
         {
             return TrackState.EdgeOfTrack;
         }
-        else if (r == 113 && g == 253 && b == 144) // Speed increase (green)
+        if (Mathf.Abs(r - 113) <= tolerance && Mathf.Abs(g - 253) <= tolerance && Mathf.Abs(b - 144) <= tolerance)
         {
             return TrackState.SpeedIncrease;
         }
-        else if (r == 255 && g == 114 && b == 113) // Speed decrease (red)
+        if (Mathf.Abs(r - 255) <= tolerance && Mathf.Abs(g - 114) <= tolerance && Mathf.Abs(b - 113) <= tolerance)
         {
             return TrackState.SpeedDecrease;
         }
-        else if (r == 145 && g == 154 && b == 149) // Off track (grey)
+        if (Mathf.Abs(r - 145) <= tolerance && Mathf.Abs(g - 154) <= tolerance && Mathf.Abs(b - 149) <= tolerance)
         {
             return TrackState.OffTrack;
         }
-        else
-        {
-            return TrackState.OffTrack; // Default to off track if none match
-        }
+        return TrackState.OffTrack;
     }
-}
 
+    private void UpdateTrackStateUI(TrackState state)
+    {
+        if (trackStateImage == null) return; // Ensure the image component is assigned.
+
+        switch (state)
+        {
+            case TrackState.OnTrack:
+                trackStateImage.sprite = onTrackSprite;
+                break;
+            case TrackState.EdgeOfTrack:
+                trackStateImage.sprite = edgeOfTrackSprite;
+                break;
+            case TrackState.OffTrack:
+                trackStateImage.sprite = offTrackSprite;
+                break;
+            case TrackState.SpeedIncrease:
+                trackStateImage.sprite = speedIncreaseSprite;
+                break;
+            case TrackState.SpeedDecrease:
+                trackStateImage.sprite = speedDecreaseSprite;
+                  break;
+        default:
+            trackStateImage.enabled = false; // Hide the image if the state is not recognized
+            break;
+    }
+    trackStateImage.enabled = true; // Show the image for any recognized state
+}
+        }

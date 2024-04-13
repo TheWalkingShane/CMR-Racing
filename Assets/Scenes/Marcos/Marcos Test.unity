@@ -2393,7 +2393,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 954878080}
   mHiddenRoot: {fileID: 0}
-  mTargetName: bomb_asset
+  mTargetName: roomcmr
   mDatasetName: Vuforia/CMR_Racing.xml
   mCastedBehaviour: {fileID: 954878080}
   mMeshFilter: {fileID: 0}
@@ -2457,7 +2457,7 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: bomb_asset
+  mTrackableName: roomcmr
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/CMR_Racing.xml
   mAspectRatio: 1.05513
@@ -3415,8 +3415,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4966719baa26e4b0e8231a24d9bd491a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FocusMode: 1
-  m_LightEstimationMode: 0
+  m_FocusMode: -1
+  m_LightEstimationMode: -1
   m_AutoFocus: 1
   m_LightEstimation: 0
   m_FacingDirection: 1

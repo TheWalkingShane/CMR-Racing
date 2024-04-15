@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QCARConfig>
-  <Tracking>
-    <ImageTarget name="roomcmr" size="0.100000 0.105513" />
-    <ImageTarget name="wordphoto" size="0.100000 0.100853" />
-    <ImageTarget name="bomb_asset" size="0.100000 0.105513" />
-    <ImageTarget name="cmr_room" size="0.100000 0.090071" />
-  </Tracking>
-</QCARConfig>

@@ -18,12 +18,22 @@ MonoBehaviour:
     m_Storage: []
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5054170136580372226
-      m_GuidHigh: 4542372176008951993
+      m_GuidLow: 4828395145660968903
+      m_GuidHigh: 7677927814349673913
     m_SerializedTextureGuid:
-      m_GuidLow: 13741847668246858953
-      m_GuidHigh: 5564885716016284393
+      m_GuidLow: 14633453383588544283
+      m_GuidHigh: 15758099784916842745
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
-    m_Name: Cat_test
+    m_Name: Map_one
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5271166306047619968
+      m_GuidHigh: 17807230208537813166
+    m_SerializedTextureGuid:
+      m_GuidLow: 8373517316052315841
+      m_GuidHigh: 11012315905754545355
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: cat_bomb
     m_Texture: {fileID: 0}

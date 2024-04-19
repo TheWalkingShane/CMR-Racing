@@ -94,7 +94,7 @@ public class AI_StatesController : MonoBehaviour
         }
     }
 
-    void Turn()
+    /*void Turn()
     {
         // Calculate turn direction and apply turning logic
         // Similar to how you're applying turnInput in the player's script but based on AI logic towards next waypoint
@@ -110,7 +110,7 @@ public class AI_StatesController : MonoBehaviour
         }
 
     }
-
+    */
     // Helper method to determine if AI should turn
     bool ShouldTurn()
     {

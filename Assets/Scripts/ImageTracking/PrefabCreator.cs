@@ -5,11 +5,17 @@ using UnityEngine.XR.ARSubsystems;
 
 public class PrefabCreator : MonoBehaviour
 {
-    [SerializeField] private GameObject ObjectsPrefabs;
-    [SerializeField] private Vector3 prefabOffset;
-    
-    private ARTrackedImageManager arTrackedImageManager;
+    [System.Serializable]
+    public struct ImageToPrefab
+    {
+        public string imageName;
+        public GameObject prefab;
+    }
+
+    [SerializeField] private ImageToPrefab[] imagePrefabs;
     private Dictionary<string, GameObject> instantiatedObjects = new Dictionary<string, GameObject>();
+
+    private ARTrackedImageManager arTrackedImageManager;
 
     private void OnEnable()
     {
@@ -24,36 +30,45 @@ public class PrefabCreator : MonoBehaviour
 
     private void OnImageChanged(ARTrackedImagesChangedEventArgs args)
     {
-        foreach (ARTrackedImage addedImage in args.added)
+        foreach (ARTrackedImage image in args.added)
         {
-            InstantiateObject(addedImage);
+            InstantiateObject(image);
         }
         
-        foreach (ARTrackedImage updatedImage in args.updated)
+        foreach (ARTrackedImage image in args.updated)
         {
-            UpdateObject(updatedImage);
+            UpdateObject(image);
         }
 
-        foreach (ARTrackedImage removedImage in args.removed)
+        foreach (ARTrackedImage image in args.removed)
         {
-            Destroy(instantiatedObjects[removedImage.referenceImage.name]);
-            instantiatedObjects.Remove(removedImage.referenceImage.name);
+            if (instantiatedObjects.TryGetValue(image.referenceImage.name, out GameObject obj))
+            {
+                Destroy(obj);
+                instantiatedObjects.Remove(image.referenceImage.name);
+            }
         }
     }
 
     private void InstantiateObject(ARTrackedImage image)
     {
-        var newObject = Instantiate(ObjectsPrefabs, image.transform.position + prefabOffset, Quaternion.identity);
-        instantiatedObjects.Add(image.referenceImage.name, newObject);
-        UpdateObject(image); // Position and rotation update for initially added images
+        foreach (ImageToPrefab item in imagePrefabs)
+        {
+            if (item.imageName == image.referenceImage.name)
+            {
+                GameObject newObj = Instantiate(item.prefab, image.transform.position, image.transform.rotation);
+                instantiatedObjects.Add(image.referenceImage.name, newObj);
+                break;
+            }
+        }
     }
 
     private void UpdateObject(ARTrackedImage image)
     {
-        if (instantiatedObjects.TryGetValue(image.referenceImage.name, out GameObject existingObject))
+        if (instantiatedObjects.TryGetValue(image.referenceImage.name, out GameObject obj))
         {
-            existingObject.transform.position = image.transform.position + prefabOffset;
-            existingObject.transform.rotation = image.transform.rotation;
+            obj.transform.position = image.transform.position;
+            obj.transform.rotation = image.transform.rotation;
         }
     }
 }

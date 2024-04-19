@@ -30,14 +30,14 @@ public class WaypointScript : MonoBehaviour
     {
         transform.position = Vector3.MoveTowards(transform.position, waypoints[currentWaypointIndex].position, moveSpeed * Time.deltaTime);
 
-        // Check if the bot has reached the current waypoint
+        // Checks if the bot has reached the current waypoint
         if (Vector3.Distance(transform.position, waypoints[currentWaypointIndex].position) < 0.1f)
         {
-            // Move to the next waypoint
+            // Moves to the next waypoint
             currentWaypointIndex++;
             if (currentWaypointIndex >= waypoints.Length)
             {
-                // Reset to the first waypoint if reached the end
+                // Resets to the first waypoint if reached the end
                 currentWaypointIndex = 0;
             }
         }

@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
@@ -10,6 +11,7 @@ public class PrefabCreator : MonoBehaviour
     {
         public string imageName;
         public GameObject prefab;
+        public float verticalOffset;  // Added vertical offset
     }
 
     [SerializeField] private ImageToPrefab[] imagePrefabs;
@@ -56,19 +58,23 @@ public class PrefabCreator : MonoBehaviour
         {
             if (item.imageName == image.referenceImage.name)
             {
-                GameObject newObj = Instantiate(item.prefab, image.transform.position, image.transform.rotation);
+                Vector3 adjustedPosition = image.transform.position + Vector3.up * item.verticalOffset;
+                GameObject newObj = Instantiate(item.prefab, adjustedPosition, Quaternion.identity);
                 instantiatedObjects.Add(image.referenceImage.name, newObj);
                 break;
             }
         }
     }
 
+
     private void UpdateObject(ARTrackedImage image)
     {
         if (instantiatedObjects.TryGetValue(image.referenceImage.name, out GameObject obj))
         {
-            obj.transform.position = image.transform.position;
+            Vector3 adjustedPosition = image.transform.position + Vector3.up * imagePrefabs.First(i => i.imageName == image.referenceImage.name).verticalOffset;
+            obj.transform.position = adjustedPosition;
             obj.transform.rotation = image.transform.rotation;
         }
     }
+
 }

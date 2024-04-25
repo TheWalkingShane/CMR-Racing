@@ -249,8 +249,10 @@ MonoBehaviour:
   imagePrefabs:
   - imageName: Map_one
     prefab: {fileID: 5801124919647450715, guid: dc1d7d2f082c52b4597d126e64d0e444, type: 3}
+    verticalOffset: -5
   - imageName: cat_bomb
     prefab: {fileID: 2660662142532336686, guid: c3d3155eab1257d4d97d09cc6218dbe0, type: 3}
+    verticalOffset: 0
 --- !u!4 &200386604
 Transform:
   m_ObjectHideFlags: 0
@@ -575,7 +577,7 @@ MonoBehaviour:
   m_Camera: {fileID: 524907461}
   m_OriginBaseGameObject: {fileID: 771873022}
   m_CameraFloorOffsetObject: {fileID: 308760009}
-  m_RequestedTrackingOriginMode: 0
+  m_RequestedTrackingOriginMode: 2
   m_CameraYOffset: 1.1176
 --- !u!114 &771873026
 MonoBehaviour:

@@ -1,34 +1,25 @@
-using System.Diagnostics;
-using System.Net.Mime;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public string firstLevel;
-
-    public GameObject optionsScreen;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-
     public void StartGame()
     {
-        SceneManager.LoadScene(firstLevel);
+        SceneManager.LoadScene("Level_Select"); // this loads the level select to pick the laps
     }
+  
+    public void QuitGame()
+    {
+        Application.Quit();
+        UnityEngine.Debug.Log("Quitting"); 
+    }
+
     
+    
+    
+    //public GameObject optionsScreen;
+    
+    /*
     public void OpenOptions()
     {
         optionsScreen.SetActive(true);
@@ -38,11 +29,5 @@ public class MainMenu : MonoBehaviour
     {
         optionsScreen.SetActive(false);
     }
-
-    public void QuitGame()
-    {
-        Application.Quit();
-        UnityEngine.Debug.Log("Quitting");
-    }
-
+    */
 }

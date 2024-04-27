@@ -344,6 +344,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7037960156915733128}
   - component: {fileID: 6463034412812225061}
+  - component: {fileID: 6353412480220590714}
   m_Layer: 0
   m_Name: Car
   m_TagString: Untagged
@@ -384,6 +385,7 @@ MonoBehaviour:
   forwardSpeed: 75
   reverseSpeed: 50
   boostMult: 2
+  driftForce: 10
   turnSpeed: 80
   groundLayer:
     serializedVersion: 2
@@ -391,6 +393,33 @@ MonoBehaviour:
   sphereRB: {fileID: 5766641107848102637}
   airDrag: 0.1
   groundDrag: 2
+  canMove: 1
+--- !u!114 &6353412480220590714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3050457275944507501}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b525499a29560204190f2d579863e012, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forwardSpeed: 75
+  reverseSpeed: 50
+  turnSpeed: 100
+  boostMult: 2
+  driftForce: 10
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  sphereRB: {fileID: 5766641107848102637}
+  airDrag: 0.1
+  groundDrag: 2
+  joyStick: {fileID: 0}
+  boostButton: {fileID: 0}
+  driftButton: {fileID: 0}
 --- !u!1 &3579998460229075490
 GameObject:
   m_ObjectHideFlags: 0

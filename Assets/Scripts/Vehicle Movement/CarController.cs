@@ -53,11 +53,11 @@ public class CarController : MonoBehaviour
         }
 
         // Drift
-        if (Input.GetKeyDown(KeyCode.LeftControl))
+        if (Input.GetKeyDown(KeyCode.C))
         {
             isDrifting = true;
         }
-        else if (Input.GetKeyUp(KeyCode.LeftControl))
+        else if (Input.GetKeyUp(KeyCode.C))
         {
             isDrifting = false;
         }

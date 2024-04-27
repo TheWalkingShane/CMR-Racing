@@ -3,15 +3,11 @@ using UnityEngine.UI; // Namespace for UI elements like Image
 
 public class TrackChecker : MonoBehaviour
 {
-    public Camera mainCamera; // Assign the camera used for raycasting in the Unity inspector.
-    public LayerMask floorMask; // Assign the layer mask for the floor in the Unity inspector.
-    public Transform carTransform; // Assign your car's Transform here in the Unity inspector.
-    public Image trackStateImage; // UI Image component to show track state
-    public Sprite onTrackSprite;  // Sprite for being on track
-    public Sprite offTrackSprite; // Sprite for being off track
-    public Sprite edgeOfTrackSprite; // Sprite for edge of track
-    public Sprite speedIncreaseSprite; // Sprite for speed increase (boost)
-    public Sprite speedDecreaseSprite; // Sprite for speed decrease (slow)
+    public Camera mainCamera;
+    public LayerMask floorMask;
+    public Transform carTransform;
+    public Image trackStateImage;
+    public Sprite onTrackSprite, offTrackSprite, edgeOfTrackSprite, speedIncreaseSprite, speedDecreaseSprite;
 
     private Renderer floorRenderer;
     private Texture2D trackTexture;
@@ -25,7 +21,26 @@ public class TrackChecker : MonoBehaviour
         SpeedDecrease
     }
 
+ private const int tolerance = 10; // Increase the tolerance to see if it helps.
+
+
+    // Target RGB colors as class-level variables
+    private Color targetBlue = new Color(6 / 255f, 0 / 255f, 254 / 255f);
+    private Color targetGreen = new Color(113 / 255f, 253 / 255f, 144 / 255f);
+    private Color targetRed = new Color(255 / 255f, 114 / 255f, 113 / 255f);
+    private Color targetLightBlue = new Color(115 / 255f, 163 / 255f, 255 / 255f); // Light blue for EdgeOfTrack
+
     void Start()
+    {
+        CheckComponentAssignments();
+    }
+
+    void Update()
+    {
+        DetectTrackState();
+    }
+
+    private void CheckComponentAssignments()
     {
         if (mainCamera == null)
         {
@@ -54,7 +69,7 @@ public class TrackChecker : MonoBehaviour
         }
     }
 
-    void Update()
+    private void DetectTrackState()
     {
         if (mainCamera != null && carTransform != null && trackTexture != null)
         {
@@ -69,7 +84,6 @@ public class TrackChecker : MonoBehaviour
 
                 Color pixelColor = trackTexture.GetPixel((int)pixelUV.x, (int)pixelUV.y);
                 TrackState state = GetTrackState(pixelColor);
-
                 UpdateTrackStateUI(state);
             }
         }
@@ -77,38 +91,41 @@ public class TrackChecker : MonoBehaviour
 
     private TrackState GetTrackState(Color color)
     {
-        int r = Mathf.RoundToInt(color.r * 255);
-        int g = Mathf.RoundToInt(color.g * 255);
-        int b = Mathf.RoundToInt(color.b * 255);
-
-        int tolerance = 10; // Tolerance for color matching
-        if (Mathf.Abs(r - 6) <= tolerance && Mathf.Abs(g - 0) <= tolerance && Mathf.Abs(b - 254) <= tolerance)
-        {
+        if (IsBlueChannelMatch(color))
             return TrackState.OnTrack;
-        }
-        if (Mathf.Abs(r - 115) <= tolerance && Mathf.Abs(g - 163) <= tolerance && Mathf.Abs(b - 255) <= tolerance)
-        {
+        if (IsLightBlueChannelMatch(color))
             return TrackState.EdgeOfTrack;
-        }
-        if (Mathf.Abs(r - 113) <= tolerance && Mathf.Abs(g - 253) <= tolerance && Mathf.Abs(b - 144) <= tolerance)
-        {
+        if (IsGreenChannelMatch(color))
             return TrackState.SpeedIncrease;
-        }
-        if (Mathf.Abs(r - 255) <= tolerance && Mathf.Abs(g - 114) <= tolerance && Mathf.Abs(b - 113) <= tolerance)
-        {
+        if (IsRedChannelMatch(color))
             return TrackState.SpeedDecrease;
-        }
-        if (Mathf.Abs(r - 145) <= tolerance && Mathf.Abs(g - 154) <= tolerance && Mathf.Abs(b - 149) <= tolerance)
-        {
-            return TrackState.OffTrack;
-        }
         return TrackState.OffTrack;
     }
 
+    private bool IsBlueChannelMatch(Color color)
+    {
+        return Mathf.Abs(color.b - targetBlue.b) <= tolerance / 255f;
+    }
+
+    private bool IsGreenChannelMatch(Color color)
+    {
+        return Mathf.Abs(color.g - targetGreen.g) <= tolerance / 255f;
+    }
+
+    private bool IsRedChannelMatch(Color color)
+    {
+        return Mathf.Abs(color.r - targetRed.r) <= tolerance / 255f;
+    }
+
+    private bool IsLightBlueChannelMatch(Color color)
+{
+    return Mathf.Abs(color.r - targetLightBlue.r) <= tolerance / 255f &&
+           Mathf.Abs(color.g - targetLightBlue.g) <= tolerance / 255f &&
+           Mathf.Abs(color.b - targetLightBlue.b) <= tolerance / 255f;
+}
+
     private void UpdateTrackStateUI(TrackState state)
     {
-        if (trackStateImage == null) return; // Ensure the image component is assigned.
-
         switch (state)
         {
             case TrackState.OnTrack:
@@ -125,11 +142,11 @@ public class TrackChecker : MonoBehaviour
                 break;
             case TrackState.SpeedDecrease:
                 trackStateImage.sprite = speedDecreaseSprite;
-                  break;
-        default:
-            trackStateImage.enabled = false; // Hide the image if the state is not recognized
-            break;
-    }
-    trackStateImage.enabled = true; // Show the image for any recognized state
-}
+                break;
+            default:
+                trackStateImage.enabled = false; // Hide the image if the state is not recognized
+                break;
         }
+        trackStateImage.enabled = true; // Ensure the image is visible when needed
+    }
+}

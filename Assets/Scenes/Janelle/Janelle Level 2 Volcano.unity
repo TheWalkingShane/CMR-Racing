@@ -123,6 +123,54 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!28 &63754868
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 2
+  m_Width: 2
+  m_Height: 2
+  m_CompleteImageSize: 20
+  m_MipsStripped: 0
+  m_TextureFormat: 4
+  m_MipCount: 2
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 0
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 20
+  _typelessdata: 414141ff414141ff414141ff414141ff414141ff
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!43 &86513606
 Mesh:
   m_ObjectHideFlags: 0
@@ -387,102 +435,6 @@ MonoBehaviour:
   markerStartUVY: 0.19968724
   customPoints: []
   handleObject: {fileID: 0}
---- !u!28 &112433019
-Texture2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 2
-  m_Width: 2
-  m_Height: 2
-  m_CompleteImageSize: 20
-  m_MipsStripped: 0
-  m_TextureFormat: 4
-  m_MipCount: 2
-  m_IsReadable: 1
-  m_IsPreProcessed: 0
-  m_IgnoreMipmapLimit: 0
-  m_MipmapLimitGroupName: 
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_VTOnly: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_LightmapFormat: 0
-  m_ColorSpace: 1
-  m_PlatformBlob: 
-  image data: 20
-  _typelessdata: 383838ff383838ff383838ff383838ff383838ff
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
---- !u!28 &210489590
-Texture2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 2
-  m_Width: 2
-  m_Height: 2
-  m_CompleteImageSize: 20
-  m_MipsStripped: 0
-  m_TextureFormat: 4
-  m_MipCount: 2
-  m_IsReadable: 1
-  m_IsPreProcessed: 0
-  m_IgnoreMipmapLimit: 0
-  m_MipmapLimitGroupName: 
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_VTOnly: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_LightmapFormat: 0
-  m_ColorSpace: 1
-  m_PlatformBlob: 
-  image data: 20
-  _typelessdata: 4d4d4dff4d4d4dff4d4d4dff4d4d4dff4d4d4dff
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1001 &230737558
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -572,6 +524,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 568881036174836437, guid: fee68d892c1485d42ad40d67f53bc65f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 235.3518
+      objectReference: {fileID: 0}
+    - target: {fileID: 568881036174836437, guid: fee68d892c1485d42ad40d67f53bc65f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 52.433
+      objectReference: {fileID: 0}
+    - target: {fileID: 568881036174836437, guid: fee68d892c1485d42ad40d67f53bc65f, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.62876
       objectReference: {fileID: 0}
@@ -589,11 +549,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 568881036174836437, guid: fee68d892c1485d42ad40d67f53bc65f, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -690.23
+      value: -276.8
       objectReference: {fileID: 0}
     - target: {fileID: 568881036174836437, guid: fee68d892c1485d42ad40d67f53bc65f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 405.45
+      value: 135.31
       objectReference: {fileID: 0}
     - target: {fileID: 1428544594137840851, guid: fee68d892c1485d42ad40d67f53bc65f, type: 3}
       propertyPath: m_Color.a
@@ -611,11 +571,35 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1680333529328477995, guid: fee68d892c1485d42ad40d67f53bc65f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 56.6771
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680333529328477995, guid: fee68d892c1485d42ad40d67f53bc65f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 56.6771
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680333529328477995, guid: fee68d892c1485d42ad40d67f53bc65f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 401.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680333529328477995, guid: fee68d892c1485d42ad40d67f53bc65f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 166.61
+      objectReference: {fileID: 0}
     - target: {fileID: 1968222743524197317, guid: fee68d892c1485d42ad40d67f53bc65f, type: 3}
       propertyPath: m_Name
       value: Gameplay UI
       objectReference: {fileID: 0}
     - target: {fileID: 3955303734587469503, guid: fee68d892c1485d42ad40d67f53bc65f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 302.2632
+      objectReference: {fileID: 0}
+    - target: {fileID: 3955303734587469503, guid: fee68d892c1485d42ad40d67f53bc65f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 123.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 3955303734587469503, guid: fee68d892c1485d42ad40d67f53bc65f, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.62876
       objectReference: {fileID: 0}
@@ -629,7 +613,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3955303734587469503, guid: fee68d892c1485d42ad40d67f53bc65f, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -882
+      value: -419.0075
+      objectReference: {fileID: 0}
+    - target: {fileID: 3955303734587469503, guid: fee68d892c1485d42ad40d67f53bc65f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 158.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 7408129464660269949, guid: fee68d892c1485d42ad40d67f53bc65f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 247.5769
+      objectReference: {fileID: 0}
+    - target: {fileID: 7408129464660269949, guid: fee68d892c1485d42ad40d67f53bc65f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 65.5413
       objectReference: {fileID: 0}
     - target: {fileID: 7408129464660269949, guid: fee68d892c1485d42ad40d67f53bc65f, type: 3}
       propertyPath: m_LocalScale.x
@@ -645,11 +641,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7408129464660269949, guid: fee68d892c1485d42ad40d67f53bc65f, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -742.41003
+      value: -317
       objectReference: {fileID: 0}
     - target: {fileID: 7408129464660269949, guid: fee68d892c1485d42ad40d67f53bc65f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 412.36
+      value: 139.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7777151000083170981, guid: fee68d892c1485d42ad40d67f53bc65f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 272.6734
+      objectReference: {fileID: 0}
+    - target: {fileID: 7777151000083170981, guid: fee68d892c1485d42ad40d67f53bc65f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 93.079
       objectReference: {fileID: 0}
     - target: {fileID: 7777151000083170981, guid: fee68d892c1485d42ad40d67f53bc65f, type: 3}
       propertyPath: m_LocalScale.x
@@ -669,11 +673,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7777151000083170981, guid: fee68d892c1485d42ad40d67f53bc65f, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -802.15
+      value: -360
       objectReference: {fileID: 0}
     - target: {fileID: 7777151000083170981, guid: fee68d892c1485d42ad40d67f53bc65f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 419.91
+      value: 148.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 8657940175631408104, guid: fee68d892c1485d42ad40d67f53bc65f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 166.0963
+      objectReference: {fileID: 0}
+    - target: {fileID: 8657940175631408104, guid: fee68d892c1485d42ad40d67f53bc65f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 166.0963
+      objectReference: {fileID: 0}
+    - target: {fileID: 8657940175631408104, guid: fee68d892c1485d42ad40d67f53bc65f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -434.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 8657940175631408104, guid: fee68d892c1485d42ad40d67f53bc65f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -118.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -691,54 +711,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!28 &262514323
-Texture2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 2
-  m_Width: 12
-  m_Height: 12
-  m_CompleteImageSize: 760
-  m_MipsStripped: 0
-  m_TextureFormat: 4
-  m_MipCount: 4
-  m_IsReadable: 1
-  m_IsPreProcessed: 0
-  m_IgnoreMipmapLimit: 0
-  m_MipmapLimitGroupName: 
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_VTOnly: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_LightmapFormat: 0
-  m_ColorSpace: 1
-  m_PlatformBlob: 
-  image data: 760
-  _typelessdata: 0000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc0000000000000000000000000000000000000000ffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffcc0000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc000000000000000000000000000000000000000000000000000000007f7f7f667f7f7f66000000000000000000000000000000007f7f7f667f7f7f6600000000000000007f7f7f667f7f7f66bfbfbf99bfbfbf997f7f7f667f7f7f667f7f7f667f7f7f66bfbfbf99bfbfbf997f7f7f667f7f7f6600000000000000007f7f7f667f7f7f66000000000000000000000000000000007f7f7f667f7f7f660000000000000000000000007f7f7f66000000007f7f7f66bfbfbf997f7f7f66000000007f7f7f6600000000bfbfbf99
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1001 &352765632
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1180,7 +1152,7 @@ Transform:
   m_GameObject: {fileID: 739981276}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.6714274, z: -0, w: 0.7410704}
-  m_LocalPosition: {x: 2.681, y: 0.117, z: 2.288}
+  m_LocalPosition: {x: 2.681, y: 0.09, z: 2.288}
   m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -1537,7 +1509,7 @@ MonoBehaviour:
   markerStartUVY: 0.6790922
   customPoints: []
   handleObject: {fileID: 0}
---- !u!28 &939406962
+--- !u!28 &992129976
 Texture2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1551,12 +1523,12 @@ Texture2D:
   m_DownscaleFallback: 0
   m_IsAlphaChannelOptional: 0
   serializedVersion: 2
-  m_Width: 2
+  m_Width: 10
   m_Height: 2
-  m_CompleteImageSize: 20
+  m_CompleteImageSize: 112
   m_MipsStripped: 0
   m_TextureFormat: 4
-  m_MipCount: 2
+  m_MipCount: 4
   m_IsReadable: 1
   m_IsPreProcessed: 0
   m_IgnoreMipmapLimit: 0
@@ -1578,8 +1550,8 @@ Texture2D:
   m_LightmapFormat: 0
   m_ColorSpace: 1
   m_PlatformBlob: 
-  image data: 20
-  _typelessdata: 414141ff414141ff414141ff414141ff414141ff
+  image data: 112
+  _typelessdata: ffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffcc
   m_StreamData:
     serializedVersion: 2
     offset: 0
@@ -1849,6 +1821,54 @@ MonoBehaviour:
   markerStartUVY: 0.95226264
   customPoints: []
   handleObject: {fileID: 0}
+--- !u!28 &1164995939
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 2
+  m_Width: 12
+  m_Height: 12
+  m_CompleteImageSize: 760
+  m_MipsStripped: 0
+  m_TextureFormat: 4
+  m_MipCount: 4
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 0
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 760
+  _typelessdata: 0000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc0000000000000000000000000000000000000000ffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffcc0000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc000000000000000000000000000000000000000000000000000000007f7f7f667f7f7f66000000000000000000000000000000007f7f7f667f7f7f6600000000000000007f7f7f667f7f7f66bfbfbf99bfbfbf997f7f7f667f7f7f667f7f7f667f7f7f66bfbfbf99bfbfbf997f7f7f667f7f7f6600000000000000007f7f7f667f7f7f66000000000000000000000000000000007f7f7f667f7f7f660000000000000000000000007f7f7f66000000007f7f7f66bfbfbf997f7f7f66000000007f7f7f6600000000bfbfbf99
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1001 &1192929366
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2459,54 +2479,6 @@ MonoBehaviour:
   markerStartUVY: 0
   customPoints: []
   handleObject: {fileID: 0}
---- !u!28 &1576784314
-Texture2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 2
-  m_Width: 10
-  m_Height: 2
-  m_CompleteImageSize: 112
-  m_MipsStripped: 0
-  m_TextureFormat: 4
-  m_MipCount: 4
-  m_IsReadable: 1
-  m_IsPreProcessed: 0
-  m_IgnoreMipmapLimit: 0
-  m_MipmapLimitGroupName: 
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_VTOnly: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_LightmapFormat: 0
-  m_ColorSpace: 1
-  m_PlatformBlob: 
-  image data: 112
-  _typelessdata: ffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffcc
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1001 &1589450893
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2919,6 +2891,54 @@ MonoBehaviour:
   markerStartUVY: 0.97409785
   customPoints: []
   handleObject: {fileID: 0}
+--- !u!28 &1701705835
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 2
+  m_Width: 2
+  m_Height: 2
+  m_CompleteImageSize: 20
+  m_MipsStripped: 0
+  m_TextureFormat: 4
+  m_MipCount: 2
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 0
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 20
+  _typelessdata: 383838ff383838ff383838ff383838ff383838ff
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!114 &1705774811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3119,6 +3139,54 @@ MonoBehaviour:
   markerStartUVY: 0.04354322
   customPoints: []
   handleObject: {fileID: 0}
+--- !u!28 &1795339738
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 2
+  m_Width: 2
+  m_Height: 2
+  m_CompleteImageSize: 20
+  m_MipsStripped: 0
+  m_TextureFormat: 4
+  m_MipCount: 2
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 0
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 20
+  _typelessdata: 4d4d4dff4d4d4dff4d4d4dff4d4d4dff4d4d4dff
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1001 &1845842612
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3477,6 +3545,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1095566102}
+    - target: {fileID: 3370216467305498464, guid: bfbad440e1c70ad4ea48fb9f43f5a0b0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3552042766683062150, guid: bfbad440e1c70ad4ea48fb9f43f5a0b0, type: 3}
       propertyPath: m_Name
       value: Environment-Volcanic World
@@ -3682,30 +3754,92 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 86513606}
     - target: {fileID: 7625604509855661341, guid: bfbad440e1c70ad4ea48fb9f43f5a0b0, type: 3}
+      propertyPath: ctrlKey
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7625604509855661341, guid: bfbad440e1c70ad4ea48fb9f43f5a0b0, type: 3}
+      propertyPath: terrainY
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7625604509855661341, guid: bfbad440e1c70ad4ea48fb9f43f5a0b0, type: 3}
       propertyPath: minSignTexture
       value: 
-      objectReference: {fileID: 1576784314}
+      objectReference: {fileID: 992129976}
     - target: {fileID: 7625604509855661341, guid: bfbad440e1c70ad4ea48fb9f43f5a0b0, type: 3}
       propertyPath: signPostListBG
       value: 
-      objectReference: {fileID: 939406962}
+      objectReference: {fileID: 63754868}
     - target: {fileID: 7625604509855661341, guid: bfbad440e1c70ad4ea48fb9f43f5a0b0, type: 3}
       propertyPath: plusSignTexture
       value: 
-      objectReference: {fileID: 262514323}
+      objectReference: {fileID: 1164995939}
     - target: {fileID: 7625604509855661341, guid: bfbad440e1c70ad4ea48fb9f43f5a0b0, type: 3}
       propertyPath: signPostHeaderBG
       value: 
-      objectReference: {fileID: 112433019}
+      objectReference: {fileID: 1701705835}
     - target: {fileID: 7625604509855661341, guid: bfbad440e1c70ad4ea48fb9f43f5a0b0, type: 3}
       propertyPath: signPostListSelBG
       value: 
-      objectReference: {fileID: 210489590}
+      objectReference: {fileID: 1795339738}
+    - target: {fileID: 7625604509855661341, guid: bfbad440e1c70ad4ea48fb9f43f5a0b0, type: 3}
+      propertyPath: terrainNames.Array.data[1]
+      value: Terrain_volcanic
+      objectReference: {fileID: 0}
+    - target: {fileID: 7625604509855661341, guid: bfbad440e1c70ad4ea48fb9f43f5a0b0, type: 3}
+      propertyPath: terrainNames.Array.data[2]
+      value: Terrain-mountains
+      objectReference: {fileID: 0}
+    - target: {fileID: 7625604509855661341, guid: bfbad440e1c70ad4ea48fb9f43f5a0b0, type: 3}
+      propertyPath: terrainObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 1351090642671761489}
+    - target: {fileID: 7625604509855661341, guid: bfbad440e1c70ad4ea48fb9f43f5a0b0, type: 3}
+      propertyPath: terrainObjects.Array.data[2]
+      value: 
+      objectReference: {fileID: 1351090642671761490}
+    - target: {fileID: 7625604509855661341, guid: bfbad440e1c70ad4ea48fb9f43f5a0b0, type: 3}
+      propertyPath: terrainSplatTextures.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7625604509855661341, guid: bfbad440e1c70ad4ea48fb9f43f5a0b0, type: 3}
+      propertyPath: terrainSplatTextures.Array.data[0]
+      value: Splat 1 - NewLayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 7625604509855661341, guid: bfbad440e1c70ad4ea48fb9f43f5a0b0, type: 3}
+      propertyPath: terrainSplatTextures.Array.data[1]
+      value: Splat 2 - NewLayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 7625604509855661341, guid: bfbad440e1c70ad4ea48fb9f43f5a0b0, type: 3}
+      propertyPath: terrainSplatTextures.Array.data[2]
+      value: Splat 3 - NewLayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 7625604509855661341, guid: bfbad440e1c70ad4ea48fb9f43f5a0b0, type: 3}
+      propertyPath: terrainSplatTextures.Array.data[3]
+      value: Splat 4 - NewLayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 7677734965581452101, guid: bfbad440e1c70ad4ea48fb9f43f5a0b0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8604762492298085326, guid: bfbad440e1c70ad4ea48fb9f43f5a0b0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bfbad440e1c70ad4ea48fb9f43f5a0b0, type: 3}
+--- !u!218 &1351090642671761489 stripped
+Terrain:
+  m_CorrespondingSourceObject: {fileID: 7298784828742910418, guid: bfbad440e1c70ad4ea48fb9f43f5a0b0, type: 3}
+  m_PrefabInstance: {fileID: 1351090642671761488}
+  m_PrefabAsset: {fileID: 0}
+--- !u!218 &1351090642671761490 stripped
+Terrain:
+  m_CorrespondingSourceObject: {fileID: 6162350940906570012, guid: bfbad440e1c70ad4ea48fb9f43f5a0b0, type: 3}
+  m_PrefabInstance: {fileID: 1351090642671761488}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1422510243005709727
 Transform:
   m_ObjectHideFlags: 0

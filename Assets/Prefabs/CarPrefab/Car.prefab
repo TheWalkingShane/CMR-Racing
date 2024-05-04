@@ -344,7 +344,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7037960156915733128}
   - component: {fileID: 6463034412812225061}
-  - component: {fileID: 6353412480220590714}
+  - component: {fileID: 2326842623414023262}
+  - component: {fileID: 290242055891085997}
   m_Layer: 0
   m_Name: Car
   m_TagString: Untagged
@@ -362,8 +363,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 8792679583304400761}
   - {fileID: 4566320092802473154}
@@ -377,13 +378,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3050457275944507501}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6e71218f00789ef459760401a922c8ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forwardSpeed: 75
-  reverseSpeed: 50
+  forwardSpeed: 20
+  reverseSpeed: 18
   boostMult: 2
   driftForce: 10
   turnSpeed: 80
@@ -392,23 +393,23 @@ MonoBehaviour:
     m_Bits: 64
   sphereRB: {fileID: 5766641107848102637}
   airDrag: 0.1
-  groundDrag: 2
+  groundDrag: 1.5
   canMove: 1
---- !u!114 &6353412480220590714
+--- !u!114 &2326842623414023262
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3050457275944507501}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b525499a29560204190f2d579863e012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forwardSpeed: 75
-  reverseSpeed: 50
-  turnSpeed: 100
+  forwardSpeed: 10
+  reverseSpeed: 18
+  turnSpeed: 90
   boostMult: 2
   driftForce: 10
   groundLayer:
@@ -416,10 +417,25 @@ MonoBehaviour:
     m_Bits: 64
   sphereRB: {fileID: 5766641107848102637}
   airDrag: 0.1
-  groundDrag: 2
+  groundDrag: 1.5
   joyStick: {fileID: 0}
   boostButton: {fileID: 0}
   driftButton: {fileID: 0}
+--- !u!114 &290242055891085997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3050457275944507501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b6409c79cb6bfc43868c0ce5b9292e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dustTrail: {fileID: 0}
+  carRigidbody: {fileID: 0}
+  minimumSpeed: 0.5
 --- !u!1 &3579998460229075490
 GameObject:
   m_ObjectHideFlags: 0
@@ -846,7 +862,7 @@ Transform:
   m_GameObject: {fileID: 8830771058470367859}
   serializedVersion: 2
   m_LocalRotation: {x: 0.21002087, y: -0, z: -0, w: 0.9776969}
-  m_LocalPosition: {x: 0, y: 2.51, z: -6.17}
+  m_LocalPosition: {x: 0, y: 4.5, z: -10.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

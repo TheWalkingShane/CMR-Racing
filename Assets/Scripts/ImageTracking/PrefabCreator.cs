@@ -11,8 +11,16 @@ public class PrefabCreator : MonoBehaviour
     {
         public string imageName;
         public GameObject prefab;
-        public float verticalOffset;  // Added vertical offset
+        public float verticalOffset;
+        public PrefabType type; // Add this line
     }
+
+    public enum PrefabType // Define this enum
+    {
+        Mesh,
+        Terrain
+    }
+
 
     [SerializeField] private ImageToPrefab[] imagePrefabs;
     private Dictionary<string, GameObject> instantiatedObjects = new Dictionary<string, GameObject>();
@@ -60,10 +68,35 @@ public class PrefabCreator : MonoBehaviour
             {
                 Vector3 adjustedPosition = image.transform.position + Vector3.up * item.verticalOffset;
                 GameObject newObj = Instantiate(item.prefab, adjustedPosition, Quaternion.identity);
+
+                // Check if the instantiated object is a terrain or mesh
+                if (item.type == PrefabType.Terrain)
+                {
+                    // Special handling for terrain, e.g., adjusting scale or components
+                    AdjustTerrain(newObj);
+                }
+                else if (item.type == PrefabType.Mesh)
+                {
+                    // Handling for meshes, if any specific adjustments needed
+                    AdjustMesh(newObj);
+                }
+
                 instantiatedObjects.Add(image.referenceImage.name, newObj);
                 break;
             }
         }
+    }
+
+    private void AdjustTerrain(GameObject terrainObj)
+    {
+        // Adjustments specific to terrains, such as setting layer, collider adjustments, etc.
+        terrainObj.layer = LayerMask.NameToLayer("TerrainLayer");
+    }
+
+    private void AdjustMesh(GameObject meshObj)
+    {
+        // Adjustments specific to mesh objects, such as material settings, etc.
+        meshObj.GetComponent<MeshRenderer>().material.color = Color.white;
     }
 
 
@@ -73,8 +106,18 @@ public class PrefabCreator : MonoBehaviour
         {
             Vector3 adjustedPosition = image.transform.position + Vector3.up * imagePrefabs.First(i => i.imageName == image.referenceImage.name).verticalOffset;
             obj.transform.position = adjustedPosition;
-            obj.transform.rotation = image.transform.rotation;
+
+            ImageToPrefab item = imagePrefabs.First(i => i.imageName == image.referenceImage.name);
+            if (item.type == PrefabType.Terrain)
+            {
+                // Additional terrain updates
+            }
+            else if (item.type == PrefabType.Mesh)
+            {
+                obj.transform.rotation = image.transform.rotation; // Typically, meshes might need rotation updates
+            }
         }
     }
+
 
 }

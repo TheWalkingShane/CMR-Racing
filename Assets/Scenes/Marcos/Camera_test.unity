@@ -216,11 +216,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imagePrefabs:
   - imageName: Map_one
-    prefab: {fileID: 5801124919647450715, guid: dc1d7d2f082c52b4597d126e64d0e444, type: 3}
+    prefab: {fileID: 3358011890815750163, guid: 5863f8589f9192642ba87bfae56873de, type: 3}
     verticalOffset: -5
+    type: 0
   - imageName: cat_bomb
     prefab: {fileID: 2660662142532336686, guid: c3d3155eab1257d4d97d09cc6218dbe0, type: 3}
     verticalOffset: 0
+    type: 0
 --- !u!4 &200386604
 Transform:
   m_ObjectHideFlags: 0
@@ -236,72 +238,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &265917491
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3050457275944507501, guid: a482c2ca08bb21149af131866a505dad, type: 3}
-      propertyPath: m_Name
-      value: Car
-      objectReference: {fileID: 0}
-    - target: {fileID: 3050457275944507501, guid: a482c2ca08bb21149af131866a505dad, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7037960156915733128, guid: a482c2ca08bb21149af131866a505dad, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7037960156915733128, guid: a482c2ca08bb21149af131866a505dad, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7037960156915733128, guid: a482c2ca08bb21149af131866a505dad, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7037960156915733128, guid: a482c2ca08bb21149af131866a505dad, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7037960156915733128, guid: a482c2ca08bb21149af131866a505dad, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7037960156915733128, guid: a482c2ca08bb21149af131866a505dad, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7037960156915733128, guid: a482c2ca08bb21149af131866a505dad, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7037960156915733128, guid: a482c2ca08bb21149af131866a505dad, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7037960156915733128, guid: a482c2ca08bb21149af131866a505dad, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7037960156915733128, guid: a482c2ca08bb21149af131866a505dad, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a482c2ca08bb21149af131866a505dad, type: 3}
---- !u!20 &265917492 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 4210543745201412270, guid: a482c2ca08bb21149af131866a505dad, type: 3}
-  m_PrefabInstance: {fileID: 265917491}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &308760009
 GameObject:
   m_ObjectHideFlags: 0
@@ -1283,7 +1219,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   portraitCamera: {fileID: 524907461}
-  landscapeCamera: {fileID: 265917492}
+  landscapeCamera: {fileID: 0}
   portraitUI: {fileID: 713223428}
   landscapeUI: {fileID: 0}
 --- !u!4 &2060125923
@@ -1314,5 +1250,4 @@ SceneRoots:
   - {fileID: 1368114678}
   - {fileID: 2060125923}
   - {fileID: 1433724915}
-  - {fileID: 265917491}
   - {fileID: 195249981}

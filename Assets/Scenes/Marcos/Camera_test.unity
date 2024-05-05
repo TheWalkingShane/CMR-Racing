@@ -216,7 +216,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imagePrefabs:
   - imageName: Map_one
-    prefab: {fileID: 3358011890815750163, guid: 5863f8589f9192642ba87bfae56873de, type: 3}
+    prefab: {fileID: 3358011890815750163, guid: cda4f391ee38a54458f0f4b65ede39f7, type: 3}
     verticalOffset: -5
     type: 0
   - imageName: cat_bomb
@@ -557,8 +557,8 @@ RectTransform:
   m_GameObject: {fileID: 713223428}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.5, y: 5, z: 3.5}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 5.25, y: 7.5, z: 5.25}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1224377838}
   m_Father: {fileID: 1368114678}
@@ -566,7 +566,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -76, y: -62.5}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 60, y: 30}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &713223430
 MonoBehaviour:
@@ -876,8 +876,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 18
+  m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

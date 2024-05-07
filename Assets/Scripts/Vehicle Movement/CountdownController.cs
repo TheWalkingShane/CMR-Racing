@@ -9,12 +9,13 @@ public class CountdownController : MonoBehaviour
 
     private void Start()
     {
+        // Ensure the car cannot move until the countdown is over
+        carController.canMove = false;
         StartCoroutine(StartCountdown());
     }
 
     private IEnumerator StartCountdown()
     {
-        
         for (int i = 3; i > 0; i--)
         {
             countdownText.text = i.ToString();
@@ -24,14 +25,12 @@ public class CountdownController : MonoBehaviour
             countdownText.color = Color.cyan; 
         }
 
-        
         countdownText.text = "Go!";
         yield return StartCoroutine(ScaleTextOverTime(countdownText.rectTransform, Vector3.one * 2f, 0.5f));
 
-        
         countdownText.gameObject.SetActive(false);
 
-        // Allows car movement
+        // Allows car movement now that the countdown is complete
         carController.canMove = true;
     }
 

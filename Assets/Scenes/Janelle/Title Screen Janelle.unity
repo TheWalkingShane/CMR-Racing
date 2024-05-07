@@ -851,8 +851,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -522, y: 328}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -581, y: 315.46924}
+  m_SizeDelta: {x: 236, y: -25.0615}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1319749678
 MonoBehaviour:
@@ -1301,8 +1301,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c61bf7884ee73b4a902b601311d51c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firstLevel: Janelle Level 2
-  optionsScreen: {fileID: 0}
 --- !u!114 &1801280951
 MonoBehaviour:
   m_ObjectHideFlags: 0

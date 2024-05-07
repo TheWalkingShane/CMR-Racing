@@ -1893,7 +1893,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1590975330}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2360,63 +2360,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1987086856}
   m_Mesh: {fileID: 2959467708922500008, guid: 9ec6a8fc6925acb4abc5500eeecb8270, type: 3}
---- !u!1001 &3637823059515555253
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 651853325272319524, guid: eaf78b7240882e6449f8b185508a5471, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.578
-      objectReference: {fileID: 0}
-    - target: {fileID: 651853325272319524, guid: eaf78b7240882e6449f8b185508a5471, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.063
-      objectReference: {fileID: 0}
-    - target: {fileID: 651853325272319524, guid: eaf78b7240882e6449f8b185508a5471, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.564
-      objectReference: {fileID: 0}
-    - target: {fileID: 651853325272319524, guid: eaf78b7240882e6449f8b185508a5471, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 651853325272319524, guid: eaf78b7240882e6449f8b185508a5471, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 651853325272319524, guid: eaf78b7240882e6449f8b185508a5471, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 651853325272319524, guid: eaf78b7240882e6449f8b185508a5471, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 651853325272319524, guid: eaf78b7240882e6449f8b185508a5471, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 651853325272319524, guid: eaf78b7240882e6449f8b185508a5471, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 651853325272319524, guid: eaf78b7240882e6449f8b185508a5471, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4272861072928726269, guid: eaf78b7240882e6449f8b185508a5471, type: 3}
-      propertyPath: m_Name
-      value: SpeedPowerUp
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: eaf78b7240882e6449f8b185508a5471, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -2437,5 +2380,4 @@ SceneRoots:
   - {fileID: 1907708306}
   - {fileID: 763223092}
   - {fileID: 1286953878}
-  - {fileID: 3637823059515555253}
   - {fileID: 1590975335}

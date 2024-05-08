@@ -238,6 +238,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &216118190 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5310696193497598318, guid: a6a18211f100a1347947e39baad660b0, type: 3}
+  m_PrefabInstance: {fileID: 1768699797}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41b220c759a016d44870f45c8fcab90f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &308760009
 GameObject:
   m_ObjectHideFlags: 0
@@ -278,6 +289,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2326842623414023262, guid: a482c2ca08bb21149af131866a505dad, type: 3}
+      propertyPath: joyStick
+      value: 
+      objectReference: {fileID: 2038013003}
+    - target: {fileID: 2326842623414023262, guid: a482c2ca08bb21149af131866a505dad, type: 3}
+      propertyPath: boostButton
+      value: 
+      objectReference: {fileID: 216118190}
+    - target: {fileID: 2326842623414023262, guid: a482c2ca08bb21149af131866a505dad, type: 3}
+      propertyPath: driftButton
+      value: 
+      objectReference: {fileID: 591433317}
     - target: {fileID: 3050457275944507501, guid: a482c2ca08bb21149af131866a505dad, type: 3}
       propertyPath: m_Name
       value: Car
@@ -595,6 +618,17 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &591433317 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9076018921223170827, guid: a6a18211f100a1347947e39baad660b0, type: 3}
+  m_PrefabInstance: {fileID: 1768699797}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41b220c759a016d44870f45c8fcab90f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &713223428
 GameObject:
   m_ObjectHideFlags: 0
@@ -1357,6 +1391,17 @@ Transform:
   - {fileID: 1500868111}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2038013003 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3271020145089209531, guid: a6a18211f100a1347947e39baad660b0, type: 3}
+  m_PrefabInstance: {fileID: 1768699797}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45977bbae16431c46a013576a1aea384, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2060125921
 GameObject:
   m_ObjectHideFlags: 0

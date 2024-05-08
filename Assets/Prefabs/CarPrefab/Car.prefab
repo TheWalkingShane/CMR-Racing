@@ -407,11 +407,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b525499a29560204190f2d579863e012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forwardSpeed: 10
-  reverseSpeed: 18
-  turnSpeed: 90
-  boostMult: 2
-  driftForce: 10
+  forwardSpeed: 8
+  reverseSpeed: 6
+  turnSpeed: 20
+  boostMult: 1.2
+  driftForce: 1.5
   groundLayer:
     serializedVersion: 2
     m_Bits: 64

@@ -21741,26 +21741,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 7380374619405436137}
     - target: {fileID: 2326842623414023262, guid: a482c2ca08bb21149af131866a505dad, type: 3}
-      propertyPath: boostMult
-      value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2326842623414023262, guid: a482c2ca08bb21149af131866a505dad, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2326842623414023262, guid: a482c2ca08bb21149af131866a505dad, type: 3}
-      propertyPath: turnSpeed
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 2326842623414023262, guid: a482c2ca08bb21149af131866a505dad, type: 3}
-      propertyPath: driftForce
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2326842623414023262, guid: a482c2ca08bb21149af131866a505dad, type: 3}
-      propertyPath: groundDrag
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2326842623414023262, guid: a482c2ca08bb21149af131866a505dad, type: 3}
       propertyPath: boostButton
       value: 
       objectReference: {fileID: 196969726587021628}
@@ -21768,21 +21748,9 @@ PrefabInstance:
       propertyPath: driftButton
       value: 
       objectReference: {fileID: 3962283664702901081}
-    - target: {fileID: 2326842623414023262, guid: a482c2ca08bb21149af131866a505dad, type: 3}
-      propertyPath: forwardSpeed
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 2326842623414023262, guid: a482c2ca08bb21149af131866a505dad, type: 3}
-      propertyPath: reverseSpeed
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 3050457275944507501, guid: a482c2ca08bb21149af131866a505dad, type: 3}
       propertyPath: m_Name
       value: Car
-      objectReference: {fileID: 0}
-    - target: {fileID: 6463034412812225061, guid: a482c2ca08bb21149af131866a505dad, type: 3}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7037960156915733128, guid: a482c2ca08bb21149af131866a505dad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21790,7 +21758,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7037960156915733128, guid: a482c2ca08bb21149af131866a505dad, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 0.98
       objectReference: {fileID: 0}
     - target: {fileID: 7037960156915733128, guid: a482c2ca08bb21149af131866a505dad, type: 3}
       propertyPath: m_LocalPosition.z

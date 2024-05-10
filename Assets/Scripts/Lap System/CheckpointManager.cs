@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement; // Add this namespace for scene management
 
 public class CheckpointManager : MonoBehaviour
 {
@@ -30,7 +31,13 @@ public class CheckpointManager : MonoBehaviour
         else
         {
             Debug.Log("Race Finished!");
-            // Handle race completion logic here
+            EndGameAndGoToLevelSelector();
         }
+    }
+
+    private static void EndGameAndGoToLevelSelector()
+    {
+        // You may want to add some additional logic here for game cleanup or saving before loading the next scene
+        SceneManager.LoadScene("Level_Select"); // Load the level selector scene
     }
 }

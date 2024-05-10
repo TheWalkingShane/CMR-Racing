@@ -1434,7 +1434,9 @@ PrefabInstance:
       value: -12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 4866554428001346180, guid: a482c2ca08bb21149af131866a505dad, type: 3}
+    - {fileID: 7654806609498824775, guid: a482c2ca08bb21149af131866a505dad, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a482c2ca08bb21149af131866a505dad, type: 3}
@@ -1512,17 +1514,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b50e689e0e34f5342b2c6effbd091f85, type: 3}
   m_PrefabInstance: {fileID: 800264605}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &836284240 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6463034412812225061, guid: a482c2ca08bb21149af131866a505dad, type: 3}
-  m_PrefabInstance: {fileID: 791928937}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e71218f00789ef459760401a922c8ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &836284241 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7037960156915733128, guid: a482c2ca08bb21149af131866a505dad, type: 3}
@@ -2239,11 +2230,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1680333529328477995, guid: fee68d892c1485d42ad40d67f53bc65f, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -280
+      value: 615.3
       objectReference: {fileID: 0}
     - target: {fileID: 1680333529328477995, guid: fee68d892c1485d42ad40d67f53bc65f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 192
+      value: -222.9
       objectReference: {fileID: 0}
     - target: {fileID: 1825929055249805170, guid: fee68d892c1485d42ad40d67f53bc65f, type: 3}
       propertyPath: m_Name
@@ -2439,7 +2430,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   countdownText: {fileID: 306888122}
-  carController: {fileID: 836284240}
+  carController: {fileID: 0}
 --- !u!4 &1286953878
 Transform:
   m_ObjectHideFlags: 0

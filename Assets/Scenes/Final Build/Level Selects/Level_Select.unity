@@ -420,7 +420,7 @@ MonoBehaviour:
   jumpSpeed: 5
   hoverImageDisplay: {fileID: 1533060703}
   levelImages:
-  - {fileID: 21300000, guid: 7814da2e04bcf8047b34c74e07af883d, type: 3}
+  - {fileID: 21300000, guid: 3abd3453775fb774b9154d1a61c6971e, type: 3}
 --- !u!1 &70988594
 GameObject:
   m_ObjectHideFlags: 0
@@ -1272,7 +1272,7 @@ MonoBehaviour:
   hoverImageDisplay: {fileID: 1533060703}
   levelImages:
   - {fileID: 0}
-  - {fileID: 21300000, guid: 458e8783fe26ee147979f20e145a8721, type: 3}
+  - {fileID: 21300000, guid: 99de1f2e40173664894be4baaf06113c, type: 3}
 --- !u!1 &1101099776
 GameObject:
   m_ObjectHideFlags: 0

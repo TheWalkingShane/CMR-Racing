@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &1983316913 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 729239077209276928, guid: a186279e71cc0b041b3bb5b57f7b24c1, type: 3}
+  m_PrefabInstance: {fileID: 200317426986640708}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &200317426986640708
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -134,6 +139,14 @@ PrefabInstance:
     - target: {fileID: 2273632465494131744, guid: a186279e71cc0b041b3bb5b57f7b24c1, type: 3}
       propertyPath: spawnObject
       value: 
+      objectReference: {fileID: 1983316913}
+    - target: {fileID: 2273632465494131744, guid: a186279e71cc0b041b3bb5b57f7b24c1, type: 3}
+      propertyPath: colorThreshold
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2273632465494131744, guid: a186279e71cc0b041b3bb5b57f7b24c1, type: 3}
+      propertyPath: detectionCooldown
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3711291517407512208, guid: a186279e71cc0b041b3bb5b57f7b24c1, type: 3}
       propertyPath: m_Name

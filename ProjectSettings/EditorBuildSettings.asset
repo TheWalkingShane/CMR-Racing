@@ -10,10 +10,16 @@ EditorBuildSettings:
     guid: c22120e2ed047b04a942acbb667b0d34
   - enabled: 1
     path: Assets/Scenes/Final Build/Level Selects/Level_Select.unity
-    guid: 4904459e49d83704da9c99c777171ef7
+    guid: cff684ddb6fd5234096b9ed1144da8c6
   - enabled: 1
-    path: Assets/Scenes/Marcos/Camera_test.unity
-    guid: 4d1815851660bef4a9959ad9b3630dd4
+    path: Assets/Scenes/Final Build/Level Selects/Levels/Level_1.unity
+    guid: e4abd38754b48d148a75d2594bb6fcac
+  - enabled: 1
+    path: Assets/Scenes/Final Build/Level Selects/Levels/Level_2.unity
+    guid: 75f8d2219b1ed7646afd4253dcd180de
+  - enabled: 1
+    path: Assets/Scenes/Final Build/Level Selects/Levels/Level_3.unity
+    guid: b175472b550f9b8418e473f92b3a388d
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: c2cc0bc76afaa1d4eb9de49d297c9eef, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: f48c1ac9e2a762d4187893945802e951, type: 2}

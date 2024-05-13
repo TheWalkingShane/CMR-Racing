@@ -27,8 +27,6 @@ public class ARCarController : MonoBehaviour
     public float groundDrag;
     
     // joystick controls
-    public float horizontalSensitivity = 1.0f;
-    public float verticalSensitivity = 1.0f;
     public Joystick joyStick;
 
     // buttons
@@ -44,8 +42,8 @@ public class ARCarController : MonoBehaviour
 
     private void GetInput()
     {
-        moveInput = joyStick.Vertical * verticalSensitivity;
-        turnInput = joyStick.Horizontal * horizontalSensitivity;
+        moveInput = joyStick.Vertical;
+        turnInput = joyStick.Horizontal;
     }
 
     // Update is called once per frame
@@ -96,7 +94,7 @@ public class ARCarController : MonoBehaviour
         transform.position = sphereRB.transform.position;
         
         // sets the cars rotation 
-        float newRotation = turnInput * turnSpeed * Time.deltaTime;
+        float newRotation = turnInput * turnSpeed * Time.deltaTime * joyStick.Vertical;
         transform.Rotate(0, newRotation, 0, Space.World);
         
         // check if there is ground

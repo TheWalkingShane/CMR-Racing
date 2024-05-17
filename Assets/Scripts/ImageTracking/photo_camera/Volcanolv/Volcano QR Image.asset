@@ -27,13 +27,3 @@ MonoBehaviour:
     m_SpecifySize: 0
     m_Name: Map_Two_QR
     m_Texture: {fileID: 0}
-  - m_SerializedGuid:
-      m_GuidLow: 5452904214408100160
-      m_GuidHigh: 9382863210917269684
-    m_SerializedTextureGuid:
-      m_GuidLow: 13876859856612995560
-      m_GuidHigh: 10576249341872735017
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
-    m_Name: Map_Two_Logo
-    m_Texture: {fileID: 0}

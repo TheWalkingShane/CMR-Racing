@@ -1008,7 +1008,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1732203663}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!4 &1732203669
 Transform:
   m_ObjectHideFlags: 0
@@ -1071,7 +1071,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SerializedLibrary: {fileID: 11400000, guid: 214c7ffcacaca894ab0b943773c9e1be, type: 2}
-  m_MaxNumberOfMovingImages: 2
+  m_MaxNumberOfMovingImages: 1
   m_TrackedImagePrefab: {fileID: 0}
 --- !u!114 &1794349029
 MonoBehaviour:
@@ -1199,10 +1199,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imagePrefabs:
   - imageName: Map_Two_QR
-    prefab: {fileID: 6890517268765137455, guid: b4c40a30c6d7c0043ba2496835b50186, type: 3}
-    verticalOffset: -5
-    type: 0
-  - imageName: Map_Two_Logo
     prefab: {fileID: 6890517268765137455, guid: b4c40a30c6d7c0043ba2496835b50186, type: 3}
     verticalOffset: -5
     type: 0

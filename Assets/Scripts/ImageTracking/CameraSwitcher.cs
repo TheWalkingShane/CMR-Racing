@@ -35,11 +35,25 @@ public class CameraSwitcher : MonoBehaviour
 
     private void FindCarCamera()
     {
-        // Assuming the car has a tag "Car" and the main camera is a child of the car
         GameObject car = GameObject.FindGameObjectWithTag("Car");
         if (car != null)
         {
+            Debug.Log("Car found: " + car.name);
             carCamera = car.GetComponentInChildren<Camera>();
+            if (carCamera != null)
+            {
+                Debug.Log("Car camera found: " + carCamera.gameObject.name);
+            }
+            else
+            {
+                Debug.LogError("Camera component not found on the car!");
+            }
+        }
+        else
+        {
+            Debug.LogError("Car object not found!");
         }
     }
+
+
 }

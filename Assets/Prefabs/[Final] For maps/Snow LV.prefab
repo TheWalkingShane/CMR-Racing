@@ -833,6 +833,7 @@ Transform:
   - {fileID: 7653778845405605018}
   - {fileID: 2195233496174849194}
   - {fileID: 6563012010269468946}
+  - {fileID: 4731694555299244253}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4021331078824495561
@@ -1245,7 +1246,7 @@ GameObject:
   - component: {fileID: 1008601799355566730}
   - component: {fileID: 2273632465494131744}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: ColorDetector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1264,7 +1265,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2785441109966845457}
+  m_Father: {fileID: 8636767876889496805}
   m_LocalEulerAnglesHint: {x: 0.4, y: 1.16, z: -103.23}
 --- !u!33 &7339084363839938237
 MeshFilter:
@@ -1356,7 +1357,7 @@ MonoBehaviour:
   colorThreshold: 0.3
   bombPowerUpPrefab: {fileID: 2660662142532336686, guid: c3d3155eab1257d4d97d09cc6218dbe0, type: 3}
   greenPowerUpPrefab: {fileID: 4272861072928726269, guid: eaf78b7240882e6449f8b185508a5471, type: 3}
-  spawnObject: {fileID: 0}
+  spawnObject: {fileID: 729239077209276928}
   xOffset: 0
   yOffset: 0
   zOffset: 1
@@ -2872,7 +2873,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3900190725388033383}
-  - {fileID: 4731694555299244253}
   - {fileID: 4437356579199567898}
   - {fileID: 1470629154539230173}
   m_Father: {fileID: 6563012010269468946}
@@ -3414,6 +3414,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a482c2ca08bb21149af131866a505dad, type: 3}
+--- !u!1 &729239077209276928 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3050457275944507501, guid: a482c2ca08bb21149af131866a505dad, type: 3}
+  m_PrefabInstance: {fileID: 2327131380867734125}
+  m_PrefabAsset: {fileID: 0}
 --- !u!20 &1884046791267058371 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 4210543745201412270, guid: a482c2ca08bb21149af131866a505dad, type: 3}

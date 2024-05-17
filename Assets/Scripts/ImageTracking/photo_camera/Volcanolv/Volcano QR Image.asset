@@ -18,11 +18,11 @@ MonoBehaviour:
     m_Storage: []
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5631782284033248490
-      m_GuidHigh: 14527347416210217629
+      m_GuidLow: 5266359278006489961
+      m_GuidHigh: 10006528828381805729
     m_SerializedTextureGuid:
-      m_GuidLow: 15376461078580637256
-      m_GuidHigh: 16836169726205670986
+      m_GuidLow: 15957522600436186083
+      m_GuidHigh: 13264246056448612440
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
     m_Name: Map_Two_QR

@@ -305,6 +305,10 @@ MonoBehaviour:
     prefab: {fileID: 3711291517407512208, guid: a186279e71cc0b041b3bb5b57f7b24c1, type: 3}
     verticalOffset: -5
     type: 0
+  - imageName: Map_Three_Logo
+    prefab: {fileID: 3711291517407512208, guid: a186279e71cc0b041b3bb5b57f7b24c1, type: 3}
+    verticalOffset: -5
+    type: 0
 --- !u!1 &303208406
 GameObject:
   m_ObjectHideFlags: 0
@@ -543,7 +547,7 @@ GameObject:
   - component: {fileID: 986224992}
   - component: {fileID: 986224991}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: AR Main Camera Snow
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -766,7 +770,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1117530800}
   m_Layer: 0
-  m_Name: CamSetup
+  m_Name: Cams_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

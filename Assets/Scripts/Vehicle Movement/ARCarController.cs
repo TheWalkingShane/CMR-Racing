@@ -1,8 +1,4 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class ARCarController : MonoBehaviour
 {
@@ -34,97 +30,75 @@ public class ARCarController : MonoBehaviour
     // buttons
     public myButton boostButton;
     public myButton driftButton;
-    
-    // Start is called before the first frame update
+
+    // CanMove property to control movement based on the countdown
+    public bool CanMove { get; set; } = true;
+
     void Start()
     {
-        // detaches the sphere for the car
-        sphereRB.transform.parent = null;
+        sphereRB.transform.parent = null; // Detaches the sphere for independent physics simulation
     }
 
-    private void GetInput()
-    {
-        moveInput = joyStick.Vertical * verticalSensitivity;
-        turnInput = joyStick.Horizontal * horizontalSensitivity;
-    }
-
-    // Update is called once per frame
     void Update()
     {
+        if (!CanMove) return; // Prevents input handling when CanMove is false
+
         GetInput();
+
+        // Boost logic
+        isBoosting = boostButton.isPressed;
         
-        // Boost
-        if (boostButton.isPressed)
-        {
-            isBoosting = true;
-        }
-        else
-        {
-            isBoosting = false;
-        }
-        
-        // Drift
-        if (driftButton.isPressed)
-        {
-            isDrifting = true;
-        }
-        else
-        {
-            isDrifting = false;
-        }
+        // Drift logic
+        isDrifting = driftButton.isPressed;
          
-        // Adjustes the move and turn input when drifting
+        // Adjust input for drift
         if (isDrifting)
         {
-            // Reduce forward/backward movement during drift
-            moveInput *= 0.5f;
-             
-            // Increase turn speed during drift
-            turnInput *= 2f;
+            moveInput *= 0.5f; // Reduce forward/backward movement during drift
+            turnInput *= 2f;   // Increase turn speed during drift
         }
-        
-        // if the move input is greater than 0, then multiple by the forward speed,
-        // else multiple by the reverse speed. This adjusts the speed of the car
+
+        // Calculate movement input based on direction
         moveInput *= moveInput > 0 ? forwardSpeed : reverseSpeed;
         
+        // Apply boost multiplier
         if (isBoosting)
         {
             moveInput *= boostMult;
         }
-        
-        // sets the cars position to sphere
+
+        // Update car's position to match the physics sphere's position
         transform.position = sphereRB.transform.position;
         
-        // sets the cars rotation 
+        // Update car's rotation
         float newRotation = turnInput * turnSpeed * Time.deltaTime;
         transform.Rotate(0, newRotation, 0, Space.World);
-        
-        // check if there is ground
+
+        // Ground check
         RaycastHit hit;
         isCarGrounded = Physics.Raycast(transform.position, -transform.up, out hit, 1f, groundLayer);
         
-        // rotate the car to be parallel with the ground
+        // Rotate the car to align with the ground normal
         transform.rotation = Quaternion.FromToRotation(transform.up, hit.normal) * transform.rotation;
 
-        if (isCarGrounded)
-        {
-            sphereRB.drag = groundDrag;
-        }
-        else
-        {
-            sphereRB.drag = airDrag;
-        }
+        // Set drag based on whether the car is grounded
+        sphereRB.drag = isCarGrounded ? groundDrag : airDrag;
     }
 
     private void FixedUpdate()
     {
+        if (!CanMove) return; // Prevents physics updates when CanMove is false
+
         if (isCarGrounded)
         {
-            // If boosting, apply additional force
-            boostForce = isBoosting ? forwardSpeed * boostMult : 0f;
-            sphereRB.AddForce(transform.forward * (moveInput + boostForce), ForceMode.Acceleration);
-            
-            // If drifting, applying the additional sideways force
+            // Apply main driving force
+            sphereRB.AddForce(transform.forward * moveInput, ForceMode.Acceleration);
+
+            // Apply boosting force
+            boostForce = isBoosting ? forwardSpeed * boostMult : 0;
+            sphereRB.AddForce(transform.forward * boostForce, ForceMode.Acceleration);
+
+            // Apply drift force
             if (isDrifting)
             {
                 Vector3 driftForceVector = transform.right * (turnInput * driftForce);
@@ -133,8 +107,14 @@ public class ARCarController : MonoBehaviour
         }
         else
         {
-            // adds extra gravity 
+            // Apply extra gravity force when not grounded
             sphereRB.AddForce(transform.up * -30);
         }
+    }
+
+    private void GetInput()
+    {
+        moveInput = joyStick.Vertical * verticalSensitivity;
+        turnInput = joyStick.Horizontal * horizontalSensitivity;
     }
 }
